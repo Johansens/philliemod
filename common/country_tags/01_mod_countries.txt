@@ -1,0 +1,10 @@
+
+CNI = "countries/customnationI.txt"
+CNS = "countries/customnationS.txt"
+CNE = "countries/customnationE.txt"
+CNA = "countries/customnationA.txt"
+CNZ = "countries/customnationZ.txt"
+PRR = "countries/Piratennation.txt"
+ABL = "countries/altebeschuetzer.txt"
+HEI = "countries/heiligesland.txt"
+WIK = "countries/wikingerland.txt"

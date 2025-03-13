@@ -1,0 +1,17 @@
+country_decisions = {
+
+	custom_nation1 = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			tag = TAK
+		}
+		allow = {
+			tag = TAK
+		}
+		effect = {
+			change_tag = CNA
+			colonize = 4625
+		}
+	}
+}

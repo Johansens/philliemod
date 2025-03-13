@@ -1,0 +1,369 @@
+CN1_ideas = {
+	start = {
+		development_cost = -0.1
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		land_morale = 0.10
+	}
+	
+	trigger = {
+		tag = CNI
+	}
+	free = yes
+	
+	founding_fathers = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.5
+		meritocracy = 1
+		horde_unity = 1
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+	}
+	manufacturing_center = {
+		build_cost = -0.1
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		global_unrest = -1
+		free_leader_pool = 1
+	}
+}
+
+CN2_ideas = {
+	start = {
+		development_cost = -0.1
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		land_morale = 0.10
+	}
+	
+	trigger = {
+		tag = CNS
+	}
+	free = yes
+	
+	founding_fathers = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.5
+		meritocracy = 1
+		horde_unity = 1
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+	}
+	manufacturing_center = {
+		build_cost = -0.1
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		global_unrest = -1
+		free_leader_pool = 1
+	}
+}
+CN3_ideas = {
+	start = {
+		development_cost = -0.1
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		land_morale = 0.10
+	}
+	
+	trigger = {
+		tag = CNE
+	}
+	free = yes
+	
+	founding_fathers = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.5
+		meritocracy = 1
+		horde_unity = 1
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+	}
+	manufacturing_center = {
+		build_cost = -0.1
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		global_unrest = -1
+		free_leader_pool = 1
+	}
+}
+
+CN4_ideas = {
+	start = {
+		development_cost = -0.1
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		land_morale = 0.10
+	}
+	
+	trigger = {
+		tag = CNA
+	}
+	free = yes
+	
+	founding_fathers = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.5
+		meritocracy = 1
+		horde_unity = 1
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+	}
+	manufacturing_center = {
+		build_cost = -0.1
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		global_unrest = -1
+		free_leader_pool = 1
+	}
+}
+
+CN5_ideas = {
+	start = {
+		development_cost = -0.1
+		no_religion_penalty = yes
+	}
+	
+	bonus = {
+		land_morale = 0.10
+	}
+	
+	trigger = {
+		tag = CNZ
+	}
+	free = yes
+	
+	founding_fathers = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.5
+		meritocracy = 1
+		horde_unity = 1
+	}
+	continental_trade = {
+		global_prov_trade_power_modifier = 0.25
+	}
+	manufacturing_center = {
+		build_cost = -0.1
+	}
+	free_thinkers = {
+		idea_cost = -0.1
+	}
+	colonial_militia = {
+		global_regiment_cost = -0.1
+	}
+	new_frontiers = {
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+	liberty_heroes = {
+		global_unrest = -1
+		free_leader_pool = 1
+	}
+}
+philli_pr_ideas  = {
+	start = {
+		can_not_declare_war = yes
+		capture_ship_chance = 0.5
+	}
+	
+	bonus = {
+		own_coast_naval_combat_bonus = 1
+	}
+	
+	trigger = {
+		tag = PRR
+	}
+	free = yes
+	
+	founding_fathers = {
+		galley_power = 0.2
+	}
+	continental_trade = {
+		loot_amount = 1
+	}
+	manufacturing_center = {
+		allowed_marine_fraction = 0.25
+	}
+	free_thinkers = {
+		global_tax_modifier = 0.1
+	}
+	colonial_militia = {
+		naval_morale = 0.15
+	}
+	new_frontiers = {
+		reinforce_cost_modifier = 0.1
+	}
+	liberty_heroes = {
+		max_absolutism = 20
+	}
+}
+
+philli_AB_ideas  = {
+	start = {
+		global_allowed_num_of_buildings = 1
+		interest = -0.375
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = ABL
+	}
+	free = yes
+	
+	founding_fathers = {
+		trade_efficiency = 0.2
+	}
+	continental_trade = {
+		global_defender_dice_roll_bonus = 1
+	}
+	manufacturing_center = {
+		extra_manpower_at_religious_war = yes
+	}
+	free_thinkers = {
+		global_trade_goods_size = 1
+	}
+	colonial_militia = {
+		possible_condottieri = 2
+	}
+	new_frontiers = {
+		devotion = 1
+	}
+	liberty_heroes = {
+		land_forcelimit = 0.5
+	}
+}
+
+philli_HL_ideas  = {
+	start = {
+		global_missionary_strength = 0.05
+		can_not_build_colonies = yes
+	}
+	
+	bonus = {
+		reinforce_cost_modifier = 0.5
+	}
+	
+	trigger = {
+		tag = HEI
+	}
+	free = yes
+	
+	founding_fathers = {
+		placed_merchant_power_modifier = 0.2
+	}
+	continental_trade = {
+		ae_impact = -0.2
+	}
+	manufacturing_center = {
+		morale_damage = 0.2
+	}
+	free_thinkers = {
+		manpower_in_true_faith_provinces = 0.4
+	}
+	colonial_militia = {
+		land_morale = 0.2
+	}
+	new_frontiers = {
+		country_diplomatic_power = 1
+	}
+	liberty_heroes = {
+		enemy_core_creation = 2
+	}
+}
+
+philli_WIK_ideas  = {
+	start = {
+		global_missionary_strength = 0.05
+		can_not_build_colonies = yes
+	}
+	
+	bonus = {
+		reinforce_cost_modifier = 0.5
+	}
+	
+	trigger = {
+		tag = WIK
+	}
+	free = yes
+	
+	founding_fathers = {
+		placed_merchant_power_modifier = 0.2
+	}
+	continental_trade = {
+		ae_impact = -0.2
+	}
+	manufacturing_center = {
+		morale_damage = 0.2
+	}
+	free_thinkers = {
+		manpower_in_true_faith_provinces = 0.4
+	}
+	colonial_militia = {
+		land_morale = 0.2
+	}
+	new_frontiers = {
+		country_diplomatic_power = 1
+	}
+	liberty_heroes = {
+		enemy_core_creation = 2
+	}
+}
