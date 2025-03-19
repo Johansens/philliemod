@@ -299,7 +299,7 @@ philli_HL_ideas  = {
 	}
 	
 	bonus = {
-		reinforce_cost_modifier = 0.5
+		reinforce_cost_modifier = -0.5
 	}
 	
 	trigger = {
