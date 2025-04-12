@@ -134,10 +134,10 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			always = no
+			tag = VIL
 		}
 		allow = {
-			always = no
+			tag = VIL
 		}
 		effect = {
 			change_tag = ABL
@@ -210,7 +210,8 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			tag = TTT
+			tag = TTT^
+			always = no
 		}
 		allow = {
 			tag = TTT
