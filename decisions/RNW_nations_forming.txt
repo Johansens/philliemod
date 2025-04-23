@@ -1,5 +1,69 @@
 country_decisions = {
 
+	update_missions_debug = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			tag = POR
+			always = no
+		}
+		allow = {
+			tag = POR
+		}
+		effect = {
+			swap_non_generic_missions = yes
+		}
+	}
+
+	update_missions_debug = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			tag = HEI
+			always = no
+		}
+		allow = {
+			tag = HEI
+		}
+		effect = {
+			swap_non_generic_missions = yes
+		}
+	}
+
+	change_por_tag = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			tag = HEI
+			always = no
+		}
+		allow = {
+			tag = HEI
+		}	
+		effect = {
+			change_tag = POR
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+		}	
+	}
+
+	change_por_tag = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			tag = POR
+			always = no
+		}
+		allow = {
+			tag = POR
+		}	
+		effect = {
+			change_tag = HEI
+			#swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+		}	
+	}
+
 	custom_nation1 = {
 		major = yes
 		potential = {
@@ -66,7 +130,7 @@ country_decisions = {
 			every_province = {
 				limit = {
 					OR = {
-						province_id = 3738
+						province_id = 3733
 					}
 				}
 				add_core = CNE
