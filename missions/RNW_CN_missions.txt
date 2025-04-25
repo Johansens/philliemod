@@ -94,12 +94,8 @@ RNW_agenda_missions1 = { #Series name is displayed over the slot?
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
+				name = "exploration_ambitions1_4"
+				duration = 3650 #20 years
 			}
 			add_ruler_personality = expansionist_personality
 			hidden_effect = {
@@ -112,6 +108,20 @@ RNW_agenda_missions1 = { #Series name is displayed over the slot?
 			factor = 10 
 		}
 	}
+	RNW_agenda1_5 = {
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda1_4 }
+		trigger = {
+			3576 = { owned_by = ROOT }
+			3399 = { owned_by = ROOT }
+		}
+		effect = {
+			add_country_modifier = {
+				name = "exploration_ambitions1_5
+				duration = 7300 #20 years
+			}
+		}
+	} 
 
 }
 
@@ -174,7 +184,7 @@ RNW_agenda_missions2 = { #Series name is displayed over the slot?
 			factor = 10 
 		}
 	}
-	RNW_agenda3 = { 
+	RNW_agenda2_3 = { 
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda2 } #None
 		trigger = {
@@ -198,11 +208,30 @@ RNW_agenda_missions2 = { #Series name is displayed over the slot?
 			factor = 10 
 		}
 	}
-	RNW_agenda4 = { 
+}
+
+RNW_agenda_missions3 = { #Series name is displayed over the slot?
+	slot = 5 #ie, second upper left column
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = no #Can exist under the series itself or within individual missions.
+	potential = {
+		tag = CNA
+		tag = CNE
+		tag = CNI
+		tag = CNS
+		tag = CNZ
+	} #These are triggers for the entire series
+	
+	#missions
+
+	RNW_agenda3_1 = { 
 		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda3 } #None
+		required_missions = { RNW_agenda2 } #None
 		trigger = {
-			grown_by_development = 200
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
 		}
 		effect = { 
 			add_country_modifier = {
@@ -213,18 +242,87 @@ RNW_agenda_missions2 = { #Series name is displayed over the slot?
 				name = "exploration_ambitions3_1"
 				duration = 7300 #20 years
 			}
-			add_ruler_personality = expansionist_personality
-			hidden_effect = {
-				add_ruler_personality_ancestor = {
-					key = expansionist
-				}
-			}
+			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
 		}
 	}
 
+	RNW_agenda3_2 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda2 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}
+
+	RNW_agenda3_3 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda2 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}
+
+	RNW_agenda3_4 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda2 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}	
 }
 
 #2nd mission series:
