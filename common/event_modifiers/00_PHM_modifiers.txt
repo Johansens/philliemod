@@ -11,6 +11,18 @@ exploration_ambitions1_31 = {
 exploration_ambitions1_32 = {
 	global_colonial_growth = 20
 }
+exploration_ambitions1_5 = {
+	global_colonial_growth = 25
+	idea_cost = -0.1
+}
 exploration_ambitions2_1 = {
 	global_sailors_modifier = 0.20
+}
+exploration_ambitions2_3 = {
+	naval_morale = 0.1
+	navy_tradition = 1
+	global_sailors_modifier = 0.20
+}
+idea_modifier3_2 = {
+	
 }

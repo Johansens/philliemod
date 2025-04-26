@@ -117,7 +117,7 @@ RNW_agenda_missions1 = { #Series name is displayed over the slot?
 		}
 		effect = {
 			add_country_modifier = {
-				name = "exploration_ambitions1_5
+				name = "exploration_ambitions1_5"
 				duration = 7300 #20 years
 			}
 		}
@@ -341,237 +341,7 @@ RNW_agenda_missions4 = { #Series name is displayed over the slot?
 
 	RNW_agenda4_1 = { 
 		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda2 } #None
-		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
-		}
-		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
-		}
-		ai_weight = {
-			factor = 10 
-		}
-	}
-
-	RNW_agenda3_2 = { 
-		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda2 } #None
-		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
-		}
-		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
-		}
-		ai_weight = {
-			factor = 10 
-		}
-	}
-
-	RNW_agenda3_3 = { 
-		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda2 } #None
-		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
-		}
-		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
-		}
-		ai_weight = {
-			factor = 10 
-		}
-	}
-
-	RNW_agenda3_4 = { 
-		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda2 } #None
-		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
-		}
-		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
-		}
-		ai_weight = {
-			factor = 10 
-		}
-	}	
-}
-
-RNW_agenda_missions5 = { #Series name is displayed over the slot?
-	slot = 5 #ie, second upper left column
-	generic = no #if a mission without generic = yes wants this slot then it overrides this.
-	ai = no #Can exist under the series itself or within individual missions.
-	potential = {
-		tag = CNA
-		tag = CNE
-		tag = CNI
-		tag = CNS
-		tag = CNZ
-	} #These are triggers for the entire series
-	
-	#missions
-
-	RNW_agenda3_1 = { 
-		icon = mission_build_up_to_force_limit
-		required_missions = { } #None
-		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
-		}
-		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
-		}
-		ai_weight = {
-			factor = 10 
-		}
-	}
-
-	RNW_agenda3_2 = { 
-		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda2 } #None
-		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
-		}
-		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
-		}
-		ai_weight = {
-			factor = 10 
-		}
-	}
-
-	RNW_agenda3_3 = { 
-		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda2 } #None
-		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
-		}
-		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
-		}
-		ai_weight = {
-			factor = 10 
-		}
-	}
-
-	RNW_agenda3_4 = { 
-		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda2 } #None
-		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
-		}
-		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
-		}
-		ai_weight = {
-			factor = 10 
-		}
-	}	
-}
-
-RNW_agenda_missions6 = { #Series name is displayed over the slot?
-	slot = 4 #ie, second upper left column
-	generic = no #if a mission without generic = yes wants this slot then it overrides this.
-	ai = no #Can exist under the series itself or within individual missions.
-	potential = {
-		tag = CNA
-		tag = CNE
-		tag = CNI
-		tag = CNS
-		tag = CNZ
-	} #These are triggers for the entire series
-	
-	#missions
-
-	RNW_agenda4_1 = { 
-		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda3_1} #None
+		required_missions = { RNW_agenda3_1 } #None
 		trigger = {
 			stability = 2 
 			legitimacy = 85
@@ -667,7 +437,7 @@ RNW_agenda_missions6 = { #Series name is displayed over the slot?
 		ai_weight = {
 			factor = 10 
 		}
-	}	
+	}
 
 	RNW_agenda4_5 = { 
 		icon = mission_build_up_to_force_limit
@@ -692,10 +462,10 @@ RNW_agenda_missions6 = { #Series name is displayed over the slot?
 		ai_weight = {
 			factor = 10 
 		}
-	}		
+	}
 }
 
-RNW_agenda_missions7 = { #Series name is displayed over the slot?
+RNW_agenda_missions5 = { #Series name is displayed over the slot?
 	slot = 3 #ie, second upper left column
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	ai = no #Can exist under the series itself or within individual missions.
@@ -712,6 +482,184 @@ RNW_agenda_missions7 = { #Series name is displayed over the slot?
 	RNW_agenda5_1 = { 
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda4_4 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}
+}
+
+RNW_agenda_missions6 = { #Series name is displayed over the slot?
+	slot = 5 #ie, second upper left column
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = no #Can exist under the series itself or within individual missions.
+	potential = {
+		tag = CNA
+		tag = CNE
+		tag = CNI
+		tag = CNS
+		tag = CNZ
+	} #These are triggers for the entire series
+	
+	#missions
+
+	RNW_agenda6_1 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda4_4} #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}	
+}
+
+RNW_agenda_missions7 = { #Series name is displayed over the slot?
+	slot = 1 #ie, second upper left column
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = no #Can exist under the series itself or within individual missions.
+	potential = {
+		tag = CNA
+		tag = CNE
+		tag = CNI
+		tag = CNS
+		tag = CNZ
+	} #These are triggers for the entire series
+	
+	#missions
+
+	RNW_agenda7_1 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}
+
+	RNW_agenda7_2 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda7_1 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}	
+
+	RNW_agenda7_3 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda7_2 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}
+		RNW_agenda7_4 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda7_3 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}
+		RNW_agenda7_5 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda7_4 } #None
 		trigger = {
 			stability = 2 
 			legitimacy = 85
@@ -736,7 +684,7 @@ RNW_agenda_missions7 = { #Series name is displayed over the slot?
 }
 
 RNW_agenda_missions8 = { #Series name is displayed over the slot?
-	slot = 3 #ie, second upper left column
+	slot = 2 #ie, second upper left column
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	ai = no #Can exist under the series itself or within individual missions.
 	potential = {
@@ -749,9 +697,84 @@ RNW_agenda_missions8 = { #Series name is displayed over the slot?
 	
 	#missions
 
-	RNW_agenda5_1 = { 
+	RNW_agenda8_1 = { 
 		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda4_4 } #None
+		required_missions = { RNW_agenda7_1 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}	
+
+	RNW_agenda8_2 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda8_1 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}	
+	
+	RNW_agenda8_3 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda8_2 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}	
+
+	RNW_agenda8_4 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda8_3} #None
 		trigger = {
 			stability = 2 
 			legitimacy = 85
@@ -776,7 +799,7 @@ RNW_agenda_missions8 = { #Series name is displayed over the slot?
 }
 
 RNW_agenda_missions9 = { #Series name is displayed over the slot?
-	slot = 3 #ie, second upper left column
+	slot = 5 #ie, second upper left column
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	ai = no #Can exist under the series itself or within individual missions.
 	potential = {
@@ -789,9 +812,34 @@ RNW_agenda_missions9 = { #Series name is displayed over the slot?
 	
 	#missions
 
-	RNW_agenda5_1 = { 
+	RNW_agenda9_1 = { 
 		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda4_4 } #None
+		required_missions = { } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}
+
+	RNW_agenda9_2 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda9_1 } #None
 		trigger = {
 			stability = 2 
 			legitimacy = 85
@@ -813,10 +861,60 @@ RNW_agenda_missions9 = { #Series name is displayed over the slot?
 			factor = 10 
 		}
 	}	
+
+		RNW_agenda9_3 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda9_2 RNW_agenda10_1 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}	
+
+		RNW_agenda9_4 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda9_3 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}		
 }
 
 RNW_agenda_missions10 = { #Series name is displayed over the slot?
-	slot = 3 #ie, second upper left column
+	slot = 4 #ie, second upper left column
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	ai = no #Can exist under the series itself or within individual missions.
 	potential = {
@@ -829,9 +927,9 @@ RNW_agenda_missions10 = { #Series name is displayed over the slot?
 	
 	#missions
 
-	RNW_agenda5_1 = { 
+	RNW_agenda10_1 = { 
 		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda4_4 } #None
+		required_missions = { RNW_agenda9_1} #None
 		trigger = {
 			stability = 2 
 			legitimacy = 85
@@ -856,7 +954,7 @@ RNW_agenda_missions10 = { #Series name is displayed over the slot?
 }
 
 RNW_agenda_missions11 = { #Series name is displayed over the slot?
-	slot = 3 #ie, second upper left column
+	slot = 1 #ie, second upper left column
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	ai = no #Can exist under the series itself or within individual missions.
 	potential = {
@@ -869,9 +967,9 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 	
 	#missions
 
-	RNW_agenda5_1 = { 
+	RNW_agenda11_1 = { 
 		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda4_4 } #None
+		required_missions = {  } #None
 		trigger = {
 			stability = 2 
 			legitimacy = 85
@@ -893,10 +991,86 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 			factor = 10 
 		}
 	}	
+
+	RNW_agenda11_2 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda11_1 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}
+
+	RNW_agenda11_3 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda11_2 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}
+
+	RNW_agenda11_4 = { 
+		icon = mission_build_up_to_force_limit
+		required_missions = { RNW_agenda11_4 } #None
+		trigger = {
+			stability = 2 
+			legitimacy = 85
+			crown_land_share = 40
+			government_reform_progress = 30
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 36500 #100 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions3_1"
+				duration = 7300 #20 years
+			}
+			change_government_reform_progress = -30
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}
+
 }
 
 RNW_agenda_missions12 = { #Series name is displayed over the slot?
-	slot = 3 #ie, second upper left column
+	slot = 2 #ie, second upper left column
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	ai = no #Can exist under the series itself or within individual missions.
 	potential = {
@@ -909,9 +1083,9 @@ RNW_agenda_missions12 = { #Series name is displayed over the slot?
 	
 	#missions
 
-	RNW_agenda5_1 = { 
+	RNW_agenda12_1 = { 
 		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda4_4 } #None
+		required_missions = { RNW_agenda11_2 } #None
 		trigger = {
 			stability = 2 
 			legitimacy = 85
@@ -933,25 +1107,10 @@ RNW_agenda_missions12 = { #Series name is displayed over the slot?
 			factor = 10 
 		}
 	}	
-}
 
-RNW_agenda_missions13 = { #Series name is displayed over the slot?
-	slot = 3 #ie, second upper left column
-	generic = no #if a mission without generic = yes wants this slot then it overrides this.
-	ai = no #Can exist under the series itself or within individual missions.
-	potential = {
-		tag = CNA
-		tag = CNE
-		tag = CNI
-		tag = CNS
-		tag = CNZ
-	} #These are triggers for the entire series
-	
-	#missions
-
-	RNW_agenda5_1 = { 
+	RNW_agenda12_1 = { 
 		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda4_4 } #None
+		required_missions = { RNW_agenda12_1 } #None
 		trigger = {
 			stability = 2 
 			legitimacy = 85
@@ -973,363 +1132,4 @@ RNW_agenda_missions13 = { #Series name is displayed over the slot?
 			factor = 10 
 		}
 	}	
-}
-
-#2nd mission series:
-diplomatic_missions = {
-	slot = 3
-	
-	generic = yes
-	
-	potential = {
-	   always = yes
-	}
-	
-	building_alliances = {
-		icon = mission_alliances
-		required_missions = {  } #none
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = building_alliances.tooltip
-				num_of_allies = 2
-				calc_true_if = {
-					all_ally = {
-						has_opinion = {
-							who = ROOT
-							value = 150
-						}
-					}
-					amount = 2
-				}
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "influential_diplomacy"
-				duration = 9125 #25 years
-			}
-			define_advisor = {
-				type = diplomat
-				skill = 1
-				culture = ROOT
-				religion = ROOT
-				cost_multiplier = 0.5
-			}
-		}
-	}
-	have_two_subjects = {
-		icon = mission_have_two_subjects
-		required_missions = { building_alliances }
-		trigger = { num_of_non_tributary_subjects = 2 }
-		effect = {
-			add_dip_power = 100
-			add_country_modifier = {
-				name = "obedient_subjects"
-				duration = 9125 #25 years
-			}
-			every_subject_country = {
-				add_liberty_desire = -10
-			}
-		}
-	}
-	establish_high_seas_navy = {
-		icon = mission_establish_high_seas_navy
-		required_missions = { have_two_subjects }
-		trigger = { 
-			OR = {
-				num_of_heavy_ship = 10 
-				num_of_galley = 30
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "naval_enthusiasm_mission"
-				duration = 9125 #25 years
-			}
-			if = {
-				limit = {
-					NOT = {
-						navy_tradition = 40
-					}
-				}
-				create_admiral = { tradition = 40 }
-			}
-			else_if = {
-				limit = {
-					NOT = {
-						navy_tradition = 60
-					}
-				}
-				create_admiral = { tradition = 60 }
-			}
-			else_if = {
-				limit = {
-					NOT = {
-						navy_tradition = 80
-					}
-				}
-				create_admiral = { tradition = 80 }
-			}
-			else = {
-				create_admiral = { tradition = 100 }
-			}
-		}
-	}
-	dominate_home_trade_node = {
-		icon = mission_dominate_home_trade_node
-		required_missions = { establish_high_seas_navy }
-		trigger = {
-			home_trade_node = {
-				trade_share = {
-					country = ROOT
-					share = 75
-				}
-			}
-		}
-		effect = {
-			hidden_effect = {
-				home_trade_node_effect_scope = {
-					random_trade_node_member_province = {
-						limit = {
-							owned_by = ROOT
-						}
-						save_event_target_as = reward_province
-					}
-					random_trade_node_member_province = {
-						limit = {
-							owned_by = ROOT
-							is_capital = yes
-						}
-						save_event_target_as = reward_province
-					}
-					random_trade_node_member_province = {
-						limit = {
-							owned_by = ROOT
-							development = CAPITAL
-							is_capital = no
-						}
-						save_event_target_as = reward_province
-					}
-					random_trade_node_member_province = {
-						limit = {
-							owned_by = ROOT
-							development = CAPITAL
-							is_capital = no
-							development = 20
-						}
-						save_event_target_as = reward_province
-					}
-					random_trade_node_member_province = {
-						limit = {
-							owned_by = ROOT
-							development = CAPITAL
-							is_capital = no
-							development = 25
-						}
-						save_event_target_as = reward_province
-					}
-					random_trade_node_member_province = {
-						limit = {
-							owned_by = ROOT
-							development = CAPITAL
-							is_capital = no
-							development = 30
-						}
-						save_event_target_as = reward_province
-					}
-				}
-			}
-			if = {
-				limit = { has_saved_event_target = reward_province }
-				event_target:reward_province = {
-					add_province_modifier = {
-						name = "dominant_trade_hub"
-						duration = -1
-					}
-				}
-			}
-			else = {
-				custom_tooltip = dominant_home_node_reward_tooltip
-			}
-			custom_tooltip = " "
-			add_mercantilism_or_monarch_power = { amount = 3 }
-		}
-	}
-	trade_company_region_abroad = {
-		icon = mission_trade_company_region_abroad
-		required_missions = { dominate_home_trade_node }
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = trade_company_region_abroad_tooltip
-				calc_true_if = {
-					all_trade_node = {
-						calc_true_if = {
-							all_trade_node_member_province = {
-								owned_by = ROOT
-								is_node_in_trade_company_region = yes
-								NOT = { continent = CAPITAL }
-							}
-							amount = 5
-						}
-					}
-					amount = 3
-				}
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "east_india_trade_rush"
-				duration = 9125 #25 years
-			}
-			if = {
-				limit = {
-					NOT = {
-						navy_tradition = 40
-					}
-				}
-				create_explorer = { tradition = 40 }
-			}
-			else_if = {
-				limit = {
-					NOT = {
-						navy_tradition = 60
-					}
-				}
-				create_explorer = { tradition = 60 }
-			}
-			else_if = {
-				limit = {
-					NOT = {
-						navy_tradition = 80
-					}
-				}
-				create_explorer = { tradition = 80 }
-			}
-			else = {
-				create_explorer = { tradition = 100 }
-			}
-		}
-	}
-}
-
- #3nd mission series:
-administrative_missions = {
-	slot = 4
-	
-	generic = yes
-	
-	potential = {
-	   always = yes
-	}
-	high_income_mission = {
-		icon = mission_high_income
-		required_missions = {  } #None
-		trigger = { share_of_starting_income = 1.5 }
-		effect = {
-			add_country_modifier = {
-				name = "growing_economy"
-				duration = 9125 #25 years
-			}
-			define_advisor = {
-				type = treasurer
-				skill = 1
-				culture = ROOT
-				religion = ROOT
-				cost_multiplier = 0.5
-			}
-		}
-	}
-	build_temples = {
-		icon = mission_early_game_buildings
-		required_missions = { high_income_mission }
-		trigger = {
-			num_of_owned_provinces_with = {
-				has_tax_building_trigger = yes
-				value = 5
-			}
-			num_of_owned_provinces_with = {
-				has_production_building_trigger = yes
-				value = 5
-			}
-		}
-		effect = {
-			add_adm_power = 50
-			add_country_modifier = {
-				name = "building_spree"
-				duration = 9125
-			}
-		}
-	}
-	build_treasury = {
-		icon = mission_war_chest
-		required_missions = { build_temples }
-		trigger = { treasury = 2000 }
-		effect = {
-			add_country_modifier = {
-				name = "strong_treasury"
-				duration = 9125
-			}
-			add_corruption = -2
-		}
-	}
-	build_manufactories = {
-		icon = mission_have_manufactories
-		required_missions = { build_treasury }
-		trigger = {
-			calc_true_if = {
-				desc = build_manufactories_mission_tooltip
-				all_owned_province = {
-					OR = {
-						has_building = mills
-						has_building = farm_estate
-						has_building = tradecompany
-						has_building = plantations
-						has_building = textile
-						has_building = weapons
-						has_building = wharf
-						has_building = furnace
-					}
-				}
-				amount = 20
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "proto_industrialization"
-				duration = 9125
-			}
-			add_years_of_income = 1.5
-		}
-	}
-	imperial_ambition_mission = {
-		icon = mission_empire
-		required_missions = { build_manufactories }
-		trigger = {
-			total_development = 1000
-		}
-		effect = {
-			add_prestige_or_monarch_power = {
-				amount = 30
-			}
-			add_country_modifier = {
-				name = "imperial_ambition"
-				duration = 9125
-			}
-			custom_tooltip = perma_claim_neighbor_area
-			hidden_effect = {
-				every_owned_province = {
-					every_neighbor_province = {
-						area = {
-							limit = {
-								NOT = { owned_by = ROOT }
-								NOT = { is_permanent_claim = ROOT    }
-								NOT = { is_core = ROOT    }
-							}
-							add_permanent_claim = ROOT
-						}
-					}
-				}
-			}
-		}
-	}
 }
