@@ -228,21 +228,26 @@ RNW_agenda_missions3 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda2 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
 		}
-		effect = { 
+		effect = { #This is what you get after you finished your mission.
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+				name = "thriving_arms_industry"
+				duration = 9125 #25 years
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
+			custom_tooltip = claim_neighbor_province
+			hidden_effect = {
+				every_owned_province = {
+					every_neighbor_province = {
+						limit = {
+							NOT = { owned_by = ROOT }
+							NOT = { is_permanent_claim = ROOT	}
+							NOT = { is_core = ROOT	}
+						}
+						add_claim = ROOT
+					}
+				}
 			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -253,21 +258,15 @@ RNW_agenda_missions3 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda2 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			NOT = { estate_influence = { estate = all influence = 40 } }
+			estate_loyalty = { estate = all influence = 60 } 
+			
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+				name = "mission_modifier3_2"
+				duration = 5475 #15 years
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -278,21 +277,17 @@ RNW_agenda_missions3 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda2 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			num_of_heavy_ship = 10
 		}
 		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 10
 			}
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
+				name = "mission_modifier3_3"
 				duration = 7300 #20 years
 			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -303,21 +298,16 @@ RNW_agenda_missions3 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda2 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			owns = 1096
 		}
 		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+			2106 = {
+				#change_religion = ROOT
+				add_province_modifier = {
+					name = "mission_modifier3_4"
+					duration = -1
+				}
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -343,21 +333,15 @@ RNW_agenda_missions4 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda3_1 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			grown_by_development = 100
+			power_projection = 50
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
+				name = "mission_modifier4_1"
 				duration = 7300 #20 years
 			}
-			change_government_reform_progress = -30
+			add_army_tradition = 10
 		}
 		ai_weight = {
 			factor = 10 
@@ -368,21 +352,14 @@ RNW_agenda_missions4 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda4_1 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			grown_by_development = 250
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
+				name = "mission_modifier4_2"
 				duration = 7300 #20 years
 			}
-			change_government_reform_progress = -30
+			add_prestige = 10
 		}
 		ai_weight = {
 			factor = 10 
@@ -393,21 +370,15 @@ RNW_agenda_missions4 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda4_2 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			adm_tech = 8
+			dip_tech = 8
+			mil_tech = 8
+			NOT = { current_age = age_of_discovery }
 		}
 		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+			country_event = {
+				id = PHM_RNW_mission_event.1
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -418,21 +389,19 @@ RNW_agenda_missions4 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda4_3 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			religion = nakahi
+			num_of_transport = 40
+			num_of_heavy_ship = 20
+			has_institution = new_world_i
 		}
 		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+			southern_morocco_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -443,21 +412,33 @@ RNW_agenda_missions4 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda4_4 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = france_region
+				value = 3
+			}
 		}
 		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+			183 = { 			
+				destroy_great_project = {
+					type = versailles
+				}
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
+			country_event_with_option_insight = {
+				id = sunset_invasion.3
+				option_1 = "
+					custom_tooltip = SUN_enable_french_monuments
+					set_country_flag = SUN_enable_french_monuments_flag
+				"
+				option_2 = "
+					custom_tooltip = SUN_destroy_french_monuments
+					set_country_flag = SUN_destroy_french_monuments_flag
+					
+					add_country_modifier = {
+						name = SUN_destruction_of_france
+						duration = -1
+					}
+				"
 			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -483,21 +464,28 @@ RNW_agenda_missions5 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda4_4 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = iberia_region
+				value = 3
+			}
 		}
 		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+			add_years_of_income = 2
+			change_ruler_stat = {
+				type = mil
+				amount = 1
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
+
+			217 = { 			
+				destroy_great_project = {
+					type = el_escorial
+				}
 			}
-			change_government_reform_progress = -30
+			iberia_region = {
+				limit = { country_or_non_sovereign_subject_holds = ROOT }
+				add_local_autonomy = -20
+				add_nationalism = -10
+			}
 		}
 		ai_weight = {
 			factor = 10 
@@ -523,21 +511,35 @@ RNW_agenda_missions6 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda4_4} #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = british_isles_region
+				value = 3
+			}
 		}
 		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+			if = {
+				limit = {
+					any_province = {
+						has_great_project = {
+								type = stonehenge
+								tier = 0
+						}		
+					} 		
+				}
+				destroy_great_project = {
+					type = stonehenge
+				}
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
+			add_navy_tradition = 10
+			define_advisor = {
+				type = naval_reformer
+				skill = 3
+				cost_multiplier = 0.5
+			}	
+			add_permanent_power_projection = {
+				type = 10_permanent_power_projection
+				amount = 10
 			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -563,21 +565,22 @@ RNW_agenda_missions7 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			has_opinion = {
+				who = ABL
+				value = 10
+			}
+			estate_loyalty = {
+					estate = estate_church
+					loyalty = 75
+			}
+			religion = nakahi
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+				name = "mission_modifier7_1"
+				duration = -1 #permanent
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
+			add_prestige = 20
 		}
 		ai_weight = {
 			factor = 10 
@@ -588,21 +591,25 @@ RNW_agenda_missions7 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda7_1 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			num_of_owned_provinces_with = {
+				value = 3
+				has_tax_building_trigger = yes
+			}
+			has_estate_privilege = estate_church_development_of_temples
 		}
 		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 10
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
+			define_advisor = {
+				type = artist
+				skill = 1
+				religion = ROOT
+				culture = ROOT
+				cost_multiplier = 0.25
 			}
-			change_government_reform_progress = -30
+			add_splendor = 100
 		}
 		ai_weight = {
 			factor = 10 
@@ -613,21 +620,17 @@ RNW_agenda_missions7 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda7_2 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			custom_trigger_tooltip = {
+				tooltip = obj_convert_10_provinces_tooltip
+				check_variable = { which = num_converted_religion value = 30 }
+			}
+			religious_unity = 100
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+				name = "mission_modifier7_3"
+				duration = 10950 #30 years
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -637,21 +640,17 @@ RNW_agenda_missions7 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda7_3 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			custom_trigger_tooltip = {
+				tooltip = obj_convert_10_provinces_tooltip
+				check_variable = { which = num_converted_religion value = 30 }
+			}
+			army_professionalism = 80
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
+				name = "mission_modifier7_4"
 				duration = 7300 #20 years
 			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -661,21 +660,22 @@ RNW_agenda_missions7 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda7_4 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = obj_convert_10_provinces_tooltip
+					check_variable = { which = num_converted_religion value = 200 }
+				}
+				num_of_forced_converted_countries = {
+					amount = 15
+				}
+			}
+			
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+				name = "mission_modifier7_5"
+				duration = -1 #permanent 
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -701,21 +701,18 @@ RNW_agenda_missions8 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda7_1 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			any_country = {
+				has_spy_network_from = {
+					who = ROOT
+					value = 90
+				}
+			}
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+				name = "mission_modifier8_1"
+				duration = 18250 #30 years
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -726,21 +723,14 @@ RNW_agenda_missions8 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda8_1 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			has_dip_advisor_3 = yes
+			prestige = 60
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
+				name = "mission_modifier8_2"
 				duration = 7300 #20 years
 			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -751,46 +741,68 @@ RNW_agenda_missions8 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda8_2 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			if = {
+				limit = {
+					NOT = {
+						any_country = { has_country_flag = RNW_agenda8_3CF }
+					}
+				}
+				is_defender_of_faith = yes
+					religious_unity = 100
+					estate_loyalty = {
+						estate = estate_church
+						loyalty = 90
+					}
+					calc_true_if = {
+						all_province = {
+							OR = {
+								province_id = 3891
+								province_id = 3389
+								province_id = 3678
+								province_id = 3721
+								province_id = 4582
+							}
+							is_core = ROOT
+							controlled_by = owner
+						}
+						amount = 2
+					}
+					is_rival = ABS
+					army_size = ABS
+				else = {
+					has_opinion = {
+						who = ABS
+						value = 150
+					}
+					religious_unity = 100
+				}
+			}
 		}
 		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+			simple_dynamic_effect = {
+				first_custom_tooltip = RNW_agend8_3_tt1
+				first_limit = "
+				NOT = {
+						any_country = { has_country_flag = RNW_agenda8_3CF }
+					}"
+				first_effect = "
+				add_country_modifier = {
+					name = mission_modifier8_31
+					duration = -1
+				}"
+				second_custom_tooltip = RNW_agend8_3_tt2
+				second_limit = "
+				any_country = { has_country_flag = RNW_agenda8_3CF }"
+				second_effect = "
+				add_opinion = {
+					who = ABS
+					modifier = ABS_defender_of_faith
+				}
+				add_country_modifier = {
+					name = mission_modifier8_32
+					duration = 7300
+				}"
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
-		}
-		ai_weight = {
-			factor = 10 
-		}
-	}	
-
-	RNW_agenda8_4 = { 
-		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda8_3} #None
-		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
-		}
-		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -816,21 +828,20 @@ RNW_agenda_missions9 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			estate_loyalty = {
+				estate = estate_burghers 
+				loyalty = 75 
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_burghers
+				value = 2
+			}
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+				name = "mission_modifier9_1"
+				duration = 9150 #20 years
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -841,21 +852,20 @@ RNW_agenda_missions9 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda9_1 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			any_owned_province = {
+				has_center_of_trade_of_level = 1
+			}
+			num_of_owned_provinces_with = {
+				has_trade_building_trigger = yes 
+				value = 3
+			}
+			corruption = 0
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
-			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
+				name = "mission_modifier9_2"
 				duration = 7300 #20 years
 			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -866,21 +876,17 @@ RNW_agenda_missions9 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda9_2 RNW_agenda10_1 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			num_of_loans = 0
+			inflation = 0 
+			corruption = 0
+			dip_tech = 7
+			mercantilism = 25
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+				name = "mission_modifier9_3"
+				duration = 5475 #15 years
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -891,21 +897,22 @@ RNW_agenda_missions9 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda9_3 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			OR = {
+				innovativeness = 50
+				is_ahead_of_time_in_technology = yes
+			}
 		}
 		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+			add_ruler_personality = scholar_personality
+			hidden_effect = {
+				add_ruler_personality_ancestor = {
+					key = scholar
+				}
 			}
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
+				name = "mission_modifier9_4"
+				duration = 18250 #50 years
 			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -931,21 +938,17 @@ RNW_agenda_missions10 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda9_1} #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			num_of_owned_provinces_with = {
+				value = 3
+				has_production_building_trigger = yes
+			}
+			corruption = 0
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+				name = "mission_modifier10_1"
+				duration = 10950 #30 years
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -971,21 +974,15 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = {  } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			num_of_trusted_allies = 2
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+				name = "mission_modifier11_1"
+				duration = 3650 #10 years
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
+			add_prestige = 10
+			add_splendor = 100
 		}
 		ai_weight = {
 			factor = 10 
@@ -996,21 +993,25 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda11_1 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			custom_trigger_tooltip = {
+				tooltip = RNW_agenda11_2tt
+				any_ally = {
+					OR = {
+						is_great_power 
+						development = 500
+					}
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
+				}
+			}
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+				name = "mission_modifier11_2"
+				duration = -1 #permanent
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -1021,21 +1022,30 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda11_2 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			custom_trigger_tooltip = {
+				tooltip = RNW_agenda11_3tt
+				any_country = {
+					is_rival = yes
+					OR = {
+						is_great_power = yes
+						development = 500
+					}
+					capital_scope = {
+						continent = europe
+					}
+				}
+			}
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+				name = "mission_modifier11_3"
+				duration = 3650 #10 years
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
+			define_advisor = {
+				type = statesman
+				cost_multiplier = 0.25
+				skill = 1
 			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -1046,21 +1056,16 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda11_4 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			is_great_power = yes
+			has_country_flag = humiliated_rival
 		}
 		effect = { 
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 25
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
+			add_prestige_or_monarch_power = 50
+			add_legitimacy = 20
 		}
 		ai_weight = {
 			factor = 10 
@@ -1087,21 +1092,15 @@ RNW_agenda_missions12 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda11_2 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			full_idea_group = trade_ideas
+			full_idea_group = influence_ideas
+			monthly_dip = 12
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+				name = "mission_modifier12_1"
+				duration = 3650 #10 years
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
-			}
-			change_government_reform_progress = -30
 		}
 		ai_weight = {
 			factor = 10 
@@ -1112,21 +1111,30 @@ RNW_agenda_missions12 = { #Series name is displayed over the slot?
 		icon = mission_build_up_to_force_limit
 		required_missions = { RNW_agenda12_1 } #None
 		trigger = {
-			stability = 2 
-			legitimacy = 85
-			crown_land_share = 40
-			government_reform_progress = 30
+			custom_trigger_tooltip = {
+				tooltip = RNW_agenda11_2tt
+				any_ally = {
+					OR = {
+						is_great_power = yes
+						development = 500
+					}
+					capital_scope = {
+						continent = europe
+					}
+				}
+			}			
 		}
 		effect = { 
-			add_country_modifier = {
+			mission_modifier12_2 = {
 				name = "exploration_ambitions3_1"
-				duration = 36500 #100 years
+				duration = 10950 #30 years
 			}
-			add_country_modifier = {
-				name = "exploration_ambitions3_1"
-				duration = 7300 #20 years
+			define_advisor = {
+				type = philosopher
+				skill = 1
+				cost_multiplier = 0.25
 			}
-			change_government_reform_progress = -30
+			
 		}
 		ai_weight = {
 			factor = 10 

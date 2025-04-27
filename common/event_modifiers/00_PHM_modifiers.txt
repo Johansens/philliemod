@@ -52,7 +52,6 @@ mission_modifier4_32 = {
 }
 mission_modifier4_33 = {
 	technology_cost = -0.1
-
 }
 mission_modifier7_1 = {
 	tolerance_own = 1
@@ -76,11 +75,14 @@ mission_modifier8_2 = {
 	improve_relation_modifier = 0.25
 	siege_ability = 0.1
 }
-mission_modifier8_3 = {
+mission_modifier8_31 = {
 	global_missionary_strength = 0.01
 	diplomatic_reputation = 1
 	prestige = 1
 	land_morale = 0.05
+}
+mission_modifier8_32 = {
+	diplomatic_reputation = 1
 }
 mission_modifier9_1 = {
 	build_cost = -0.1
