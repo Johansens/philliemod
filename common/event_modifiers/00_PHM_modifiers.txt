@@ -23,6 +23,96 @@ exploration_ambitions2_3 = {
 	navy_tradition = 1
 	global_sailors_modifier = 0.20
 }
-idea_modifier3_2 = {
-	
+mission_modifier3_2 = {
+	diplomatic_reputation = 1
+	vassal_forcelimit_bonus = 0.25
+	vassal_income = 0.1
+}
+mission_modifier3_3 = {
+	naval_morale = 0.2
+}
+mission_modifier3_4 = {
+	local_development_cost = 0.1
+	province_trade_power_modifier = 0.2
+	prestige = 0.5
+}
+mission_modifier4_1 = {
+	morale_damage = 0.1
+}
+mission_modifier4_2 = {
+	years_of_nationalism = -5
+}
+mission_modifier4_31 = {
+	global_ship_cost = 0.1
+	global_naval_engagement_modifier = 0.1
+}
+mission_modifier4_32 = {
+	defensiveness = 0.2
+	land_attrition = -0.15
+}
+mission_modifier4_33 = {
+	technology_cost = -0.1
+
+}
+mission_modifier7_1 = {
+	tolerance_own = 1
+}
+mission_modifier7_3 = {
+	enforce_religion_cost = -0.33
+	global_spy_defence = 0.25
+}
+mission_modifier7_4 = {
+	manpower_in_true_faith_provinces  = 0.2
+}
+mission_modifier7_5 = {
+	manpower_in_true_faith_provinces  = 0.1
+}
+mission_modifier8_1 = {
+	spy_offence = 0.25
+	global_spy_defence = 0.33
+}
+mission_modifier8_2 = {
+	diplomats = 1
+	improve_relation_modifier = 0.25
+	siege_ability = 0.1
+}
+mission_modifier8_3 = {
+	global_missionary_strength = 0.01
+	diplomatic_reputation = 1
+	prestige = 1
+	land_morale = 0.05
+}
+mission_modifier9_1 = {
+	build_cost = -0.1
+	build_time = -0.25
+}
+mission_modifier9_2 = {
+	trade_efficiency = 0.1
+}
+mission_modifier9_3 = {
+	diplomatic_reputation = 1
+	burghers_loyalty_modifier = 0.1
+	all_power_cost = -0.05
+}
+mission_modifier9_4 = {
+	institution_spread_from_true_faith = 0.5
+}
+mission_modifier10_1 = {
+	national_focus_years = -10
+}
+mission_modifier11_1 = {
+	diplomatic_reputation = 1
+}
+mission_modifier11_2 = {
+	prestige_decay = -0.01
+}
+mission_modifier11_3 = {
+	land_morale = 0.1
+}
+mission_modifier12_1 = {
+	land_morale = 0.05
+	province_warscore_cost = -0.05
+}
+mission_modifier12_2 = {
+	yearly_absolutism = 0.1
 }
