@@ -1125,10 +1125,6 @@ RNW_agenda_missions12 = { #Series name is displayed over the slot?
 			}			
 		}
 		effect = { 
-			mission_modifier12_2 = {
-				name = "exploration_ambitions3_1"
-				duration = 10950 #30 years
-			}
 			define_advisor = {
 				type = philosopher
 				skill = 1
