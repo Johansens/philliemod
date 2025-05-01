@@ -1154,10 +1154,13 @@ RNW_agenda_missions12 = { #Series name is displayed over the slot?
 			}			
 		}
 		effect = { 
+<<<<<<< HEAD
 			mission_modifier12_2 = {
 				name = "mission_modifier12_2"
 				duration = 10950 #30 years
 			}
+=======
+>>>>>>> 0866a496ec558f9ceaccfdef66f8b23d7df892b0
 			define_advisor = {
 				type = philosopher
 				skill = 1
