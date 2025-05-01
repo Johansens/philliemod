@@ -1,0 +1,6 @@
+ABL_defender_of_faith = {
+    option = {
+        name = 50
+        yearly_decay = 2
+    }
+}

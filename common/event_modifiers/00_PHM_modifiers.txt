@@ -11,6 +11,9 @@ exploration_ambitions1_31 = {
 exploration_ambitions1_32 = {
 	global_colonial_growth = 20
 }
+exploration_ambitions1_4 = {
+	global_colonial_growth = 15
+}
 exploration_ambitions1_5 = {
 	global_colonial_growth = 25
 	idea_cost = -0.1
@@ -32,7 +35,7 @@ mission_modifier3_3 = {
 	naval_morale = 0.2
 }
 mission_modifier3_4 = {
-	local_development_cost = 0.1
+	local_development_cost = -0.1
 	province_trade_power_modifier = 0.2
 	prestige = 0.5
 }

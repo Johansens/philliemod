@@ -13,30 +13,30 @@ CN1_ideas = {
 	}
 	free = yes
 	
-	founding_fathers = {
+	CN1_1 = {
 		legitimacy = 1
 		devotion = 1
 		republican_tradition = 0.5
 		meritocracy = 1
 		horde_unity = 1
 	}
-	continental_trade = {
+	CN1_2 = {
 		global_prov_trade_power_modifier = 0.25
 	}
-	manufacturing_center = {
+	CN1_3 = {
 		build_cost = -0.1
 	}
-	free_thinkers = {
+	CN1_4 = {
 		idea_cost = -0.1
 	}
-	colonial_militia = {
+	CN1_5 = {
 		global_regiment_cost = -0.1
 	}
-	new_frontiers = {
+	CN1_6 = {
 		auto_explore_adjacent_to_colony = yes
 		global_colonial_growth = 20
 	}
-	liberty_heroes = {
+	CN1_7 = {
 		global_unrest = -1
 		free_leader_pool = 1
 	}
@@ -57,30 +57,30 @@ CN2_ideas = {
 	}
 	free = yes
 	
-	founding_fathers = {
+	CN2_1 = {
 		legitimacy = 1
 		devotion = 1
 		republican_tradition = 0.5
 		meritocracy = 1
 		horde_unity = 1
 	}
-	continental_trade = {
+	CN2_2 = {
 		global_prov_trade_power_modifier = 0.25
 	}
-	manufacturing_center = {
+	CN2_3 = {
 		build_cost = -0.1
 	}
-	free_thinkers = {
+	CN2_4 = {
 		idea_cost = -0.1
 	}
-	colonial_militia = {
+	CN2_5 = {
 		global_regiment_cost = -0.1
 	}
-	new_frontiers = {
+	CN2_6 = {
 		auto_explore_adjacent_to_colony = yes
 		global_colonial_growth = 20
 	}
-	liberty_heroes = {
+	CN2_7 = {
 		global_unrest = -1
 		free_leader_pool = 1
 	}
@@ -100,30 +100,30 @@ CN3_ideas = {
 	}
 	free = yes
 	
-	founding_fathers = {
+	CN3_1 = {
 		legitimacy = 1
 		devotion = 1
 		republican_tradition = 0.5
 		meritocracy = 1
 		horde_unity = 1
 	}
-	continental_trade = {
+	CN3_2 = {
 		global_prov_trade_power_modifier = 0.25
 	}
-	manufacturing_center = {
+	CN3_3 = {
 		build_cost = -0.1
 	}
-	free_thinkers = {
+	CN3_4 = {
 		idea_cost = -0.1
 	}
-	colonial_militia = {
+	CN3_5 = {
 		global_regiment_cost = -0.1
 	}
-	new_frontiers = {
+	CN3_6 = {
 		auto_explore_adjacent_to_colony = yes
 		global_colonial_growth = 20
 	}
-	liberty_heroes = {
+	CN3_7 = {
 		global_unrest = -1
 		free_leader_pool = 1
 	}
@@ -144,30 +144,30 @@ CN4_ideas = {
 	}
 	free = yes
 	
-	founding_fathers = {
+	CN4_1 = {
 		legitimacy = 1
 		devotion = 1
 		republican_tradition = 0.5
 		meritocracy = 1
 		horde_unity = 1
 	}
-	continental_trade = {
+	CN4_2 = {
 		global_prov_trade_power_modifier = 0.25
 	}
-	manufacturing_center = {
+	CN4_3 = {
 		build_cost = -0.1
 	}
-	free_thinkers = {
+	CN4_4 = {
 		idea_cost = -0.1
 	}
-	colonial_militia = {
+	CN4_5 = {
 		global_regiment_cost = -0.1
 	}
-	new_frontiers = {
+	CN4_6 = {
 		auto_explore_adjacent_to_colony = yes
 		global_colonial_growth = 20
 	}
-	liberty_heroes = {
+	CN4_7 = {
 		global_unrest = -1
 		free_leader_pool = 1
 	}
@@ -188,30 +188,30 @@ CN5_ideas = {
 	}
 	free = yes
 	
-	founding_fathers = {
+	CN5_1 = {
 		legitimacy = 1
 		devotion = 1
 		republican_tradition = 0.5
 		meritocracy = 1
 		horde_unity = 1
 	}
-	continental_trade = {
+	CN5_2 = {
 		global_prov_trade_power_modifier = 0.25
 	}
-	manufacturing_center = {
+	CN5_3 = {
 		build_cost = -0.1
 	}
-	free_thinkers = {
+	CN5_4 = {
 		idea_cost = -0.1
 	}
-	colonial_militia = {
+	CN5_5 = {
 		global_regiment_cost = -0.1
 	}
-	new_frontiers = {
+	CN5_6 = {
 		auto_explore_adjacent_to_colony = yes
 		global_colonial_growth = 20
 	}
-	liberty_heroes = {
+	CN5_7 = {
 		global_unrest = -1
 		free_leader_pool = 1
 	}
@@ -231,25 +231,25 @@ philli_pr_ideas  = {
 	}
 	free = yes
 	
-	founding_fathers = {
+	solid_shipbuildin = {
 		galley_power = 0.2
 	}
-	continental_trade = {
+	trained_eye = {
 		loot_amount = 1
 	}
-	manufacturing_center = {
+	coastal_striker = {
 		allowed_marine_fraction = 0.25
 	}
-	free_thinkers = {
+	tenth_of_the_tresure = {
 		global_tax_modifier = 0.1
 	}
-	colonial_militia = {
+	life_at_sea = {
 		naval_morale = 0.15
 	}
-	new_frontiers = {
-		reinforce_cost_modifier = 0.1
+	never_surrender = {
+		reinforce_cost_modifier = -0.1
 	}
-	liberty_heroes = {
+	pirate_state = {
 		max_absolutism = 20
 	}
 }
@@ -257,7 +257,7 @@ philli_pr_ideas  = {
 philli_AB_ideas  = {
 	start = {
 		global_allowed_num_of_buildings = 1
-		interest = -0.375
+		interest = -3.75
 	}
 	
 	bonus = {
@@ -269,25 +269,25 @@ philli_AB_ideas  = {
 	}
 	free = yes
 	
-	founding_fathers = {
+	forked_tongue = {
 		trade_efficiency = 0.2
 	}
-	continental_trade = {
+	snake_shield = {
 		global_defender_dice_roll_bonus = 1
 	}
-	manufacturing_center = {
+	viper_blood = {
 		extra_manpower_at_religious_war = yes
 	}
-	free_thinkers = {
+	divine_goods = {
 		global_trade_goods_size = 1
 	}
-	colonial_militia = {
+	serpent_warrior = {
 		possible_condottieri = 2
 	}
-	new_frontiers = {
+	brood_of_snakes = {
 		devotion = 1
 	}
-	liberty_heroes = {
+	endless_fanatics = {
 		land_forcelimit = 0.5
 	}
 }
@@ -345,25 +345,25 @@ philli_WIK_ideas  = {
 	}
 	free = yes
 	
-	founding_fathers = {
+	WK1 = {
 		placed_merchant_power_modifier = 0.2
 	}
-	continental_trade = {
+	WK2 = {
 		ae_impact = -0.2
 	}
-	manufacturing_center = {
+	WK3 = {
 		morale_damage = 0.2
 	}
-	free_thinkers = {
+	WK4 = {
 		manpower_in_true_faith_provinces = 0.4
 	}
-	colonial_militia = {
+	WK5 = {
 		land_morale = 0.2
 	}
-	new_frontiers = {
+	WK6 = {
 		country_diplomatic_power = 1
 	}
-	liberty_heroes = {
+	WK7 = {
 		enemy_core_creation = 2
 	}
 }

@@ -18,12 +18,10 @@ country_decisions = {
 	update_missions_debug = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
-			tag = HEI
-			always = no
+			tag = CNI
 		}
 		allow = {
-			tag = HEI
+			tag = CNI
 		}
 		effect = {
 			swap_non_generic_missions = yes
@@ -64,6 +62,63 @@ country_decisions = {
 		}	
 	}
 
+	por_escape_mission = {
+		major = yes
+		potential = {
+			tag = por 
+			NOT = {
+				num_of_owned_provinces_with = {
+					continent = europe
+					value = 5
+				}
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+		}
+		effect = {
+			change_tag = BRZ
+			on_change_tag_effect = yes
+			every_subject_country = {
+				limit = {
+					is_colonial_nation = yes
+					capital_scope = {
+						colonial_region = colonial_brazil
+					}
+				}
+				FROM = { inherit = PREV }
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						continent = europe
+					}
+				}
+				move_capital_effect = yes
+			}
+			every_owned_province = {
+				limit = {
+					continent = europe
+				}
+				add_core = POR
+			}
+			release = POR
+			every_province = {
+				limit = {
+					continent = europe
+					is_core = ROOT
+				}
+				add_core = POR
+				remove_core = BRZ
+			}
+			if = {
+                limit = { has_custom_ideas = no }
+                country_event = { id = ideagroups.1 } #Swap Ideas
+            }
+		}
+	}
+
 	custom_nation1 = {
 		major = yes
 		potential = {
@@ -83,10 +138,12 @@ country_decisions = {
 				}
 				add_core = CNI
 				cede_province = CNI
+				change_religion = nakahi
 			}
-			country_event = { id = ideagroups.1 } #Swap Ideas
+			change_religion = nakahi
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
+			country_event = { id = ideagroups.1 } #Swap Ideas
 		}
 	}
 
@@ -109,7 +166,9 @@ country_decisions = {
 				}
 				add_core = CNS
 				cede_province = CNS
+				change_religion = nakahi
 			}
+			change_religion = nakahi
 			country_event = { id = ideagroups.1 } #Swap Ideas
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
@@ -135,7 +194,9 @@ country_decisions = {
 				}
 				add_core = CNE
 				cede_province = CNE
+				change_religion = nakahi
 			}
+			change_religion = nakahi
 			country_event = { id = ideagroups.1 } #Swap Ideas
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
@@ -161,7 +222,9 @@ country_decisions = {
 				}
 				add_core = CNA
 				cede_province = CNA
+				change_religion = nakahi
 			}
+			change_religion = nakahi
 			country_event = { id = ideagroups.1 } #Swap Ideas
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
@@ -187,7 +250,9 @@ country_decisions = {
 				}
 				add_core = CNZ
 				cede_province = CNZ
+				change_religion = nakahi
 			}
+			change_religion = nakahi
 			country_event = { id = ideagroups.1 } #Swap Ideas
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
@@ -209,8 +274,8 @@ country_decisions = {
 				every_province = {
 					limit = {
 						OR = {
-							province_id = 4920
-							province_id = 4911
+							#province_id = 4920
+							#province_id = 4911
 							province_id = 4904
 							province_id = 4889
 							province_id = 4638
@@ -235,13 +300,13 @@ country_decisions = {
 							province_id = 4620
 							province_id = 4647
 							province_id = 4885
-							province_id = 4897
-							province_id = 4909
-							province_id = 4919
-							province_id = 4922
+							#province_id = 4897
+							#province_id = 4909
+							#province_id = 4919
+							#province_id = 4922
 							province_id = 4916
 							province_id = 4903
-							province_id = 4917
+							#province_id = 4917
 							province_id = 4908
 							province_id = 4902
 							province_id = 4895
@@ -250,10 +315,10 @@ country_decisions = {
 							province_id = 4891
 							province_id = 4905
 							province_id = 4901
-							province_id = 4910
-							province_id = 4907
-							province_id = 4918
-							province_id = 4914
+							#province_id = 4910
+							#province_id = 4907
+							#province_id = 4918
+							#province_id = 4914
 							province_id = 4641
 							province_id = 4894
 							province_id = 4598
@@ -274,7 +339,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			tag = TTT^
+			tag = TTT
 			always = no
 		}
 		allow = {
@@ -348,10 +413,10 @@ country_decisions = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			tag = VIL
+			tag = TTT
 		}
 		allow = {
-			tag = VIL
+			tag = TTT
 		}
 		effect = {
 			change_tag = WIK
@@ -387,19 +452,19 @@ country_decisions = {
 						province_id = 3519
 						province_id = 3512
 						province_id = 3534
-						province_id = 3535
-						province_id = 3527
-						province_id = 3522
-						province_id = 3515
-						province_id = 3517
-						province_id = 3518
-						province_id = 3524
-						province_id = 3526
-						province_id = 3528
-						province_id = 3538
-						province_id = 3543
-						province_id = 3540
-						province_id = 3550
+						#province_id = 3535
+						#province_id = 3527
+						#province_id = 3522
+						#province_id = 3515
+						#province_id = 3517
+						#province_id = 3518
+						#province_id = 3524
+						#province_id = 3526
+						#province_id = 3528
+						#province_id = 3538
+						#province_id = 3543
+						#province_id = 3540
+						#province_id = 3550
 					}
 					add_core = WIK
 					cede_province = WIK
