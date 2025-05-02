@@ -233,7 +233,7 @@ RNW_agenda_missions3 = { #Series name is displayed over the slot?
 
 	RNW_agenda3_1 = { 
 		icon = mission_build_up_to_force_limit
-		required_missions = { RNW_agenda2 } #None
+		required_missions = { } #None
 		trigger = {
 			army_size_percentage = 1 #What you need to complete the mission, displayed for mission tooltip
 		}
@@ -263,7 +263,7 @@ RNW_agenda_missions3 = { #Series name is displayed over the slot?
 
 	RNW_agenda3_2 = { 
 		icon = mission_have_two_subjects
-		required_missions = { RNW_agenda3_2 } #None
+		required_missions = { RNW_agenda3_1 } #None
 		trigger = {
 			NOT = { estate_influence = { estate = all influence = 40 } }
 			estate_loyalty = { estate = all loyalty = 60 } 
@@ -285,6 +285,7 @@ RNW_agenda_missions3 = { #Series name is displayed over the slot?
 		required_missions = { RNW_agenda3_2 } #None
 		trigger = {
 			num_of_heavy_ship = 10
+			3132 = { owned_by = ROOT }
 		}
 		effect = { 
 			add_power_projection = {
@@ -578,9 +579,11 @@ RNW_agenda_missions7 = { #Series name is displayed over the slot?
 		icon = mission_religious
 		required_missions = { } #None
 		trigger = {
-			has_opinion = {
-				who = ABL
-				value = 10
+			ABL ={
+				has_opinion = {
+					who = ROOT
+					value = 120
+				}
 			}
 			estate_loyalty = {
 					estate = estate_church
@@ -634,10 +637,10 @@ RNW_agenda_missions7 = { #Series name is displayed over the slot?
 		required_missions = { RNW_agenda7_2 } #None
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = obj_convert_10_provinces_tooltip
+				tooltip = obj_convert_30_provinces_tooltip
 				check_variable = { which = num_converted_religion value = 30 }
 			}
-			religious_unity = 100
+			religious_unity = 1
 		}
 		effect = { 
 			add_country_modifier = {
@@ -654,10 +657,10 @@ RNW_agenda_missions7 = { #Series name is displayed over the slot?
 		required_missions = { RNW_agenda7_3 } #None
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = obj_convert_10_provinces_tooltip
-				check_variable = { which = num_converted_religion value = 30 }
+				tooltip = obj_convert_80_provinces_tooltip
+				check_variable = { which = num_converted_religion value = 80 }
 			}
-			army_professionalism = 80
+			army_professionalism = 0.8
 		}
 		effect = { 
 			add_country_modifier = {
@@ -675,11 +678,11 @@ RNW_agenda_missions7 = { #Series name is displayed over the slot?
 		trigger = {
 			OR = {
 				custom_trigger_tooltip = {
-					tooltip = obj_convert_10_provinces_tooltip
+					tooltip = obj_convert_200_provinces_tooltip
 					check_variable = { which = num_converted_religion value = 200 }
 				}
 				num_of_forced_converted_countries = {
-					amount = 15
+					amount = 20
 				}
 			}
 			
@@ -763,7 +766,6 @@ RNW_agenda_missions8 = { #Series name is displayed over the slot?
 						any_country = { has_country_flag = RNW_agenda8_3CF }
 					}
 				}
-				is_defender_of_faith = yes
 					religious_unity = 100
 					estate_loyalty = {
 						estate = estate_church
@@ -1014,6 +1016,27 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 	}	
 
 	RNW_agenda11_2 = { 
+		icon = mission_alliances
+		required_missions = {  } #None
+		trigger = {
+			diplomatic_reputation = 5
+			prestige = 50
+			monthly_dip = 10
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "mission_modifier11_2"
+				duration = 9125 #25 years
+			}
+			all_estate_loyalty_equilibrium = 0.1
+			
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}	
+
+	RNW_agenda11_3 = { 
 		icon = mission_aztec_city_alliance
 		required_missions = { RNW_agenda11_1 } #None
 		trigger = {
@@ -1033,7 +1056,7 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "mission_modifier11_2"
+				name = "mission_modifier11_3"
 				duration = -1 #permanent
 			}
 		}
@@ -1042,12 +1065,12 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 		}
 	}
 
-	RNW_agenda11_3 = { 
+	RNW_agenda11_4 = {
 		icon = mission_alliances
 		required_missions = { RNW_agenda11_2 } #None
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = RNW_agenda11_3tt
+				tooltip = RNW_agenda11_4tt
 				any_country = {
 					is_rival = yes
 					OR = {
@@ -1062,7 +1085,7 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "mission_modifier11_3"
+				name = "mission_modifier11_4"
 				duration = 3650 #10 years
 			}
 			define_advisor = {
@@ -1076,7 +1099,7 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 		}
 	}
 
-	RNW_agenda11_4 = { 
+	RNW_agenda11_5 = { 
 		icon = mission_alliances
 		required_missions = { RNW_agenda11_3 } #None
 		trigger = {
@@ -1154,13 +1177,10 @@ RNW_agenda_missions12 = { #Series name is displayed over the slot?
 			}			
 		}
 		effect = { 
-<<<<<<< HEAD
 			mission_modifier12_2 = {
 				name = "mission_modifier12_2"
 				duration = 10950 #30 years
 			}
-=======
->>>>>>> 0866a496ec558f9ceaccfdef66f8b23d7df892b0
 			define_advisor = {
 				type = philosopher
 				skill = 1

@@ -2427,9 +2427,10 @@ pagan = {
 
 		country = {
 			land_morale = 0.1
+			global_tax_modifier = 0.2
 		}
 		country_as_secondary = {
-			global_tax_modifier = 0.2
+			
 		}
 		
 		heretic = { NAKAHI_HERETIC }

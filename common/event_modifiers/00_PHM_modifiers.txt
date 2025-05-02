@@ -109,9 +109,12 @@ mission_modifier11_1 = {
 	diplomatic_reputation = 1
 }
 mission_modifier11_2 = {
-	prestige_decay = -0.01
+	envoy_travel_time = -0.25
 }
 mission_modifier11_3 = {
+	prestige_decay = -0.01
+}
+mission_modifier11_4 = {
 	land_morale = 0.1
 }
 mission_modifier12_1 = {

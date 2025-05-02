@@ -19,6 +19,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			tag = CNI
+			always = no
 		}
 		allow = {
 			tag = CNI
@@ -326,9 +327,10 @@ country_decisions = {
 					}
 					add_core = ABL
 					cede_province = ABL
+					change_religion = nakahi
 				}				
 			}
-			
+			change_religion = nakahi
 			country_event = { id = ideagroups.1 } #Swap Ideas
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
@@ -468,9 +470,10 @@ country_decisions = {
 					}
 					add_core = WIK
 					cede_province = WIK
+					change_religion = norse
 				}
 			}
-			
+			change_religion = norse
 			country_event = { id = ideagroups.1 } #Swap Ideas
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
@@ -512,7 +515,9 @@ country_decisions = {
 				}
 				add_core = PRR
 				cede_province = PRR
+				change_religion = sunni
 			}
+			change_religion = sunni
 			country_event = { id = ideagroups.1 } #Swap Ideas
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
