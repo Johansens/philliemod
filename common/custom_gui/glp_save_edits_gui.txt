@@ -1,0 +1,752 @@
+custom_button = {
+	name = glp_save_edits
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	trigger = {
+	}
+	effect = {
+		if = {
+			limit = {
+				FROM = {
+					NOT = { has_country_flag = GLP_show_save_edits_menu }
+				}
+			}
+			FROM = {
+				set_country_flag = GLP_show_save_edits_menu
+			}
+		}
+		else = { 
+			FROM = {
+				clr_country_flag = GLP_show_save_edits_menu 
+			}
+		}
+	}
+	tooltip = GLP_save_edits_button_loc
+}
+
+#Opened Save edits window
+custom_window = {
+	name = glp_save_edits_menu_window
+	potential = {
+		FROM = { ai = no }
+		FROM = {
+			has_country_flag = GLP_show_save_edits_menu
+		}
+	}
+}
+
+#Background
+custom_icon = {
+    name = glp_save_edits_menu_bg
+    potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+}
+
+#Header text
+custom_text_box = {
+	name = glp_save_edits_menu_header
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+}
+
+#########
+#Buttons#
+#########
+custom_button = {
+	name = glp_rewards_modifier_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.28 }	
+		}	
+	}
+	tooltip = glp_rewards_modifier_loc
+}
+
+custom_button = {
+	name = glp_change_religion_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	trigger = {
+		FROM = { tag = HOD }
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.1 }	
+		}	
+	}
+	tooltip = glp_change_religion_loc
+}
+
+custom_button = {
+	name = glp_change_government_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	trigger = {
+		FROM = { tag = HOD }
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.3 }	
+		}	
+	}
+	tooltip = glp_change_government_loc
+}
+
+custom_button = {
+	name = glp_spawn_troops_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.5 }	
+		}	
+	}
+	tooltip = glp_spawn_troops_loc
+}
+
+custom_button = {
+	name = glp_spawn_ships_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	trigger = {
+		has_port = yes
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.7 }	
+		}	
+	}
+	tooltip = glp_spawn_ships_loc
+}
+
+custom_button = {
+	name = glp_change_ruler_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.9 }	
+		}	
+	}
+	tooltip = glp_change_ruler_loc
+}
+
+custom_button = {
+	name = glp_give_mana_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.13 }	
+		}	
+	}
+	tooltip = glp_give_mana_loc
+}
+
+custom_button = {
+	name = glp_military_rewards_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.14 }	
+		}	
+	}
+	tooltip = glp_military_rewards_loc
+}
+
+custom_button = {
+	name = glp_naval_rewards_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.15 }	
+		}	
+	}
+	tooltip = glp_naval_rewards_loc
+}
+
+custom_button = {
+	name = glp_general_rewards_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.16 }	
+		}	
+	}
+	tooltip = glp_general_rewards_loc
+}
+
+custom_button = {
+	name = glp_spawn_general_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.17 }	
+		}	
+	}
+	tooltip = glp_spawn_general_loc
+}
+
+custom_button = {
+	name = glp_spawn_admiral_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.19 }	
+		}	
+	}
+	tooltip = glp_spawn_admiral_loc
+}
+
+custom_button = {
+	name = glp_spawn_advisor_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.21 }	
+		}	
+	}
+	tooltip = glp_spawn_advisor_loc
+}
+
+custom_button = {
+	name = glp_change_province_religion_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.24 }	
+		}	
+	}
+	tooltip = glp_change_province_religion_loc
+}
+
+custom_button = {
+	name = glp_ai_fixes_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.23 }	
+		}	
+	}
+	tooltip = glp_ai_fixes_loc
+}
+
+custom_button = {
+	name = glp_remove_autonomy_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		add_local_autonomy = -100
+		owner = {
+			country_event = { id = glp_gm_events.3 }	
+		}
+	}
+	tooltip = glp_remove_autonomy_loc
+}
+
+custom_button = {
+	name = glp_spawn_next_isntitution_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		add_next_institution_embracement = 100
+		owner = {
+			country_event = { id = glp_gm_events.4 }	
+		}
+	}
+	tooltip = glp_spawn_next_isntitution_loc
+}
+
+custom_button = {
+	name = glp_donate_ducats_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.25 }	
+		}	
+	}
+	tooltip = glp_donate_ducats_loc
+}
+
+custom_button = {
+	name = glp_release_province_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	trigger = {
+		FROM = { tag = HOD }
+		is_capital = no
+	}
+	effect = {
+		hidden_effect = {
+			FROM = { country_event = { id = glp_save_edit_events.26 } }
+		}
+	}
+	tooltip = glp_release_province_loc
+}
+
+custom_button = {
+	name = glp_release_all_possible_provs_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	trigger = {
+		FROM = { tag = HOD }
+		owner = {
+			ai = yes
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.27 }	
+		}	
+	}
+	tooltip = glp_release_all_possible_provs_loc
+}
+
+custom_button = {
+	name = glp_change_comet_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	trigger = {
+		FROM = { tag = HOD }
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.34 }
+		}
+	}
+	tooltip = glp_change_comet_loc
+}
+
+custom_button = {
+	name = glp_spawn_npc_advisor_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.35 }	
+		}	
+	}
+	tooltip = glp_spawn_npc_advisor_loc
+}
+
+custom_button = {
+	name = glp_toast_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	trigger = {
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.41 }
+		}
+	}
+	tooltip = glp_toast_loc
+}
+
+custom_button = {
+	name = glp_province_buildup_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	trigger = {
+		FROM = { tag = HOD }
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.71 }	
+		}	
+	}
+	tooltip = glp_province_buildup_loc
+}
+
+#HIDE BUILDINGS BUTTON
+custom_button = {
+	name = buildings_button
+	potential = {
+		FROM = {
+			NOT = { has_country_flag = GLP_show_save_edits_menu }
+		}
+	}
+}
+
+#Exit
+custom_button = {
+	name = glp_close_save_edits_menu
+	potential = {
+		FROM = {
+			has_country_flag = GLP_show_save_edits_menu
+		}
+	}
+	trigger = {
+	}
+	effect = {
+		FROM = {
+			clr_country_flag = GLP_show_save_edits_menu 
+		}
+	}
+	tooltip = GLP_save_edits_close_button_loc
+}
+
+###################################
+#		GLP 2024 Buttons
+###################################
+
+custom_button = {
+	name = glp_ignore_tech_formation_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	trigger = {
+		FROM = { tag = HOD }
+	}
+	effect = {
+		if = {
+			limit = {
+				owner = {
+					NOT = { has_country_flag = glp_can_ignore_tech_formations_flag }
+				}
+			}
+			owner = {
+				set_country_flag = glp_can_ignore_tech_formations_flag
+			}
+		}
+		else = {
+			owner = {
+				clr_country_flag = glp_can_ignore_tech_formations_flag
+			}
+		}
+	}
+	tooltip = glp_ignore_tech_formation_loc
+}
+
+custom_button = {
+	name = glp_remove_ae_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	trigger = {
+		FROM = { tag = HOD }
+	}
+	effect = {
+		owner = {
+			every_country = {
+				limit = {
+					has_opinion_modifier = {
+						who = PREV
+						modifier = aggressive_expansion
+					}
+				}
+				remove_opinion = {
+					who = PREV
+					modifier = aggressive_expansion
+				}
+			}
+		}
+	}
+	tooltip = glp_remove_ae_loc
+}
+
+custom_button = {
+	name = glp_change_trade_good_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	trigger = {
+		#FROM = { tag = HOD }
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_2024_events.20 }
+		}	
+	}
+	tooltip = glp_change_trade_good_loc
+}
+
+custom_button = {
+	name = glp_add_estate_loyalty_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = CHV }
+				FROM = { tag = HOD }
+			}
+		}
+	}
+	trigger = {
+		#FROM = { tag = HOD }
+	}
+	effect = {
+		owner = {
+			add_estate_church_loyalty_effect = yes
+			add_estate_dhimmi_loyalty_effect = yes
+			add_estate_nobles_loyalty_effect = yes
+			add_estate_burghers_loyalty_effect = yes
+			add_estate_cossacks_loyalty_effect = yes
+			if = {
+				limit = {
+					has_estate = estate_nomadic_tribes
+				}
+				add_estate_loyalty = {
+					estate = estate_nomadic_tribes
+					loyalty = 10
+				}
+			}
+			if = {
+				limit = {
+					has_estate = estate_eunuchs
+				}
+				add_estate_loyalty = {
+					estate = estate_eunuchs
+					loyalty = 10
+				}
+			}
+			if = {
+				limit = {
+					has_estate = estate_janissaries
+				}
+				add_estate_loyalty = {
+					estate = estate_janissaries
+					loyalty = 10
+				}
+			}
+			if = {
+				limit = {
+					has_estate = estate_qizilbash
+				}
+				add_estate_loyalty = {
+					estate = estate_qizilbash
+					loyalty = 10
+				}
+			}
+			if = {
+				limit = {
+					has_estate = estate_ghulams
+				}
+				add_estate_loyalty = {
+					estate = estate_ghulams
+					loyalty = 10
+				}
+			}
+			country_event = { id = glp_2024_events.22 }
+		}
+	}
+	tooltip = glp_add_estate_loyalty_loc
+}

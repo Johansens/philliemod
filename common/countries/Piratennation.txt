@@ -3,132 +3,131 @@ graphical_culture = westerngfx
 color = { 188 102 110 }
 revolutionary_colors = { 0 10 0 }
 
-historical_idea_groups = {
-	trade_ideas
-	defensive_ideas
-	economic_ideas
-	maritime_ideas
-	offensive_ideas
-	innovativeness_ideas
-	quality_ideas
-	quantity_ideas
-}
-
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	african_spearmen
+	mali_tribal_warfare
+	african_hill_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+	african_western_franchise_warfare
+	african_mandelaku
+	african_tuareg_cavalry
+	african_mossi_horsemen
+	african_hussar
+	african_dragoon
 }
 
 monarch_names = {
-	"Friedrich #2" = 60
-	"Albrecht #1" = 50
-	"Friedrich #2 Wilhelm" = 40
-	"Friedrich #2 August" = 30
-	"Ferdinand #0" = 30
-	"Wilhelm #0" = 30
-	"Karl #4" = 20
-	"Christian #0" = 20
-	"Johann #0 Georg" = 20
-	"Maximilian #0" = 20
-	"Franz #0" = 20
-	"Joseph #0" = 20
-	"Heinrich #7" = 15
-	"Karl #4 Albrecht" = 15
-	"Karl #4 Theodor" = 15
-	"Friedrich #2 Albrecht" = 15
-	"Friedrich #2 Christian" = 15
-	"Albrecht #1 Achilles" = 15
-	"August #0" = 15
-	"Ernest #0" = 15
-	"Ferdinand #0 Maria" = 15
-	"Franz #0 Stefan" = 15
-	"Georg #0" = 15
-	"Georg #0 Wilhelm" = 15
-	"Joachim #0 Hector" = 15
-	"Joachim #0 Nestor" = 15
-	"Johann #0" = 15
-	"Johann #0 Cicero" = 15
-	"Johann #0 Friedrich" = 15
-	"Johann #0 Siegmund" = 15
-	"Ladislav #0" = 15
-	"Leopold #0" = 15
-	"Matthias #0" = 15
-	"Mortiz #0" = 15
-	"Siegmund #0" = 15
-	"Karl #4 Joseph" = 10
-	"Ludwig #4" = 10
-	"August #0 Wilhelm" = 10
-	"Wilhelm #0 Friedrich" = 10
-	"Alexander #0" = 10
-	"Anton #0" = 10
-	"Christian #0 Albrecht" = 10
-	"Hektor #0" = 10
-	"Johann #0 Karl" = 10
-	"Johann #0 Leopold" = 10
-	"Leopold #0 Ferdinand" = 10 
-	"Leopold #0 Johann" = 10
-	"Maximilian #0 Philipp" = 10
-	"Ruprecht #0" = 10
-	"Wenzel #0" = 10
+	"Mule #0" = 20
+	"Mamadu #1" = 40
+	"Al-Hajj #0" = 60
+	"'Ali Zalil #0" = 20
+	"Muhammad #0" = 60
+	"Da'ud #0" = 20
+	"Bakari #0" = 20
+	"'Abd al-Rahman #0" = 20
+	"Bakr #0" = 20
+	"Al-Mukhtar #0" = 20
+	"Mahmud #1" = 20
+	"Majan #0" = 0
+	"Birahim #0" = 0
+	"'Ali #0" = 0
+	"Amada Sire #0" = 0
+	"Nguia #0" = 0
+	"Bubu #0" = 0
+	"Ilo #0" = 0
+	"Kanta #0" = 0
+	"Al-Mansur #0" = 0
+	"'Ammar #0" = 0
+	"Sa'ud 'Arjud #0" = 0
+	"Haddu #0" = 0
+	"Sa'id #0" = 0
+	"Dhu al-Nun #0" = 0
+	"'Abd Allah #0" = 0
+	"Nasr #0" = 0
+	"Yahya #0" = 0
+	"Sanibar #0" = 0
+	"Hammadi #0" = 0
+	"'Abbas #0" = 0
+	"Benkano #0" = 0
+	"Zenka #0" = 0
+	"Mami #0" = 0
+	"Ba-Bakribin #0" = 0
+	"'Abd al-Qadir #0" = 0
+	"Yusuf #0" = 0
+	"Santa'a #0" = 0
+	"Al-Fa' Ibrahim #0" = 0	
+	"Sandaki #0" = 0
 	
-	"Ortrun #0" = -1
-	"Marianne #0" = -1
-	"Raffaela #0" = -1
+	"Amna #0" = -1
+	"Ghadir #0" = -1
+	"Sogolon #0" = -1
+	"Pog-wabga #0" = -1
+	"Yennenga #0" = -1
+	"Woodes  #0" = 10
+	"Black  #0" = 10
+	"Howell  #0" = 10
+	"Calico  #0" = 10
+	"Lessone  #0" = 10
+	"Lawrence  #0" = 10
+	"Lewis  #0" = 10
+	"John  #0" = 10	
+	"Roche  #0" = 10
+	"James  #0" = 10
+	"Assan  #0" = 10
+	"Dirck #0" = 10
+	
+	"Jane #0" = -1
 }
 
-leader_names = { 
-	Adam Angermann Appelt Arndt Beck Becker Bening Blasius
-	Brilz Br�ser B�ttner Carl Dahm Deneke Eckstein Edelmann 
-	Elsner Feil Fischer Franke Giewer Haase Hafner Hertel 
-	Hirsch H�hn Kammel Keller Kessler Koeppe Kohn Kr�mer
-	Kuhn Lindner Mertesdorf Meyer Mick M�ller Necker Noell 
-	Oelgem�ller Raabe Rainer Scharfbillig Schave Scheler 
-	Schmitt Schneider Schumann Stephan Thelen Trierweiler
-	Uhlig "von Franken" "von Rothenburg" "von Schwaben"
-	"von Vitzgau" "von Weimar" Wachsmuth Wacht "von Werl"
-	Walther Wecker
+leader_names = {
+	Konare
+	Deo
+	Keita
+	Traor�
+	Toure
+	Diarra
+	Moussa
+	Modibo
+	Amadou
+	Toumani
+	Alvel Cavendish "de Bouff" Brower Barton
+	Hein Noort Easton Rais Verney Rous Reis
+	Davis Collier Greaves Bellamy Every Vane
+	Rogers Taylor Vorley Kelly Howard Halsey
 }
 
 ship_names = {
-	"Adler von L�beck" "Admiralit�t von Hamburg" "Arche Noah" "Brandenburgischer Dragoner" "Brunte Kuh" "Charlotte Louise" "Churf�rst von Brandenburg"
-	"Churf�rtstlische Liebjagd" "Churprinz von Brandenburg" "Clevesche Lindenbaum" "Der Gro�e Adler" "Der Jungste Prinz von Churlandt" "Der Rote L�ve"
-	"Die Drey Heringe" "Die Sieben Provinzien" "Drei Heringe" "Engel Gabriel" "Fliegender Drache" "Fliegender Hirsch" "Friedrich Carl" "Friedrich der Gro�e"
-	"Friedrich Wilhelm zu Pferde" "Friedrich Wilhelm" "F�chslein" "Gelber L�ve" "Goldener L�ve" "Grafschaft Mark" "Gro�e Jacht" "Gro�er Kurf�rst" "Gr�ner Drache"
-	"Herzogtum Cleve" "Jacobus Major" "Jacobus Minor" "Jesus von L�beck" "Johannes de Evangelist" "Jonge Tobias" "Kaiser Barbarossa" "Kaiser Karl der Gro�e"
-	"Kaiserin Augusta" "Kastell Spandau" "Kronprinz van Preu�en" "K�nig Albert" "K�nig David" "K�nig von Preu�en" "K�nig von Spanien" "K�nig Wilhelm" "Leopoldus Primus"
-	"Lisa von L�beck" "Littauer Bauer" "Lovise Charlotte" "Lybischer Trotz" "L�bscher Adler" "Maria Catharina" "Markgraf von Brandenburg" "Meve von Churlandt"
-	"Nordischer L�we" "Peter und Paul" "Peter von Danzig" "Preu�ischer Adler" "Princess Maria" "Prinz Adalbert" "Prinz Ludwig" "Prinz Philipp" "Prinz von Preu�en"
-	"Prinz Wilhelm" "Prinzess Maria" "Prinzess Wilhelm" "Prinzessin von Churlandt" "Prinzregent Luitpold" "Prophet Daniel" "Ritter Sankt Georg" "Roter Hirsch"
-	"Rother L�ve" "Sankt Johannes der T�ufer" "Sankt Josef" "Sankt Laurens" "Sankt Peter" "Schloss Oranienburg" "Schwarzer Rabe" "Sieben Provinzien" "Stad Emden"
-	"Victoria Louise" "Vogel Greif" "Wapen von Bremen" "Wapen von Hamburg" "Wappen des Herzogs Jacobus" "Wappen von Brandenburg" "Wappen von Bremen"
-	"Wappen von Churlandt" "Wappen von Cleve" "Wappen von Herzoginnen Lovise" "Wappen von Hessen Homburg" "Wei�er L�we" "Wilhelmina Margaretta" "Wilhelmine Margrethe"
-	"Zwei Br�der" Afrikaner Amazone Anna Arminius Barbarossa Basilisk Bayern Beowulf Berlin Bersteinf�nger Bielefeld Blitz Blumentopf Bracke Brandenburg Braunschweig
-	Britannia Bulle Bussard Camaeleon Cavalier Churprinz Clementia Cleve Colonia Comet Concordia Condor Constantia Cormoran Crokodil Cyclop Dame Danzig Delphin
-	Derffinger Deutschland Dorothea Drache Eichhorn Elent Elsa� Engel Falke Feuerblase Fidelitas Fortitudo Fortuna Frauenlob Freya Friede Frithjof Fuchs Gabriel
-	Gazelle Gefion Geier Grille Grossfriedrichburg Gr�nlandfahrer Habicht Hagen Hannover Hansa Hay Heimdall Hela Helgoland Hertha Hessen Hildebrand Hoffning Hy�ne
-	Innocentia Invidia Irene Isl�nder Johannesburg Jupiter J�ger Kaiser Kaiserin Kronprinz Kurprinz Leopard Levitas Lothringen Lux Makarele Maria Mars Mecklenburg
-	Meermann Meerweib Mercurius Merkur Meteor Meve Mohr Mohrian Morian Mummelpot Musquito Nassau Natter Neptun Neptunus Niobe Odin Oldenburg Orpheus Pallas Parsimonia
-	Patienta Pax Pfeil Pierelepomp Pietas Pommern Posen Post Potsdam Preu�en Prosperpina Prudentia Rheinland Ringeltaube Roland Rommelpot Roon Rosenfelde Rover Sachsen
-	Salamander Schwalbe Schwann Scientia Seeadler Seemoewe Seeritter Siegfried Spandau Sperber Stralsund Syrig Temperantia Thetis Tiger Undine Vineta Walfisch Wasserhund
-	Weissenburg Wespe Westfalen Wettin Windhund Wittelsbach Wolkens�ule W�rttemberg W�rth Z�hringen �gir
-}
-
-army_names = {
-	"Kaiserliche Armee" "Armee von $PROVINCE$" 
-}
-
-fleet_names = {
-	"Kaiserliche Flotte"
+	Kiringa Timbuktu "Koumbi Saleh" Gao
+	Jenne "Sundiata Keita" "Kankan Musa"
+	"Kouroukan Fouga" "Wali Keita" "Quati Keita"
+	"Khalifa Keita" Sakura
+	"Captain's Horror"
+	"Death"
+	"Disgraceful Strumpet"
+	"Dragon's Gold"
+	"Executioner"
+	"Killer's Fearful Storm"
+	"Murderer's Death"
+	"Privateer's Strumpet"
+	"The Damned Killer"
+	"The Dark Dagger"
+	"The Dirty Blade"
+	"The Dirty Scream"
+	"The Doom of the Ocean"
+	"The Dreaming Demon"
+	"The Fallen Raider"
+	"The Fear of the Demon"
+	"The Foul Whore"
+	"The Gold Cutlass"
+	"The Hell-born"
+	"The Horrid Compass"
+	"The Horrible Raider"
+	"The Howling Wolf"
+	"The Lustful Hangman"
+	"The Nightmare"
+	"The Poison Death"
+	"The Serpent"
+	"The Vicious Murderer"
+	"The Vile Saber"
 }

@@ -4,131 +4,138 @@ color = { 111 79 4 }
 revolutionary_colors = { 0 10 0 }
 
 historical_idea_groups = {
+	maritime_ideas
+	indigenous_ideas
+	economic_ideas
+	naval_ideas
+	religious_ideas
 	trade_ideas
 	defensive_ideas
-	economic_ideas
-	maritime_ideas
-	offensive_ideas
-	innovativeness_ideas
-	quality_ideas
-	quantity_ideas
+	spy_ideas
 }
 
 historical_units = {
-	western_medieval_infantry
-	western_medieval_knights
-	western_men_at_arms
-	swiss_landsknechten
-	dutch_maurician
-	austrian_tercio
-	austrian_grenzer
-	austrian_hussar
-	austrian_white_coat
-	austrian_jaeger
-	mixed_order_infantry
-	open_order_cavalry
-	napoleonic_square
-	napoleonic_lancers
+	pacific_spearman
+	pacific_reformed_spearman
+	pacific_horseman
+	pacific_island_warriors
+	pacific_cavalry
+	pacific_arquebusier
+	pacific_hussar
+	pacific_swarm_cav
+	pacific_riflemen
+	pacific_dragoon
+	pacific_guerrillas
 }
+
 
 monarch_names = {
-	"Friedrich #2" = 60
-	"Albrecht #1" = 50
-	"Friedrich #2 Wilhelm" = 40
-	"Friedrich #2 August" = 30
-	"Ferdinand #0" = 30
-	"Wilhelm #0" = 30
-	"Karl #4" = 20
-	"Christian #0" = 20
-	"Johann #0 Georg" = 20
-	"Maximilian #0" = 20
-	"Franz #0" = 20
-	"Joseph #0" = 20
-	"Heinrich #7" = 15
-	"Karl #4 Albrecht" = 15
-	"Karl #4 Theodor" = 15
-	"Friedrich #2 Albrecht" = 15
-	"Friedrich #2 Christian" = 15
-	"Albrecht #1 Achilles" = 15
-	"August #0" = 15
-	"Ernest #0" = 15
-	"Ferdinand #0 Maria" = 15
-	"Franz #0 Stefan" = 15
-	"Georg #0" = 15
-	"Georg #0 Wilhelm" = 15
-	"Joachim #0 Hector" = 15
-	"Joachim #0 Nestor" = 15
-	"Johann #0" = 15
-	"Johann #0 Cicero" = 15
-	"Johann #0 Friedrich" = 15
-	"Johann #0 Siegmund" = 15
-	"Ladislav #0" = 15
-	"Leopold #0" = 15
-	"Matthias #0" = 15
-	"Mortiz #0" = 15
-	"Siegmund #0" = 15
-	"Karl #4 Joseph" = 10
-	"Ludwig #4" = 10
-	"August #0 Wilhelm" = 10
-	"Wilhelm #0 Friedrich" = 10
-	"Alexander #0" = 10
-	"Anton #0" = 10
-	"Christian #0 Albrecht" = 10
-	"Hektor #0" = 10
-	"Johann #0 Karl" = 10
-	"Johann #0 Leopold" = 10
-	"Leopold #0 Ferdinand" = 10 
-	"Leopold #0 Johann" = 10
-	"Maximilian #0 Philipp" = 10
-	"Ruprecht #0" = 10
-	"Wenzel #0" = 10
-	
-	"Ortrun #0" = -1
-	"Marianne #0" = -1
-	"Raffaela #0" = -1
+	"Aata #0" = 1
+	"Ahika #0" = 1
+	"Akahata #0" = 1
+	"Amahau #0" = 1
+	"Apera #0" = 1
+	"Aperahama #0" = 1
+	"Arapeta #0" = 1
+	"Ari #0" = 1
+	"Atama #0" = 1
+	"Atawhai #0" = 1
+	"Etera #0" = 1
+	"Hahona #0" = 1
+	"Haimona #0" = 1
+	"Harata #0" = 1
+	"Hau #0" = 1
+	"Hehu #0" = 1
+	"Heketoro #0" = 1
+	"Henare #0" = 1
+	"Hohepa #0" = 1
+	"Huatare #0" = 1
+	"Hunapo #0" = 1
+	"Hunu #0" = 1
+	"Iarere #0" = 1
+	"Iehohapata #0" = 1
+	"Ieni #0" = 1
+	"Ietepere #0" = 1
+	"Ietoro #0" = 1
+	"Ihaia #0" = 1
+	"Ihaka #0" = 1
+	"Ihu #0" = 1
+	"Ikaroa #0" = 1
+	"Iorama #0" = 1
+	"Iorangi #0" = 1
+	"Iotama #0" = 1
+	"Iraia #0" = 1
+	"Irirangi #0" = 1
+	"Iwi #0" = 1
+	"Kahurangi #0" = 1
+	"Kai #0" = 1
+	"Kaihautu #0" = 1
+	"Kamaka #0" = 1
+	"Kauri #0" = 1
+	"Koraka #0" = 1
+	"Mahaka #0" = 1
+	"Manaaki #0" = 1
+	"Manaia #0" = 1
+	"Manawa #0" = 1
+	"Matiu #0" = 1
+	"Moana #0" = 1
+	"Nikau #0" = 1
+	"Purta #0" = 1
+	"Puta #0" = 1
+	"Rangi #0" = 1
+	"Rapata #0" = 1
+	"Rawiri #0" = 1
+	"Rongo #0" = 1
+	"Ropata #0" = 1
+	"Ruru #0" = 1
+	"Tai #0" = 1
+	"Taika #0" = 1
+	"Tama #0" = 1
+	"Tane #0" = 1
+	"Tanemahuta #0" = 1
+	"Tangaroa #0" = 1
+	"Tawera #0" = 1
+	"Tawhiri #0" = 1
+	"Tayn #0" = 1
+	"Te-Ariki #0" = 1
+	"Tia #0" = 1
+	"Tui #0" = 1
+
+	"Aaria #0" = -1
+	"Amaia #0" = -1
+	"Ana #0" = -1
+	"Anahera #0" = -1
+	"Aroha #0" = -1
+	"Ataahua #0" = -1
+	"Awhina #0" = -1
+	"Hana #0" = -1
+	"Kahurangi #0" = -1
+	"Kaia #0" = -1
+	"Kara #0" = -1
+	"Kora #0" = -1
+	"Maia #0" = -1
+	"Manaia #0" = -1
+	"Manawa #0" = -1
+	"Moana #0" = -1
+	"Rui #0" = -1
+	"Te-Ao #0" = -1
+	"Te-Aroha #0" = -1
+	"Tia #0" = -1
+	"Tui #0" = -1
 }
 
-leader_names = { 
-	Adam Angermann Appelt Arndt Beck Becker Bening Blasius
-	Brilz Br�ser B�ttner Carl Dahm Deneke Eckstein Edelmann 
-	Elsner Feil Fischer Franke Giewer Haase Hafner Hertel 
-	Hirsch H�hn Kammel Keller Kessler Koeppe Kohn Kr�mer
-	Kuhn Lindner Mertesdorf Meyer Mick M�ller Necker Noell 
-	Oelgem�ller Raabe Rainer Scharfbillig Schave Scheler 
-	Schmitt Schneider Schumann Stephan Thelen Trierweiler
-	Uhlig "von Franken" "von Rothenburg" "von Schwaben"
-	"von Vitzgau" "von Weimar" Wachsmuth Wacht "von Werl"
-	Walther Wecker
+leader_names = {
+	Aata Ahika Akahata Amahau Anewa Apera Aperahama Arapeta Ari Atama Atawhai Etera Hahona Haimona Harata Hau Hehu 
+	Heketoro Henare Hohepa Huatare Hunapo Hunu Iarere Iehohapata Ieni Ietepere Ietoro Ihaia Ihaka Ihu Ikaroa Iorama
+	Iorangi Iotama Iraia Irirangi Iwi Kahurangi Kai Kaihautu Kamaka Kauri Koraka Mahaka Manaaki Manaia Manawa Matiu 
+	Moana Nikau Purta Puta Rangi Rapata Rawiri Rongo Ropata Ruru Tai Taika Tama Tane Tanemahuta Tangaroa Tawera Tawhiri 
+	Tayn Te-Ariki Tia Tui
 }
 
 ship_names = {
-	"Adler von L�beck" "Admiralit�t von Hamburg" "Arche Noah" "Brandenburgischer Dragoner" "Brunte Kuh" "Charlotte Louise" "Churf�rst von Brandenburg"
-	"Churf�rtstlische Liebjagd" "Churprinz von Brandenburg" "Clevesche Lindenbaum" "Der Gro�e Adler" "Der Jungste Prinz von Churlandt" "Der Rote L�ve"
-	"Die Drey Heringe" "Die Sieben Provinzien" "Drei Heringe" "Engel Gabriel" "Fliegender Drache" "Fliegender Hirsch" "Friedrich Carl" "Friedrich der Gro�e"
-	"Friedrich Wilhelm zu Pferde" "Friedrich Wilhelm" "F�chslein" "Gelber L�ve" "Goldener L�ve" "Grafschaft Mark" "Gro�e Jacht" "Gro�er Kurf�rst" "Gr�ner Drache"
-	"Herzogtum Cleve" "Jacobus Major" "Jacobus Minor" "Jesus von L�beck" "Johannes de Evangelist" "Jonge Tobias" "Kaiser Barbarossa" "Kaiser Karl der Gro�e"
-	"Kaiserin Augusta" "Kastell Spandau" "Kronprinz van Preu�en" "K�nig Albert" "K�nig David" "K�nig von Preu�en" "K�nig von Spanien" "K�nig Wilhelm" "Leopoldus Primus"
-	"Lisa von L�beck" "Littauer Bauer" "Lovise Charlotte" "Lybischer Trotz" "L�bscher Adler" "Maria Catharina" "Markgraf von Brandenburg" "Meve von Churlandt"
-	"Nordischer L�we" "Peter und Paul" "Peter von Danzig" "Preu�ischer Adler" "Princess Maria" "Prinz Adalbert" "Prinz Ludwig" "Prinz Philipp" "Prinz von Preu�en"
-	"Prinz Wilhelm" "Prinzess Maria" "Prinzess Wilhelm" "Prinzessin von Churlandt" "Prinzregent Luitpold" "Prophet Daniel" "Ritter Sankt Georg" "Roter Hirsch"
-	"Rother L�ve" "Sankt Johannes der T�ufer" "Sankt Josef" "Sankt Laurens" "Sankt Peter" "Schloss Oranienburg" "Schwarzer Rabe" "Sieben Provinzien" "Stad Emden"
-	"Victoria Louise" "Vogel Greif" "Wapen von Bremen" "Wapen von Hamburg" "Wappen des Herzogs Jacobus" "Wappen von Brandenburg" "Wappen von Bremen"
-	"Wappen von Churlandt" "Wappen von Cleve" "Wappen von Herzoginnen Lovise" "Wappen von Hessen Homburg" "Wei�er L�we" "Wilhelmina Margaretta" "Wilhelmine Margrethe"
-	"Zwei Br�der" Afrikaner Amazone Anna Arminius Barbarossa Basilisk Bayern Beowulf Berlin Bersteinf�nger Bielefeld Blitz Blumentopf Bracke Brandenburg Braunschweig
-	Britannia Bulle Bussard Camaeleon Cavalier Churprinz Clementia Cleve Colonia Comet Concordia Condor Constantia Cormoran Crokodil Cyclop Dame Danzig Delphin
-	Derffinger Deutschland Dorothea Drache Eichhorn Elent Elsa� Engel Falke Feuerblase Fidelitas Fortitudo Fortuna Frauenlob Freya Friede Frithjof Fuchs Gabriel
-	Gazelle Gefion Geier Grille Grossfriedrichburg Gr�nlandfahrer Habicht Hagen Hannover Hansa Hay Heimdall Hela Helgoland Hertha Hessen Hildebrand Hoffning Hy�ne
-	Innocentia Invidia Irene Isl�nder Johannesburg Jupiter J�ger Kaiser Kaiserin Kronprinz Kurprinz Leopard Levitas Lothringen Lux Makarele Maria Mars Mecklenburg
-	Meermann Meerweib Mercurius Merkur Meteor Meve Mohr Mohrian Morian Mummelpot Musquito Nassau Natter Neptun Neptunus Niobe Odin Oldenburg Orpheus Pallas Parsimonia
-	Patienta Pax Pfeil Pierelepomp Pietas Pommern Posen Post Potsdam Preu�en Prosperpina Prudentia Rheinland Ringeltaube Roland Rommelpot Roon Rosenfelde Rover Sachsen
-	Salamander Schwalbe Schwann Scientia Seeadler Seemoewe Seeritter Siegfried Spandau Sperber Stralsund Syrig Temperantia Thetis Tiger Undine Vineta Walfisch Wasserhund
-	Weissenburg Wespe Westfalen Wettin Windhund Wittelsbach Wolkens�ule W�rttemberg W�rth Z�hringen �gir
-}
-
-army_names = {
-	"Kaiserliche Armee" "Armee von $PROVINCE$" 
-}
-
-fleet_names = {
-	"Kaiserliche Flotte"
+	Aotea Aotearoa Arahura Araiteuru Arautauta Hinakipakau-o-te-Rupe Horouta Kahutara Karaerae Kurahaupo Mahanhaatuamatua
+	Mahuku-ki-te-Rangi Manuka Mamari Mataatua Matahourua Moekakara Motumotuahi Ngatokimatawhaorua Nuku-tai-Memeha Nukutere
+	Okoki Oturereao Pangatoru Riukakara Ruakaramea Tahatuna Taikoria Tairea Takitimu Tauira Tawhirirangi Te-Aratauwhaiti Te-Aratawhao 
+	Te-Arawa Te-Hoiere Te-Kohatuwhenua Te-Mamaru Te-Paepae-ki-Rarotonga Te-Rangimatoru Te-Rangiuamutu Te-Ririno Te-Wakaringaringa Te-Wakatuwhenua
+	Tinana Tokomaru Totara-i-Karia Tunui-a-Rangi Tuwhenua Uruaokapuarangi Waipapa
 }

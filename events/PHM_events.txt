@@ -1,0 +1,52 @@
+namespace = PHM_missions_events
+
+
+
+country_event= {
+    id = PHM_missions_events.1
+    title = PHM_missions_events.1.t
+    desc = PHM_missions_events.1.d
+    pictrue = HRE_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = "PHM_missions_events.A1"
+        trigger = {
+            primary_culture = maori
+        }
+        ai_chance = {
+           factor =  1
+        }
+        add_country_modifier = {
+            name = "event_modifier1_1"
+            duration = -1 
+        }
+    }
+    option = {
+        name = "PHM_missions_events.B1"
+        trigger = {
+            religion = nakahi
+        }
+        ai_chance = {
+           factor =  1
+        }
+        add_country_modifier = {
+            name = "event_modifier1_2"
+            duration = -1 
+        }
+    }
+    option = {
+        name = "PHM_missions_events.C1"
+        trigger = {
+            religion_group = christian
+        }
+        ai_chance = {
+           factor =  1
+        }
+        add_country_modifier = {
+            name = "event_modifier1_3"
+            duration = -1
+        }
+    }
+}

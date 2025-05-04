@@ -1,0 +1,86 @@
+
+
+new_world_tech_cost1 = {
+	potential = {
+		OR = {
+			tag = CNA
+			tag = CNE
+			tag = CNI
+			tag = CNS
+			tag = CNZ
+		}
+		NOT = { is_year = 1475 }
+	}
+	trigger = {
+		NOT = { is_year = 1475 }
+	}
+	technology_cost = 0.5
+}
+new_world_tech_cost2 = {
+	potential = {
+		OR = {
+			tag = CNA
+			tag = CNE
+			tag = CNI
+			tag = CNS
+			tag = CNZ
+		}
+		is_year = 1475
+		NOT = { is_year = 1505 }
+	}
+	trigger = {
+		NOT = { is_year = 1505 }
+	}
+	technology_cost = 0.4
+}
+new_world_tech_cost3 = {
+	potential = {
+		OR = {
+			tag = CNA
+			tag = CNE
+			tag = CNI
+			tag = CNS
+			tag = CNZ
+		}
+		is_year = 1505
+		NOT = { is_year = 1535 }
+	}
+	trigger = {
+		NOT = { is_year = 1535 }
+	}
+	technology_cost = 0.3
+}
+new_world_tech_cost4 = {
+	potential = {
+		OR = {
+			tag = CNA
+			tag = CNE
+			tag = CNI
+			tag = CNS
+			tag = CNZ
+		}
+		is_year = 1535
+		NOT = { is_year = 1565 }
+	}
+	trigger = {
+		NOT = { is_year = 1565 }
+	}
+	technology_cost = 0.2
+}
+new_world_tech_cost5 = {
+	potential = {
+		OR = {
+			tag = CNA
+			tag = CNE
+			tag = CNI
+			tag = CNS
+			tag = CNZ
+		}
+		is_year = 1565
+		NOT = { is_year = 1595 }
+	}
+	trigger = {
+		NOT = { is_year = 1595 }
+	}
+	technology_cost = 0.1
+}

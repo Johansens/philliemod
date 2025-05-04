@@ -110,6 +110,7 @@ mission_modifier11_1 = {
 }
 mission_modifier11_2 = {
 	envoy_travel_time = -0.25
+	all_estate_loyalty_equilibrium = 0.1
 }
 mission_modifier11_3 = {
 	prestige_decay = -0.01
@@ -123,4 +124,81 @@ mission_modifier12_1 = {
 }
 mission_modifier12_2 = {
 	yearly_absolutism = 0.1
+}
+
+
+event_modifier1_1 = {
+	naval_maintenance_modifier = -0.1
+	global_naval_engagement_modifier = 0.1
+}
+event_modifier1_2 = {
+	defensiveness = 0.2
+	land_attrition = -0.15
+}
+event_modifier1_3 = {
+	technology_cost = -0.1
+}
+dan_pro_modifier = {
+	monthly_splendor = 2
+	global_tax_income = 36 
+}
+
+
+#save edit modifier
+
+
+glp_quest_reward_colonist = {
+	colonists = 1
+}
+
+glp_quest_reward_settler = {
+	range = 0.15
+	global_colonial_growth = 15
+	colonist_placement_chance = 0.1
+}
+
+glp_quest_reward_missionary = {
+	missionaries = 2
+}
+
+glp_quest_reward_conversion = {
+	culture_conversion_cost = -0.15
+	missionary_maintenance_cost = -0.15
+	global_missionary_strength = 0.02
+}
+
+glp_quest_reward_mercenary = {
+	mercenary_cost = -0.05
+	mercenary_manpower = 0.05
+}
+
+glp_quest_reward_mercenary_inf = {
+	mercenary_cost = -0.05
+	mercenary_manpower = 0.05
+}
+
+glp_quest_reward_mercenary_art = {
+	mercenary_cost = -0.05
+	mercenary_manpower = 0.05
+}
+
+glp_quest_reward_trader = {
+	global_trade_power = 0.15
+	trade_range_modifier = 0.25
+	trade_efficiency = 0.05
+	trade_steering = 0.2
+}
+
+glp_quest_reward_stability = {
+	global_unrest = -2
+	global_autonomy = -0.015
+	monthly_reform_progress = 0.025
+	war_exhaustion = -0.01
+}
+
+glp_quest_reward_diplomatic = {
+	diplomatic_upkeep = 1
+	improve_relation_modifier = 0.15
+	diplomatic_reputation = 2
+	reduced_liberty_desire = 15
 }

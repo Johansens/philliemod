@@ -367,3 +367,44 @@ philli_WIK_ideas  = {
 		enemy_core_creation = 2
 	}
 }
+PRE_ideas = {
+	start = {
+		infantry_power = 0.15
+		movement_speed_in_fleet_modifier = 1
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = PRE
+	}
+	free = yes
+	
+	PRE1 = {
+		naval_morale = 0.15
+		may_perform_slave_raid = yes
+	}
+	PRE2 = {
+		global_trade_goods_size = 0.1
+	}
+	PRE3 = {
+		global_prov_trade_power_modifier = 0.2
+	}
+	PRE4 = {
+		galley_power = 0.2
+	}
+	PRE5 = {
+		trade_efficiency = 0.15
+		loot_amount = 2
+	}
+	PRE6 = {
+		local_build_cost = 0.15
+		global_allowed_num_of_buildings = 1
+	}
+	PRE7 = {
+		garrison_size = 0.4
+		artillery_fire = 1
+	}	
+}

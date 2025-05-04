@@ -3,21 +3,6 @@ country_decisions = {
 	update_missions_debug = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
-			tag = POR
-			always = no
-		}
-		allow = {
-			tag = POR
-		}
-		effect = {
-			swap_non_generic_missions = yes
-		}
-	}
-
-	update_missions_debug = {
-		major = yes
-		potential = {
 			tag = CNI
 			always = no
 		}
@@ -29,44 +14,23 @@ country_decisions = {
 		}
 	}
 
-	change_por_tag = {
+	PHM_set_up_decision = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
-			tag = HEI
-			always = no
+			tag = KAM 
 		}
-		allow = {
-			tag = HEI
-		}	
-		effect = {
-			change_tag = POR
-			swap_non_generic_missions = yes
-			on_change_tag_effect = yes
-		}	
-	}
-
-	change_por_tag = {
-		major = yes
-		potential = {
-			normal_or_historical_nations = yes
-			tag = POR
-			always = no
+		12 = {
+			add_province_modifier = {
+				name = "dan_pro_modifier"
+				duration = -1
+			}
 		}
-		allow = {
-			tag = POR
-		}	
-		effect = {
-			change_tag = HEI
-			#swap_non_generic_missions = yes
-			on_change_tag_effect = yes
-		}	
 	}
 
 	por_escape_mission = {
 		major = yes
 		potential = {
-			tag = por 
+			tag = POR 
 			NOT = {
 				num_of_owned_provinces_with = {
 					continent = europe
@@ -79,14 +43,12 @@ country_decisions = {
 			is_at_war = no
 		}
 		effect = {
-			change_tag = BRZ
+			inherit = PRR
+			change_tag = PRE
 			on_change_tag_effect = yes
 			every_subject_country = {
 				limit = {
 					is_colonial_nation = yes
-					capital_scope = {
-						colonial_region = colonial_brazil
-					}
 				}
 				FROM = { inherit = PREV }
 			}
@@ -111,7 +73,10 @@ country_decisions = {
 					is_core = ROOT
 				}
 				add_core = POR
-				remove_core = BRZ
+				remove_core = PRE
+			}
+			every_owned_province = {
+				change_religion = sunni
 			}
 			if = {
                 limit = { has_custom_ideas = no }

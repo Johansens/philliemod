@@ -388,7 +388,7 @@ RNW_agenda_missions4 = { #Series name is displayed over the slot?
 		}
 		effect = { 
 			country_event = {
-				id = PHM_RNW_mission_event.1
+				id = PHM_missions_events.1
 			}
 		}
 		ai_weight = {
@@ -857,6 +857,9 @@ RNW_agenda_missions9 = { #Series name is displayed over the slot?
 				estate = estate_burghers
 				value = 2
 			}
+			capital_scope = {
+				has_trade_building_trigger = yes
+			}
 		}
 		effect = { 
 			add_country_modifier = {
@@ -920,7 +923,12 @@ RNW_agenda_missions9 = { #Series name is displayed over the slot?
 		trigger = {
 			OR = {
 				innovativeness = 50
-				is_ahead_of_time_in_technology = yes
+				AND = {
+					is_ahead_of_time_in_technology = { tech = adm }
+					is_ahead_of_time_in_technology = { tech = dip }
+					is_ahead_of_time_in_technology = { tech = mil }
+				}
+				
 			}
 		}
 		effect = { 
@@ -1017,7 +1025,7 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 
 	RNW_agenda11_2 = { 
 		icon = mission_alliances
-		required_missions = {  } #None
+		required_missions = { RNW_agenda11_1 } #None
 		trigger = {
 			diplomatic_reputation = 5
 			prestige = 50
@@ -1028,7 +1036,6 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 				name = "mission_modifier11_2"
 				duration = 9125 #25 years
 			}
-			all_estate_loyalty_equilibrium = 0.1
 			
 		}
 		ai_weight = {
@@ -1177,7 +1184,7 @@ RNW_agenda_missions12 = { #Series name is displayed over the slot?
 			}			
 		}
 		effect = { 
-			mission_modifier12_2 = {
+			add_country_modifier = {
 				name = "mission_modifier12_2"
 				duration = 10950 #30 years
 			}
