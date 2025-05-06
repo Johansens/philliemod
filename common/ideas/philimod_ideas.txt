@@ -354,7 +354,7 @@ PRE_ideas = {
 	
 	PRE1 = {
 		naval_morale = 0.15
-		may_perform_slave_raid = yes
+		#may_perform_slave_raid = yes
 	}
 	PRE2 = {
 		global_trade_goods_size = 0.1
@@ -370,7 +370,7 @@ PRE_ideas = {
 		loot_amount = 2
 	}
 	PRE6 = {
-		local_build_cost = 0.15
+		local_build_cost = -0.15
 		global_allowed_num_of_buildings = 1
 	}
 	PRE7 = {

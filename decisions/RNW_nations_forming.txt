@@ -33,12 +33,17 @@ country_decisions = {
 		major = yes
 		potential = {
 			tag = POR 
-			NOT = {
-				num_of_owned_provinces_with = {
-					continent = europe
-					value = 5
+			OR = {
+				NOT = {
+					num_of_owned_provinces_with = {
+						continent = europe
+						value = 6
+					}
 				}
+				NOT = { 227 = { owned_by = ROOT } }
+				NOT = { 231 = { owned_by = ROOT } }			
 			}
+
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes
@@ -61,21 +66,6 @@ country_decisions = {
 					}
 				}
 				move_capital_effect = yes
-			}
-			every_owned_province = {
-				limit = {
-					continent = europe
-				}
-				add_core = POR
-			}
-			release = POR
-			every_province = {
-				limit = {
-					continent = europe
-					is_core = ROOT
-				}
-				add_core = POR
-				remove_core = PRE
 			}
 			every_owned_province = {
 				change_religion = sunni
