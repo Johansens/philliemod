@@ -1,11 +1,11 @@
 CN1_ideas = {
 	start = {
-		development_cost = -0.1
-		no_religion_penalty = yes
+		global_tax_modifier = 0.2
+		infantry_cost = -0.1
 	}
 	
 	bonus = {
-		land_morale = 0.10
+		free_adm_policy = 1
 	}
 	
 	trigger = {
@@ -14,42 +14,36 @@ CN1_ideas = {
 	free = yes
 	
 	CN1_1 = {
-		legitimacy = 1
-		devotion = 1
-		republican_tradition = 0.5
-		meritocracy = 1
-		horde_unity = 1
+		manpower_in_own_culture_provinces = 0.2
 	}
 	CN1_2 = {
-		global_prov_trade_power_modifier = 0.25
+		discipline = 0.05
 	}
 	CN1_3 = {
-		build_cost = -0.1
+		manpower_recovery_speed = 0.2
 	}
 	CN1_4 = {
-		idea_cost = -0.1
+		production_efficiency = 0.15
 	}
 	CN1_5 = {
-		global_regiment_cost = -0.1
+		fort_maintenance_modifier = -0.2
 	}
 	CN1_6 = {
-		auto_explore_adjacent_to_colony = yes
-		global_colonial_growth = 20
+		global_heretic_missionary_strength = 0.02
 	}
 	CN1_7 = {
-		global_unrest = -1
-		free_leader_pool = 1
+		drill_gain_modifier = 0.35
 	}
 }
 
 CN2_ideas = {
 	start = {
-		development_cost = -0.1
-		no_religion_penalty = yes
+		global_trade_power = 0.25
+		global_autonomy = -0.05
 	}
 	
 	bonus = {
-		land_morale = 0.10
+		navy_tradition = 0.5
 	}
 	
 	trigger = {
@@ -58,41 +52,35 @@ CN2_ideas = {
 	free = yes
 	
 	CN2_1 = {
-		legitimacy = 1
-		devotion = 1
-		republican_tradition = 0.5
-		meritocracy = 1
-		horde_unity = 1
+		colonists = 1
 	}
 	CN2_2 = {
-		global_prov_trade_power_modifier = 0.25
+		reform_progress_growth = 0.1
 	}
 	CN2_3 = {
-		build_cost = -0.1
+		stability_cost_modifier = -0.25
 	}
 	CN2_4 = {
-		idea_cost = -0.1
+		embracement_cost = -0.3
 	}
 	CN2_5 = {
-		global_regiment_cost = -0.1
+		prestige_from_land = 0.5
 	}
 	CN2_6 = {
-		auto_explore_adjacent_to_colony = yes
-		global_colonial_growth = 20
+		garrison_size = 0.15
 	}
 	CN2_7 = {
-		global_unrest = -1
-		free_leader_pool = 1
+		army_tradition = 0.5
 	}
 }
 CN3_ideas = {
 	start = {
-		development_cost = -0.1
-		no_religion_penalty = yes
+		yearly_army_professionalism = 0.005
+		gold_depletion_chance_modifier = -0.35
 	}
 	
 	bonus = {
-		land_morale = 0.10
+		inflation_action_cost = -0.35
 	}
 	
 	trigger = {
@@ -101,42 +89,36 @@ CN3_ideas = {
 	free = yes
 	
 	CN3_1 = {
-		legitimacy = 1
-		devotion = 1
-		republican_tradition = 0.5
-		meritocracy = 1
-		horde_unity = 1
+		land_morale = 0.15
 	}
 	CN3_2 = {
-		global_prov_trade_power_modifier = 0.25
+		land_forcelimit = 0.2
 	}
 	CN3_3 = {
-		build_cost = -0.1
+		trade_efficiency = 0.15
 	}
 	CN3_4 = {
-		idea_cost = -0.1
+		same_culture_advisor_cost = -0.15
 	}
 	CN3_5 = {
-		global_regiment_cost = -0.1
+		naval_morale = 0.15
 	}
 	CN3_6 = {
-		auto_explore_adjacent_to_colony = yes
-		global_colonial_growth = 20
+		governing_capacity_modifier = 0.2
 	}
 	CN3_7 = {
-		global_unrest = -1
-		free_leader_pool = 1
+		siege_ability = 0.15
 	}
 }
 
 CN4_ideas = {
 	start = {
-		development_cost = -0.1
-		no_religion_penalty = yes
+		colony_development_boost = 1
+		auto_explore_adjacent_to_colony = yes
 	}
 	
 	bonus = {
-		land_morale = 0.10
+		free_dip_policy = 1
 	}
 	
 	trigger = {
@@ -145,42 +127,36 @@ CN4_ideas = {
 	free = yes
 	
 	CN4_1 = {
-		legitimacy = 1
-		devotion = 1
-		republican_tradition = 0.5
-		meritocracy = 1
-		horde_unity = 1
+		morale_damage = 0.1
 	}
 	CN4_2 = {
-		global_prov_trade_power_modifier = 0.25
+		development_cost = -0.1
 	}
 	CN4_3 = {
-		build_cost = -0.1
+		technology_cost = -0.1
 	}
 	CN4_4 = {
-		idea_cost = -0.1
+		general_cost = -0.15
 	}
 	CN4_5 = {
-		global_regiment_cost = -0.1
+		privateer_efficiency = 0.30
 	}
 	CN4_6 = {
-		auto_explore_adjacent_to_colony = yes
-		global_colonial_growth = 20
+		heavy_ship_power = 0.1
 	}
 	CN4_7 = {
-		global_unrest = -1
-		free_leader_pool = 1
+		own_coast_naval_combat_bonus = 1.0
 	}
 }
 
 CN5_ideas = {
 	start = {
-		development_cost = -0.1
-		no_religion_penalty = yes
+		recover_army_morale_speed = 0.1
+		ignore_coring_distance = yes
 	}
 	
 	bonus = {
-		land_morale = 0.10
+		inflation_reduction = 0.1
 	}
 	
 	trigger = {
@@ -189,31 +165,25 @@ CN5_ideas = {
 	free = yes
 	
 	CN5_1 = {
-		legitimacy = 1
-		devotion = 1
-		republican_tradition = 0.5
-		meritocracy = 1
-		horde_unity = 1
+		special_unit_forcelimit = 0.30
 	}
 	CN5_2 = {
-		global_prov_trade_power_modifier = 0.25
+		can_chain_claim = yes
 	}
 	CN5_3 = {
-		build_cost = -0.1
+		global_trade_goods_size = 0.1
 	}
 	CN5_4 = {
-		idea_cost = -0.1
+		placed_merchant_power = 10
 	}
 	CN5_5 = {
-		global_regiment_cost = -0.1
+		trade_steering = 0.1
 	}
 	CN5_6 = {
-		auto_explore_adjacent_to_colony = yes
-		global_colonial_growth = 20
+		idea_cost = -0.1
 	}
 	CN5_7 = {
-		global_unrest = -1
-		free_leader_pool = 1
+		army_tradition_decay = -0.005
 	}
 }
 philli_pr_ideas  = {
