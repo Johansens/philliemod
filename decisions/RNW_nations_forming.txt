@@ -43,7 +43,7 @@ country_decisions = {
 				NOT = { 227 = { owned_by = ROOT } }
 				NOT = { 231 = { owned_by = ROOT } }			
 			}
-
+			NOT = { exists = PRE }
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes
@@ -75,6 +75,30 @@ country_decisions = {
                 country_event = { id = ideagroups.1 } #Swap Ideas
             }
 		}
+	}
+
+	dan_iceland_decision = {
+		major = yes
+		potential = {
+			tag = DAN
+			NOT = {
+				370 = {
+					owned_by = DAN
+				}
+			}
+		}
+		allow = {
+			tag = DAN
+			has_country_flag = iceland_decision_check
+		}	
+		effect = {
+			370 = {
+				cede_province = ROOT 
+			}
+			371 = {
+				cede_province = ROOT 
+			}
+		}		
 	}
 
 	custom_nation1 = {
@@ -115,6 +139,25 @@ country_decisions = {
 			change_government = theocracy
 			add_government_reform = reformer_state_reform
 			change_religion = nakahi
+			discover_province = 4881
+			discover_province = 4650
+			discover_province = 4640
+			discover_province = 4503
+			discover_province = 4600
+			discover_province = 4581
+			discover_province = 4583
+			discover_province = 3988
+			discover_province = 3977
+			discover_province = 3960
+			discover_province = 3948
+			discover_province = 3932
+			discover_province = 3937
+			discover_province = 3941
+			discover_province = 3927
+			discover_province = 3915
+			discover_province = 3913
+			discover_province = 3907
+			discover_province = 3891
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
 			country_event = { id = ideagroups.1 } #Swap Ideas
@@ -160,6 +203,24 @@ country_decisions = {
 			change_government = republic
 			add_government_reform = peasants_republic
 			change_religion = nakahi
+			discover_province = 3830
+			discover_province = 3814
+			discover_province = 3840
+			discover_province = 3855
+			discover_province = 3870
+			discover_province = 3866
+			discover_province = 3879
+			discover_province = 3902
+			discover_province = 3918
+			discover_province = 3933
+			discover_province = 3932
+			discover_province = 3937
+			discover_province = 3941
+			discover_province = 3927
+			discover_province = 3915
+			discover_province = 3913
+			discover_province = 3907
+			discover_province = 3891
 			country_event = { id = ideagroups.1 } #Swap Ideas
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
@@ -205,6 +266,19 @@ country_decisions = {
 			change_government = theocracy
 			add_government_reform = dutch_theocracy_reform
 			change_religion = nakahi
+			discover_province = 3747
+			discover_province = 3753
+			discover_province = 3769
+			discover_province = 3785
+			discover_province = 3778
+			discover_province = 3803
+			discover_province = 3823
+			discover_province = 3838
+			discover_province = 3852
+			discover_province = 3864
+			discover_province = 3883
+			discover_province = 3871
+			discover_province = 3891
 			country_event = { id = ideagroups.1 } #Swap Ideas
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
@@ -249,6 +323,24 @@ country_decisions = {
 			change_government = theocracy
 			add_government_reform = sisterhood_of_jeanne_darc_reform
 			change_religion = nakahi
+			discover_province = 3811
+			discover_province = 3815
+			discover_province = 3828
+			discover_province = 3822
+			discover_province = 3825
+			discover_province = 3837
+			discover_province = 3839
+			discover_province = 3859
+			discover_province = 3877
+			discover_province = 3901
+			discover_province = 3912
+			discover_province = 3894
+			discover_province = 3882
+			discover_province = 3880
+			discover_province = 3881
+			discover_province = 3895
+			discover_province = 3900
+			discover_province = 3891
 			country_event = { id = ideagroups.1 } #Swap Ideas
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
@@ -296,6 +388,24 @@ country_decisions = {
 			change_government = monarchy
 			add_government_reform = janissary_autocracy_reform
 			change_religion = nakahi
+			discover_province = 4572
+			discover_province = 4571
+			discover_province = 3985
+			discover_province = 4573
+			discover_province = 3990
+			discover_province = 3972
+			discover_province = 3967
+			discover_province = 3955
+			discover_province = 3950
+			discover_province = 3921
+			discover_province = 3912
+			discover_province = 3894
+			discover_province = 3882
+			discover_province = 3880
+			discover_province = 3881
+			discover_province = 3895
+			discover_province = 3900
+			discover_province = 3891
 			country_event = { id = ideagroups.1 } #Swap Ideas
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
@@ -310,6 +420,7 @@ country_decisions = {
 		}
 		allow = {
 			tag = VIL
+			NOT = { exists = ABL }
 		}
 		effect = {
 			change_tag = ABL
@@ -376,23 +487,58 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			define_ruler = {
-				name = "Beschützer der I"
-				dynasty = "Alten"
-				adm = 3
-				dip = 3
+				name = "Viper"
+				dynasty = "Invari"
+				adm = 6
+				dip = 6
 				mil = 6
-				age = 33
+				age = 20
 			}
 			1242 = {
 				add_core = VIL
 			}
 			release = VIL
-			change_government = monarchy
-			add_government_reform = feudalism_reform
+			change_government = theocracy
+			add_government_reform = militarized_crusader_order_reform
 			change_religion = nakahi
 			country_event = { id = ideagroups.1 } #Swap Ideas
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
+			every_province = {
+				ROOT = {
+					discover_province = PREV
+				}
+			}
+			north_european_sea_superregion = {
+				ROOT = {
+					discover_province = PREV
+				}
+			}
+			south_european_sea_superregion = {
+				ROOT = {
+					discover_province = PREV
+				}
+			}
+			west_african_sea_superregion = {
+				ROOT = {
+					discover_province = PREV
+				}
+			}
+			east_african_sea_superregion = {
+				ROOT = {
+					discover_province = PREV
+				}
+			}
+			indian_pacific_sea_superregion = {
+				ROOT = {
+					discover_province = PREV
+				}
+			}
+			north_pacific_sea_superregion = {
+				ROOT = {
+					discover_province = PREV
+				}
+			}
 		}
 	}	
 
@@ -478,6 +624,7 @@ country_decisions = {
 		}
 		allow = {
 			tag = TTT
+			NOT = { exists = WIK }
 		}
 		effect = {
 			change_tag = WIK
@@ -526,6 +673,8 @@ country_decisions = {
 						province_id = 3543
 						province_id = 3540
 						province_id = 3550
+						province_id = 3547
+						province_id = 3533
 					}
 					
 				}
@@ -542,7 +691,17 @@ country_decisions = {
 			release = TTT
 			change_religion = norse_pagan_reformed
 			change_government = monarchy
-			add_government_reform = feudalism_reform
+			add_government_reform = livonian_general_controlled_monarchy
+			change_technology_group = high_american
+			change_unit_type = high_american
+			define_ruler = {
+				name = "Leif"
+				dynasty = "Eriksson"
+				adm = 5
+				dip = 5
+				mil = 6
+				age = 25
+			}
 			country_event = { id = ideagroups.1 } #Swap Ideas
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
@@ -557,6 +716,7 @@ country_decisions = {
 		}
 		allow = {
 			tag = VNL
+			NOT = { exists = PRR }
 		}
 		effect = {
 			change_tag = PRR

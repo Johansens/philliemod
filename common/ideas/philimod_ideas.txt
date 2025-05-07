@@ -171,7 +171,7 @@ CN5_ideas = {
 		can_chain_claim = yes
 	}
 	CN5_3 = {
-		global_trade_goods_size = 0.1
+		global_trade_goods_size_modifier = 0.1
 	}
 	CN5_4 = {
 		placed_merchant_power = 10
@@ -354,7 +354,7 @@ PRE_ideas = {
 	
 	PRE1 = {
 		naval_morale = 0.15
-		#may_perform_slave_raid = yes
+		may_perform_slave_raid = yes
 	}
 	PRE2 = {
 		global_trade_goods_size = 0.1

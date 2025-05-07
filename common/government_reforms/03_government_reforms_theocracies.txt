@@ -222,6 +222,7 @@ militarized_crusader_order_reform = {
 		OR = {
 			religion = catholic
 			is_playing_custom_nation = yes
+			tag = ABL
 		}
 	}
 	valid_for_nation_designer = yes

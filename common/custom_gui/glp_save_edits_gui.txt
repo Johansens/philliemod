@@ -4,8 +4,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -49,8 +49,8 @@ custom_icon = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -63,8 +63,8 @@ custom_text_box = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -79,8 +79,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -98,13 +98,13 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
 	trigger = {
-		FROM = { tag = HOD }
+		FROM = { tag = ABL }
 	}
 	effect = {
 		FROM = {
@@ -120,13 +120,13 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
 	trigger = {
-		FROM = { tag = HOD }
+		FROM = { tag = ABL }
 	}
 	effect = {
 		FROM = {
@@ -142,8 +142,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -161,8 +161,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -183,8 +183,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -202,8 +202,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -221,8 +221,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -240,8 +240,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -259,8 +259,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -278,8 +278,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -297,8 +297,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -316,8 +316,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -335,8 +335,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -354,8 +354,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -373,8 +373,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -393,8 +393,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -413,8 +413,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -432,13 +432,13 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
 	trigger = {
-		FROM = { tag = HOD }
+		FROM = { tag = ABL }
 		is_capital = no
 	}
 	effect = {
@@ -455,13 +455,13 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
 	trigger = {
-		FROM = { tag = HOD }
+		FROM = { tag = ABL }
 		owner = {
 			ai = yes
 		}
@@ -480,13 +480,13 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
 	trigger = {
-		FROM = { tag = HOD }
+		FROM = { tag = ABL }
 	}
 	effect = {
 		FROM = {
@@ -502,8 +502,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -521,8 +521,8 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
@@ -542,13 +542,13 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
 	trigger = {
-		FROM = { tag = HOD }
+		FROM = { tag = ABL }
 	}
 	effect = {
 		FROM = {
@@ -596,13 +596,13 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
 	trigger = {
-		FROM = { tag = HOD }
+		FROM = { tag = ABL }
 	}
 	effect = {
 		if = {
@@ -630,13 +630,13 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
 	trigger = {
-		FROM = { tag = HOD }
+		FROM = { tag = ABL }
 	}
 	effect = {
 		owner = {
@@ -663,13 +663,13 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
 	trigger = {
-		#FROM = { tag = HOD }
+		#FROM = { tag = ABL }
 	}
 	effect = {
 		FROM = {
@@ -685,13 +685,13 @@ custom_button = {
 		AND = {
 			FROM = { ai = no }
 			OR = {
-				FROM = { tag = CHV }
-				FROM = { tag = HOD }
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
 			}
 		}
 	}
 	trigger = {
-		#FROM = { tag = HOD }
+		#FROM = { tag = ABL }
 	}
 	effect = {
 		owner = {

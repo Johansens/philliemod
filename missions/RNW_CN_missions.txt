@@ -158,8 +158,12 @@ RNW_agenda_missions2 = { #Series name is displayed over the slot?
 		}
 		effect = { 
 			add_country_modifier = {
-				name = "exploration_ambitions2_1"
+				name = "exploration_ambitions2_11"
 				duration = 3650 #10 years
+			}
+			add_country_modifier = {
+				name = "exploration_ambitions2_12"
+				duration = 10950 #10 years
 			}
 			create_explorer = {
 				tradition = 20
@@ -214,7 +218,59 @@ RNW_agenda_missions2 = { #Series name is displayed over the slot?
 		}
 	}
 }
+RNW_how_to_play_missions = {
+	slot = 3 #ie, second upper left column
+	generic = no #if a mission without generic = yes wants this slot then it overrides this.
+	ai = no #Can exist under the series itself or within individual missions.
+	potential = {
+		OR = {
+			tag = CNA
+			tag = CNE
+			tag = CNI
+			tag = CNS
+			tag = CNZ
+		}
+	} #These are triggers for the entire series
+	
+	#missions
 
+	RNW_htp1 = { 
+		icon = mission_alliances
+		required_missions = {} #None
+		trigger = {
+			adm_tech = 4
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "htp_mission_modifier_1"
+				duration = 3650 #10 years
+			}
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}
+	RNW_htp2 = { 
+		icon = mission_alliances
+		required_missions = { RNW_htp1 } #None
+		trigger = {
+			3891 = {
+				AND = {
+					owned_by = ROOT
+					is_colony = yes
+				}
+			}
+		}
+		effect = { 
+			country_event = {
+				id = PHM_missions_events.2
+			}
+		}
+		ai_weight = {
+			factor = 10 
+		}
+	}
+}
 RNW_agenda_missions3 = { #Series name is displayed over the slot?
 	slot = 5 #ie, second upper left column
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.

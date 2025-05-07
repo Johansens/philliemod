@@ -2422,7 +2422,7 @@ pagan = {
 
 	nakahi = {
 		
-		icon = 14
+		icon = 30
 		color = { 178 38 76 }
 
 		country = {

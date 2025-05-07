@@ -4420,6 +4420,7 @@ livonian_general_controlled_monarchy = {
 				have_had_reform = livonian_general_controlled_monarchy
 			}
 			has_unlocked_government_reform = { government_reform = livonian_general_controlled_monarchy }
+			tag = WIK
 		}
 	}
 	trigger = {
@@ -4429,6 +4430,7 @@ livonian_general_controlled_monarchy = {
 				have_had_reform = livonian_general_controlled_monarchy
 			}
 			has_unlocked_government_reform = { government_reform = livonian_general_controlled_monarchy }
+			tag = WIK
 		}
 	}
 	valid_for_nation_designer = yes

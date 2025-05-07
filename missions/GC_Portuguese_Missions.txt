@@ -530,7 +530,7 @@ gc_por_2_b = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 1466
-				province_id = 1531
+				#province_id = 1531
 				province_id = 1293
 			}
 			NOT = {
@@ -542,9 +542,9 @@ gc_por_2_b = {
 			1466 = {
 				is_strongest_trade_power = ROOT
 			}
-			1531 = {
-				is_strongest_trade_power = ROOT
-			}
+			#1531 = {
+			#	is_strongest_trade_power = ROOT
+			#}
 			1293 = {
 				is_strongest_trade_power = ROOT
 			}

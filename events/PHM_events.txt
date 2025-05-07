@@ -50,3 +50,39 @@ country_event= {
         }
     }
 }
+country_event= {
+    id = PHM_missions_events.2
+    title = PHM_missions_events.2.t
+    desc = PHM_missions_events.2.d
+    pictrue = HRE_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = "PHM_missions_events.A2"
+        ai_chance = {
+           factor =  1
+        }
+        add_country_modifier = {
+            name = "event_modifier2_1"
+            duration = 1825 # 5 years
+        }
+        add_country_modifier = {
+            name = "event_modifier2_2"
+            duration = 7300 # 20 years
+        }
+        stability = -5
+        add_estate_loyalty = {
+            estate = estate_church
+            loyalty = -100
+        } 
+        add_estate_loyalty = {
+            estate = estate_nobles
+            loyalty = -100
+        }       
+        add_estate_loyalty = {
+            estate = estate_burghers
+            loyalty = -100
+        }             
+    }
+}
