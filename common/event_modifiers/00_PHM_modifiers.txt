@@ -153,10 +153,24 @@ event_modifier2_2 = {
 	land_morale = -0.1
 	discipline = -0.05
 }
+event_modifier3_1 = {
+	diplomatic_reputation = -3
+}
+
 
 dan_pro_modifier = {
 	monthly_splendor = 2
 	global_tax_income = 36 
+}
+
+#alte Welt start modifier
+
+portugal_start_modifier = {
+	global_missionary_strength = 0.01
+}
+
+england_start_modifier = {
+	global_manpower = 20
 }
 
 

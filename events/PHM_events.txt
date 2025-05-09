@@ -83,6 +83,104 @@ country_event= {
         add_estate_loyalty = {
             estate = estate_burghers
             loyalty = -100
+        }
+        ABL = {
+            decalre_war_with_cb = {
+                who = ROOT
+                casus_belli = cb_push_back_colonizers
+            }
         }             
+    }
+}
+country_event= {
+    id = PHM_missions_events.3
+    title = PHM_missions_events.3.t
+    desc = PHM_missions_events.3.d
+    pictrue = HRE_eventPicture
+
+    is_triggered_only = yes
+
+    trigger = {
+        3891 = {
+            is_city = yes
+            owned_by = ROOT
+        }
+    }
+
+    option = {
+        name = "PHM_missions_events.A3"
+        ai_chance = {
+           factor =  1
+        } 
+        if = {
+            limit = {
+                3891 = {
+                    NOT = {
+                        trade_goods = gold
+                    }
+                }
+            }
+            3891 = {
+                change_trade_goods = gold
+            }
+        }
+        3891 = {
+            add_province_modifier = {
+                name = "por_minas_gerais"
+                duration = -1
+            }
+        }        
+    }
+}
+country_event= {
+    id = PHM_missions_events.4
+    title = PHM_missions_events.4.t
+    desc = PHM_missions_events.4.d
+    pictrue = HRE_eventPicture
+
+    is_triggered_only = yes
+
+    trigger = {
+        tag = CNS
+        any_owned_province = {
+            has_port = yes
+            is_city = no
+        }
+    }
+	mean_time_to_happen = {
+		days = 1
+	}
+    option = {
+        name = "PHM_missions_events.A4"
+        ai_chance = {
+           factor =  1
+        } 
+        hidden_effect = {
+            all_owned_province = {
+                limit = {
+                    has_port = yes
+                    is_colony = yes
+                }
+                decolonizte = THIS
+            }
+            override_country_name = BIBER_NATION_2            
+        }
+
+        prestige = 10
+   
+    }
+    option = {
+        name = "PHM_missions_events.A4_2"
+        ai_chance = {
+           factor =  1
+        }
+        hidden_effect = {
+            add_country_modifier = {
+                name = "event_modifier3_1"
+                duration = 1825 # 5 years
+            } 
+        }
+ 
+        prestige = -10        
     }
 }

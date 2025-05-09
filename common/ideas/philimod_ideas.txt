@@ -76,7 +76,7 @@ CN2_ideas = {
 CN3_ideas = {
 	start = {
 		yearly_army_professionalism = 0.005
-		gold_depletion_chance_modifier = -0.35
+		gold_depletion_chance_modifier = -0.25
 	}
 	
 	bonus = {
@@ -92,7 +92,7 @@ CN3_ideas = {
 		land_morale = 0.15
 	}
 	CN3_2 = {
-		land_forcelimit = 0.2
+		land_forcelimit_modifier = 0.2
 	}
 	CN3_3 = {
 		trade_efficiency = 0.15
@@ -118,7 +118,7 @@ CN4_ideas = {
 	}
 	
 	bonus = {
-		free_dip_policy = 1
+		free_mil_policy = 1
 	}
 	
 	trigger = {
@@ -188,7 +188,7 @@ CN5_ideas = {
 }
 philli_pr_ideas  = {
 	start = {
-		can_not_declare_war = yes
+		hostile_fleet_attrition = 2
 		capture_ship_chance = 0.5
 	}
 	
@@ -258,7 +258,7 @@ philli_AB_ideas  = {
 		devotion = 1
 	}
 	endless_fanatics = {
-		land_forcelimit = 0.5
+		land_forcelimit_modifier = 0.5
 	}
 }
 
@@ -302,12 +302,12 @@ philli_HL_ideas  = {
 
 philli_WIK_ideas  = {
 	start = {
-		global_missionary_strength = 0.05
-		can_not_build_colonies = yes
+		infantry_fire = 1
+		cavalry_shock = 1
 	}
 	
 	bonus = {
-		reinforce_cost_modifier = 0.5
+		discipline = 0.1
 	}
 	
 	trigger = {
@@ -316,25 +316,25 @@ philli_WIK_ideas  = {
 	free = yes
 	
 	WK1 = {
-		placed_merchant_power_modifier = 0.2
+		morale_damage = 0.1
 	}
 	WK2 = {
-		ae_impact = -0.2
+		fire_damage_received = 0.2
 	}
 	WK3 = {
-		morale_damage = 0.2
+		global_trade_goods_size = 1
 	}
 	WK4 = {
-		manpower_in_true_faith_provinces = 0.4
+		global_tax_modifier = 0.2
 	}
 	WK5 = {
-		land_morale = 0.2
+		naval_forcelimit_modifier = 0.2
 	}
 	WK6 = {
-		country_diplomatic_power = 1
+		global_manpower_modifier = -0.2
 	}
 	WK7 = {
-		enemy_core_creation = 2
+		diplomatic_reputation = 5
 	}
 }
 PRE_ideas = {

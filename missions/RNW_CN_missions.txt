@@ -48,10 +48,13 @@ RNW_agenda_missions1 = { #Series name is displayed over the slot?
 		required_missions = { RNW_agenda1_1 } #None
 		trigger = {
 			crown_land_share = 30
-			estate_loyalty = {
-				estate = estate_nobles 
-				loyalty = 65 
-			}
+			OR = {
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 65
+				}
+				NOT = { has_estate = estate_nobles }
+			}			
 			government_reform_progress = 30
 		}
 		effect = { 
@@ -73,7 +76,7 @@ RNW_agenda_missions1 = { #Series name is displayed over the slot?
 		required_missions = { RNW_agenda1_2 } #None
 		trigger = {
 			stability = 2 
-			legitimacy = 85
+			legitimacy_equivalent = 85
 			crown_land_share = 40
 			government_reform_progress = 30
 		}
@@ -202,7 +205,7 @@ RNW_agenda_missions2 = { #Series name is displayed over the slot?
 		required_missions = { RNW_agenda2_2 } #None
 		trigger = {
 			stability = 2 
-			legitimacy = 85
+			legitimacy_equivalent = 85
 			crown_land_share = 40
 			government_reform_progress = 30
 		}
@@ -265,6 +268,10 @@ RNW_how_to_play_missions = {
 			country_event = {
 				id = PHM_missions_events.2
 			}
+			3891 = {
+				add_base_production = 10
+			}
+
 		}
 		ai_weight = {
 			factor = 10 
@@ -641,10 +648,13 @@ RNW_agenda_missions7 = { #Series name is displayed over the slot?
 					value = 120
 				}
 			}
-			estate_loyalty = {
+			OR = {
+				estate_loyalty = {
 					estate = estate_church
 					loyalty = 75
-			}
+				}
+				NOT = { has_estate = estate_church }
+			}	
 			religion = nakahi
 		}
 		effect = { 
@@ -667,7 +677,11 @@ RNW_agenda_missions7 = { #Series name is displayed over the slot?
 				value = 3
 				has_tax_building_trigger = yes
 			}
-			has_estate_privilege = estate_church_development_of_temples
+			OR = {
+				has_estate_privilege = estate_church_development_of_temples
+				NOT = { has_estate = estate_church }
+			}	
+			
 		}
 		effect = { 
 			add_estate_loyalty = {
@@ -822,27 +836,30 @@ RNW_agenda_missions8 = { #Series name is displayed over the slot?
 						any_country = { has_country_flag = RNW_agenda8_3CF }
 					}
 				}
-					religious_unity = 100
+				religious_unity = 100
+				OR = {
 					estate_loyalty = {
 						estate = estate_church
 						loyalty = 90
 					}
-					calc_true_if = {
-						all_province = {
-							OR = {
-								province_id = 3891
-								province_id = 3389
-								province_id = 3678
-								province_id = 3721
-								province_id = 4582
-							}
-							is_core = ROOT
-							controlled_by = owner
+					NOT = { has_estate = estate_church }
+				}
+				calc_true_if = {
+					all_province = {
+						OR = {
+							province_id = 3891
+							province_id = 3389
+							province_id = 3678
+							province_id = 3721
+							province_id = 4582
 						}
-						amount = 2
+						is_core = ROOT
+						controlled_by = owner
 					}
-					is_rival = ABL
-					army_size = ABL
+					amount = 2
+				}
+				is_rival = ABL
+				army_size = ABL
 				
 			}
 			else = {
@@ -850,7 +867,7 @@ RNW_agenda_missions8 = { #Series name is displayed over the slot?
 					who = ABL
 					value = 150
 				}
-				religious_unity = 100
+				religious_unity = 1
 			}
 		}
 		effect = { 
@@ -905,14 +922,20 @@ RNW_agenda_missions9 = { #Series name is displayed over the slot?
 		icon = mission_dominate_home_trade_node
 		required_missions = { } #None
 		trigger = {
-			estate_loyalty = {
-				estate = estate_burghers 
-				loyalty = 75 
+			OR = {
+				estate_loyalty = {
+					estate = estate_burghers
+					loyalty = 75
+				}
+				NOT = { has_estate = estate_burghers }
 			}
-			num_of_estate_agendas_completed = {
-				estate = estate_burghers
-				value = 2
-			}
+			OR = {
+				num_of_estate_agendas_completed = {
+					estate = estate_burghers
+					value = 2
+				}
+				NOT = { has_estate = estate_burghers }
+			}			
 			capital_scope = {
 				has_trade_building_trigger = yes
 			}
@@ -1104,7 +1127,7 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 		required_missions = { RNW_agenda11_1 } #None
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = RNW_agenda11_2tt
+				tooltip = RNW_agenda11_3tt
 				any_ally = {
 					OR = {
 						is_great_power = yes 
@@ -1130,7 +1153,7 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 
 	RNW_agenda11_4 = {
 		icon = mission_alliances
-		required_missions = { RNW_agenda11_2 } #None
+		required_missions = { RNW_agenda11_4 } #None
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = RNW_agenda11_4tt
@@ -1164,7 +1187,7 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 
 	RNW_agenda11_5 = { 
 		icon = mission_alliances
-		required_missions = { RNW_agenda11_3 } #None
+		required_missions = { RNW_agenda11_4 } #None
 		trigger = {
 			is_great_power = yes
 			has_country_flag = humiliated_rival
@@ -1177,7 +1200,6 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 			add_prestige_or_monarch_power = {
 				amount = 50
 			}
-			add_legitimacy = 20
 		}
 		ai_weight = {
 			factor = 10 
@@ -1207,9 +1229,11 @@ RNW_agenda_missions12 = { #Series name is displayed over the slot?
 		required_missions = { RNW_agenda11_2 } #None
 		position = 13
 		trigger = {
-			full_idea_group = trade_ideas
-			full_idea_group = influence_ideas
-			monthly_dip = 12
+			OR = {
+				full_idea_group = trade_ideas
+				full_idea_group = influence_ideas
+				monthly_dip = 12				
+			}
 		}
 		effect = { 
 			add_country_modifier = {
@@ -1227,7 +1251,7 @@ RNW_agenda_missions12 = { #Series name is displayed over the slot?
 		required_missions = { RNW_agenda12_1 } #None
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = RNW_agenda11_2tt
+				tooltip = RNW_agenda12_2tt
 				any_ally = {
 					OR = {
 						is_great_power = yes

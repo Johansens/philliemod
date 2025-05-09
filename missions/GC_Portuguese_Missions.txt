@@ -24,26 +24,18 @@ gc_por_1 = {
 		position = 2
 		completed_by = 1501.1.1
 		
-		provinces_to_highlight = {
-			colonial_region = colonial_brazil
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-			has_discovered = ROOT
-		}
-		
 		trigger = { 
-			custom_trigger_tooltip = {
-				tooltip = miss_discover_brazil
-				colonial_brazil = {
-					has_discovered = ROOT
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = miss_colonize_brazil
-				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-					value = 1
-					colonial_region = colonial_brazil
-					is_city = yes
-				}
+			OR = {
+				has_discovered = 3347
+				has_discovered = 3346
+				has_discovered = 3345
+				has_discovered = 3430
+				has_discovered = 3428
+				has_discovered = 3426
+				has_discovered = 3425
+				has_discovered = 3429
+				has_discovered = 3424
+				has_discovered = 3579
 			}
 		}
 	
@@ -64,17 +56,21 @@ gc_por_1 = {
 		required_missions = { gc_por_portugal_discovers_south_america }
 		completed_by = 1540.1.1
 		
-		provinces_to_highlight = {
-			colonial_region = colonial_brazil
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-			has_discovered = ROOT
-		}
-		
 		trigger = { 
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 10
-				colonial_region = colonial_brazil
-				is_city = yes
+				value = 8
+				OR = {
+					province_id = 3652
+					province_id = 3641
+					province_id = 3645
+					province_id = 3646
+					province_id = 3658
+					province_id = 3655
+					province_id = 3654
+					province_id = 3642
+					province_id = 3640
+					province_id = 3587
+				}
 			}
 		}
 		
@@ -99,34 +95,8 @@ gc_por_1 = {
 		}
 		
 		trigger = {
-			if = {
-				limit = {
-					has_dlc = "Dharma"
-				}
-				763 = {
-					province_has_center_of_trade_of_level = 2
-				}
-			}
-			else = {
-				763 = {
-					OR = {
-						has_building = marketplace
-						has_building = trade_depot
-						has_building = stock_exchange
-					}
-				}
-			}
-			minas_gerais_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			rio_de_janeiro_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			sao_paolo_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			3642 = { 
+				owned_by = ROOT
 			}
 		}
 		effect = {
@@ -152,55 +122,55 @@ gc_por_1 = {
 			custom_tooltip = por_bandeirantes_tooltip
 		}
 	}
-	gc_por_jesuits = {
-		icon = mission_establish_jesuit_missions
-		required_missions = { gc_por_bandeirantes }
-		position = 5
-		provinces_to_highlight = {
-			colonial_region = colonial_brazil
-		}
+	#gc_por_jesuits = {
+	#	icon = mission_establish_jesuit_missions
+	#	required_missions = { gc_por_bandeirantes }
+	#	position = 5
+	#	provinces_to_highlight = {
+	#		colonial_region = colonial_brazil
+	#	}
 		
-		trigger = {
-			if = {
-				limit = {
-					has_dlc = "Golden Century"
-					religion = catholic
-				}
-				custom_trigger_tooltip = {
-					tooltip = port_jesuits_tooltip
-					num_of_states_owned_or_owned_by_non_sovereign_subjects_with = {
-						holy_order = jesuit_order
-						colonial_region = colonial_brazil
-						value = 7
-					}
-				}
-			}
-			else = {
-				custom_trigger_tooltip = {
-					tooltip = port_jesuits_alternative_tooltip
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						religion = ROOT
-						colonial_region = colonial_brazil
-						value = 35
-					}
-				}
-			}
-		}
-		effect = {
-			if = {
-				limit = {
-					religion = catholic
-				}
-				add_country_modifier = {
-					name = "por_padroado"
-					duration = -1
-				}
-			}
-			else = {
-				add_dip_power = 100
-			}
-		}
-	}
+	#	trigger = {
+	#		if = {
+	#			limit = {
+	#				has_dlc = "Golden Century"
+	#				religion = catholic
+	#			}
+	#			custom_trigger_tooltip = {
+	#				tooltip = port_jesuits_tooltip
+	#				num_of_states_owned_or_owned_by_non_sovereign_subjects_with = {
+	#					holy_order = jesuit_order
+	#					colonial_region = colonial_brazil
+	#					value = 7
+	#				}
+	#			}
+	#		}
+	#		else = {
+	#			custom_trigger_tooltip = {
+	#				tooltip = port_jesuits_alternative_tooltip
+	#				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+	#					religion = ROOT
+	#					colonial_region = colonial_brazil
+	#					value = 35
+	#				}
+	#			}
+	#		}
+	#	}
+	#	effect = {
+	#		if = {
+	#			limit = {
+	#				religion = catholic
+	#			}
+	#			add_country_modifier = {
+	#				name = "por_padroado"
+	#				duration = -1
+	#			}
+	#		}
+	#		else = {
+	#			add_dip_power = 100
+	#		}
+	#	}
+	#}
 	
 	gc_por_ceylon = {
 		icon = mission_portuguese_ceylon
@@ -443,6 +413,7 @@ gc_por_2 = {
 					is_city = yes
 				}
 			}
+
 		}
 	
 		effect = {
@@ -450,6 +421,12 @@ gc_por_2 = {
 				tradition = 60
 			}
 			add_dip_power = 100
+			every_province = {
+				limit = {
+					owned_by = MAL
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	gc_por_colonise_central_africa = {
@@ -823,17 +800,21 @@ gc_por_3_b = {
 		required_missions = { gc_por_discover_african_coast }
 		position = 2
 		
-		provinces_to_highlight = {
-			colonial_region = colonial_the_carribean
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-			has_discovered = ROOT
-		}
-		
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 5
-				colonial_region = colonial_the_carribean
-				is_city = yes
+				value = 8
+				OR = {
+					province_id = 3490
+                    province_id = 3492
+                    province_id = 3503
+                    province_id = 3491
+                    province_id = 3497
+                    province_id = 3510
+                    province_id = 3500
+                    province_id = 3494
+                    province_id = 3505
+                    province_id = 3508
+				}
 			}
 		}
 		
