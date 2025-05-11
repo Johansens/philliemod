@@ -870,14 +870,14 @@ guiTypes = {
 				buttonFont = "vic_18"
 			}
 
-			#guiButtonType = {
-			#	name = "glp_change_comet_button"
-			#	scripted = yes
-			#	quadTextureSprite= "GFX_list_button_220"
-			#	buttonText = "glp_change_comet_loc"
-			#	position = { x = 45 y = 773 }
-			#	buttonFont = "vic_18"
-			#}
+			guiButtonType = {
+				name = "glp_change_comet_button"
+				scripted = yes
+				quadTextureSprite= "GFX_list_button_220"
+				buttonText = "glp_change_comet_loc"
+				position = { x = 45 y = 773 }
+				buttonFont = "vic_18"
+			}
 
 			#guiButtonType = {
 			#	name = "glp_spawn_broceliande_button"

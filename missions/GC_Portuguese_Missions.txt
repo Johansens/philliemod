@@ -421,11 +421,33 @@ gc_por_2 = {
 				tradition = 60
 			}
 			add_dip_power = 100
-			every_province = {
+			futa_jallon_area = {
 				limit = {
-					owned_by = MAL
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
 				}
-				add_permanent_claim = ROOT
+				add_claim = ROOT
+			}
+			manding_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			kong_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			massina_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_claim = ROOT
 			}
 		}
 	}

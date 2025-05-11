@@ -3448,6 +3448,94 @@ country_event = {
 			clr_global_flag = glp_comets_provide_stab_flag
 		}
 	}
+	option = {
+		name = "glp_save_edit_events.EVTOPTD34"
+		CNI = {
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = CNS
+			}
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = CNE
+			}
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = CNA
+			}
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = CNZ
+			}
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = KMC
+			}
+		}
+		CNS = {
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = CNE
+			}
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = CNA
+			}
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = CNZ
+			}
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = KMC
+			}
+		}
+		CNE = {
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = CNA
+			}
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = CNZ
+			}
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = KMC
+			}
+		}
+		CNA = {
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = CNZ
+			}
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = KMC
+			}
+		}
+		CNZ = {
+			add_casus_belli = {
+				type = cb_humiliate_rotw
+				months = 300
+				target = KMC
+			}
+		}
+	}
 }
 
 # Spawn NPC Advisors
