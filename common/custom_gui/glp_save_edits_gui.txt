@@ -475,6 +475,28 @@ custom_button = {
 }
 
 custom_button = {
+	name = glp_spawn_broceliande_button
+	potential = {
+		AND = {
+			FROM = { ai = no }
+			OR = {
+				FROM = { tag = VIL }
+				FROM = { tag = ABL }
+			}
+		}
+	}
+	trigger = {
+		FROM = { tag = ABL }
+	}
+	effect = {
+		FROM = {
+			country_event = { id = glp_save_edit_events.33 }
+		}
+	}
+	tooltip = glp_spawn_broceliande_loc
+}
+
+custom_button = {
 	name = glp_change_comet_button
 	potential = {
 		AND = {

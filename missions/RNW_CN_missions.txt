@@ -1259,7 +1259,7 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 
 	RNW_agenda11_3 = { 
 		icon = mission_aztec_city_alliance
-		required_missions = { RNW_agenda11_1 } #None
+		required_missions = { RNW_agenda11_2 } #None
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = RNW_agenda11_3tt
@@ -1288,7 +1288,7 @@ RNW_agenda_missions11 = { #Series name is displayed over the slot?
 
 	RNW_agenda11_4 = {
 		icon = mission_alliances
-		required_missions = { RNW_agenda11_4 } #None
+		required_missions = { RNW_agenda11_3 } #None
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = RNW_agenda11_4tt

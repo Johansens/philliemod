@@ -277,25 +277,25 @@ philli_HL_ideas  = {
 	}
 	free = yes
 	
-	founding_fathers = {
+	founding_fathers1 = {
 		placed_merchant_power_modifier = 0.2
 	}
-	continental_trade = {
+	continental_trade1 = {
 		ae_impact = -0.2
 	}
-	manufacturing_center = {
+	manufacturing_center1 = {
 		morale_damage = 0.2
 	}
-	free_thinkers = {
+	free_thinkers1 = {
 		manpower_in_true_faith_provinces = 0.4
 	}
-	colonial_militia = {
+	colonial_militia1 = {
 		land_morale = 0.2
 	}
-	new_frontiers = {
+	new_frontiers1 = {
 		country_diplomatic_power = 1
 	}
-	liberty_heroes = {
+	liberty_heroes1 = {
 		enemy_core_creation = 2
 	}
 }
@@ -357,7 +357,7 @@ PRE_ideas = {
 		may_perform_slave_raid = yes
 	}
 	PRE2 = {
-		global_trade_goods_size = 0.1
+		global_trade_goods_size_modifier = 0.1
 	}
 	PRE3 = {
 		global_prov_trade_power_modifier = 0.2

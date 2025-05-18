@@ -84,3 +84,36 @@ new_world_tech_cost5 = {
 	}
 	technology_cost = 0.1
 }
+
+spa_balance_trigger = {
+	potential = {
+		tag = NAP
+		118 = {
+			owned_by = NAP
+		}
+		has_country_flag = spa_balance1_flag
+	}
+	trigger = {
+		118 = {
+			owned_by = NAP
+		}
+	}
+	liberty_desire = 50
+}
+CNA_balance_trigger = {
+	potential = {
+		tag = CNA
+		NOT = {
+			mil_tech = 10
+		}
+		has_country_flag = cna_balance2_flag
+	}
+	trigger = {
+		NOT = {
+			mil_tech = 10
+		}
+	}
+	land_morale = -0.05
+	discipline = -0.05	
+}
+

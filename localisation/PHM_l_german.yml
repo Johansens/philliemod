@@ -87,6 +87,12 @@
 
 
 
+ RNW_agenda11_3tt:0 "Habe ein Bündnis mit einer Großmacht ODER mit einem Staat der über 500 Entwicklung besitzt"
+ RNW_agenda11_4tt:0 "Habe einen Staat rivalisiert mit der Hauptstadt in Europa\nDieser Staat ist entweder eine Großmacht ODER hat mindestens 500 Entwicklung"
+ RNW_agenda12_2tt:0 "Habe ein Bündnis mit einem Staat mit der Hauptstadt in Europa.\nDieser Staat ist entweder eine Großmacht ODER hat mindestens 500 Entwicklung"
+
+
+
  CNI:0 "Kaan Benévola"
  CNS:0 "Schokiwunderland"
  CNE:0 "Kiri"
@@ -123,7 +129,14 @@
  nakahi_rebels_name:0 "$RELIGION$e-Fanatiker"
  nakahi_rebels_desc:0 "Religiöse Fanatiker erheben sich vor allem in Provinzen, die von andersgläubigen Ländern kontrolliert werden. Sie wollen ihren Glauben verbreiten und alle Ungläubigen vernichten."
  nakahi_rebels_army:0 "$RELIGION$e-Armee"
- nakahi_blessings:0 "Schlangen Segen"
+ nakahi_blessings:0 "Segen der Schlange"
+
+ legitimize_government_n:0 "Legitimierung der Regierung"
+ encourage_warriors_of_the_faith_n:0 "Ermutigung der Glaubenskrieger"
+ send_monks_to_establish_monasteries_n:0 "Entsendung von Priestern zur Tempelgründung"
+ promote_territorial_rights_n:0 "Förderung territorialer Rechte"
+ will_of_the_martyrs_n:0 "Wille der Märtyrer"
+
 
  PHM_missions_events.1.t:0 "Unser Schicksal"
  PHM_missions_events.1.d:0 ""
@@ -143,6 +156,9 @@
  PHM_missions_events.4.d:0 "Ein Binnenland ist ein Land, das keinen direkten Zugang zum offenen Meer hat. Es ist vollständig von Land umgeben oder grenzt an ein Binnenmeer oder einen See.Im Gegensatz dazu haben Küstenstaaten direkten Zugang zum Meer."
  PHM_missions_events.A4:0 "Wir werden ein Binnenland."
  PHM_missions_events.A4_2:0 "Wir erkennen keine Definition des Begriffs "Binnenland" an!"
+ 
+ glp_save_edit_events.EVTOPTD34:0 "New world event"
+ glp_save_edit_events.EVTOPTE34:0 "Marzi Binnenland event"
 
  CN1_1:0 "Kili'ich Kaan Ankunft"
  CN1_2:0 "Kili'ich eiserner Wille"
@@ -176,21 +192,21 @@
  CN2_6_desc:0 ""
  CN2_7_desc:0 ""
 
- CN3_1:0 "Der Schlachtruf der Kiri ist ein von Kind an trainiertes ohrenbetäubend lautes Zischen, das ihren Gegnern das Blut in den Adern gefriert und die Kiri die Nähe der Göttlichen Schlange spüren lässt."
- CN3_2:0 "Das Parlament der Kiri besser bekannt als der Weise Rat der Kiri ruft den Kriegsstand aus und fordert alle fähigen Bewohner auf zu den Waffen zu greifen. Die heiligen Stätten müssen im Namen der Schlange erobert werden."
- CN3_3:0 "Eine Tugend der Nakahi und somit auch der Kiri ist die Hinterlistigkeit. Die Kiri sind Experten in diesem Gebiet und sind berüchtigt dafür dir ein Handelsangebot zu machen, das so gut ist, das du es nicht ablehnen kannst. Doch es gibt immer einen Haken und wie das Kirische Sprichwort so schön sagt: Handeln mit den Kiri lässt dich kurz denken du wärst der beste Händler der Welt. Bis du daran erinnert wirst das du mit den Kiri gehandelt hast."
- CN3_4:0 "Kiri schon seit Anbeginn des Landes einen eigenen Rat hat. Der Weise Rat der Kiri. Selbstverständlich ist schnell einzusehen das der erst kürzlich entstandene Rat der Weisen sich aus mangelnder Kreativität und Intelligenz stark am Namen und auch am Konzept des Rates inspirieren lassen musste.Da unsere Regierung seit jeher auf dem Weisen Rat der Kiri aufbaut, sind unsere Berater natürlich hoch begehrt. Selbstverständlich werden nur Berater eingestellt, die der Religion der Nakahi Folgen womit Bescheidenheit eine Ihrer Tugenden ist. Eine Tugend die unserer Regierung natürlich sehr gelegen kommt. Auch auf die Kultur wird bei unseren Beratern geachtet. Abtrünnige, die zu der Kultur der Mayas übergelaufen sind, vertrauen wir nicht!"
- CN3_5:0 "Ein Zitat von unserem höchsten Admiral Wai der uns Damals über das große Wasser in das Land der Schlange brachte: Wir haben ein bisschen Holz und Rinde und Tuch zusammengeflickt in etwas das nicht mal den Namen Boot verdient hätte und sind damit Monate lang über den Ozean getrieben haben gegen Wellen so hoch wie Berge angekämpft gegen Stürme so dunkel, dass wir wochenlang weder Sonne noch Sterne erspähen konnten und sind vor Seeungeheuern geflohen die nur die heilige Schlange selbst hätte besiegen können. Doch wir haben es geschafft bis ins Land der Schlange. Jetzt haben wir richtige Schiffe doch immer noch die gleichen erfahrenen Seemänner und Frauen. Also wie soll uns jemand auf See Herausfordern können? Unmöglich!"
- CN3_6:0 "Die Kiri sind ihren Nachbarn weit überlegen und haben ein eigenes Schrift und Zahlen System kreiert mit dem die Bürokratie des Landes um einiges Vereinfacht wurde. Nun können im Namen der Schlange mehr Länder eingenommen und verwaltet werden."
- CN3_7:0 "Die Kiri haben bei Belagerungen wenig Mitleid mit ihren Gegnern und vergiften die Brunnen der Feinde bei erhöhtem Widerstand mit Schlangengift. Dieses wird nur aus den Kadavern toter Tiere extrahiert da Schlangen für die Kiri heilige Tiere und somit unantastbar sind."
+ CN3_1_desc:0 "Der Schlachtruf der Kiri ist ein von Kind an trainiertes ohrenbetäubend lautes Zischen, das ihren Gegnern das Blut in den Adern gefriert und die Kiri die Nähe der Göttlichen Schlange spüren lässt."
+ CN3_2_desc:0 "Das Parlament der Kiri besser bekannt als der Weise Rat der Kiri ruft den Kriegsstand aus und fordert alle fähigen Bewohner auf zu den Waffen zu greifen. Die heiligen Stätten müssen im Namen der Schlange erobert werden."
+ CN3_3_desc:0 "Eine Tugend der Nakahi und somit auch der Kiri ist die Hinterlistigkeit. Die Kiri sind Experten in diesem Gebiet und sind berüchtigt dafür dir ein Handelsangebot zu machen, das so gut ist, das du es nicht ablehnen kannst. Doch es gibt immer einen Haken und wie das Kirische Sprichwort so schön sagt: Handeln mit den Kiri lässt dich kurz denken du wärst der beste Händler der Welt. Bis du daran erinnert wirst das du mit den Kiri gehandelt hast."
+ CN3_4_desc:0 "Kiri schon seit Anbeginn des Landes einen eigenen Rat hat. Der Weise Rat der Kiri. Selbstverständlich ist schnell einzusehen das der erst kürzlich entstandene Rat der Weisen sich aus mangelnder Kreativität und Intelligenz stark am Namen und auch am Konzept des Rates inspirieren lassen musste.Da unsere Regierung seit jeher auf dem Weisen Rat der Kiri aufbaut, sind unsere Berater natürlich hoch begehrt. Selbstverständlich werden nur Berater eingestellt, die der Religion der Nakahi Folgen womit Bescheidenheit eine Ihrer Tugenden ist. Eine Tugend die unserer Regierung natürlich sehr gelegen kommt. Auch auf die Kultur wird bei unseren Beratern geachtet. Abtrünnige, die zu der Kultur der Mayas übergelaufen sind, vertrauen wir nicht!"
+ CN3_5_desc:0 "Ein Zitat von unserem höchsten Admiral Wai der uns Damals über das große Wasser in das Land der Schlange brachte: Wir haben ein bisschen Holz und Rinde und Tuch zusammengeflickt in etwas das nicht mal den Namen Boot verdient hätte und sind damit Monate lang über den Ozean getrieben haben gegen Wellen so hoch wie Berge angekämpft gegen Stürme so dunkel, dass wir wochenlang weder Sonne noch Sterne erspähen konnten und sind vor Seeungeheuern geflohen die nur die heilige Schlange selbst hätte besiegen können. Doch wir haben es geschafft bis ins Land der Schlange. Jetzt haben wir richtige Schiffe doch immer noch die gleichen erfahrenen Seemänner und Frauen. Also wie soll uns jemand auf See Herausfordern können? Unmöglich!"
+ CN3_6_desc:0 "Die Kiri sind ihren Nachbarn weit überlegen und haben ein eigenes Schrift und Zahlen System kreiert mit dem die Bürokratie des Landes um einiges Vereinfacht wurde. Nun können im Namen der Schlange mehr Länder eingenommen und verwaltet werden."
+ CN3_7_desc:0 "Die Kiri haben bei Belagerungen wenig Mitleid mit ihren Gegnern und vergiften die Brunnen der Feinde bei erhöhtem Widerstand mit Schlangengift. Dieses wird nur aus den Kadavern toter Tiere extrahiert da Schlangen für die Kiri heilige Tiere und somit unantastbar sind."
 
- CN3_1_desc:0 "Der Schlachtruf der Kiri"
- CN3_2_desc:0 "Kiri ruft zu den Waffen"
- CN3_3_desc:0 "Die gespaltene Zunge der Kiri"
- CN3_4_desc:0 "Der Weise Rat der Kiri"
- CN3_5_desc:0 "Die Flotte der Kiri"
- CN3_6_desc:0 "Die Schrift der Kiri"
- CN3_7_desc:0 "Das Gift der Kiri"
+ CN3_1:0 "Der Schlachtruf der Kiri"
+ CN3_2:0 "Kiri ruft zu den Waffen"
+ CN3_3:0 "Die gespaltene Zunge der Kiri"
+ CN3_4:0 "Der Weise Rat der Kiri"
+ CN3_5:0 "Die Flotte der Kiri"
+ CN3_6:0 "Die Schrift der Kiri"
+ CN3_7:0 "Das Gift der Kiri"
 
  CN4_1:0 "Göttliche Disziplin"
  CN4_2:0 "Schwestern des Wachstums"
@@ -224,6 +240,146 @@
  CN5_6_desc:0 ""
  CN5_7_desc:0 ""
 
+ CN1_ideas:0 "Ideen der Kaan Benévola"
+ CN2_ideas:0 "Ideen des Schokiwunderland"
+ CN3_ideas:0 "Ideen der Kiri"
+ CN4_ideas:0 "Ideen der Serpentis Sanctum"
+ CN5_ideas:0 "Ideen der Balampuh"
+ philli_pr_ideas:0 "Ideen der Piraten von Acheron"
+ philli_WIK_ideas:0 "Ideen der Klettholm"
+ philli_AB_ideas:0 "Ideen der Hüter von Nakahi"
+ PRE_ideas:0 "Ideen der Exilados"
 
 
+ CN1_ideas_start:0 "Traditionen der Kaan Benévola"
+ CN2_ideas_start:0 "Traditionen des Schokiwunderland"
+ CN3_ideas_start:0 "Traditionen der Kiri"
+ CN4_ideas_start:0 "Traditionen der Serpentis Sanctum"
+ CN5_ideas_start:0 "Traditionen der Balampuh"
+ philli_pr_ideas_start:0 "Traditionen der Piraten von Acheron"
+ philli_WIK_ideas_start:0 "Traditionen der Klettholm"
+ philli_AB_ideas_start:0 "Traditionen der Hüter von Nakahi"
+ PRE_ideas_start:0 "Traditionen der Exilados"
 
+ CN1_ideas_start:0 "Ideen der Kaan Benévola"
+ CN2_ideas_start:0 "Ideen des Schokiwunderland"
+ CN3_ideas_start:0 "Ideen der Kiri"
+ CN4_ideas_start:0 "Ideen der Serpentis Sanctum"
+ CN5_ideas_start:0 "Ideen der Balampuh"
+ philli_pr_ideas_start:0 "Ideen der Piraten von Acheron"
+ philli_WIK_ideas_start:0 "Ideen der Klettholm"
+ philli_AB_ideas_start:0 "Ideen der Hüter von Nakahi"
+ PRE_ideas_start:0 "Ideen der Exilados"
+
+ CN1_ideas_bonus:0 "Ambition der Kaan Benévola"
+ CN2_ideas_bonus:0 "Ambition des Schokiwunderland"
+ CN3_ideas_bonus:0 "Ambition der Kiri"
+ CN4_ideas_bonus:0 "Ambition der Serpentis Sanctum"
+ CN5_ideas_bonus:0 "Ambition der Balampuh"
+ philli_pr_ideas_bonus:0 "IdAmbitioneen der Piraten von Acheron"
+ philli_WIK_ideas_bonus:0 "Ambition der Klettholm"
+ philli_AB_ideas_bonus:0 "Ambition der Hüter von Nakahi"
+ PRE_ideas_bonus:0 "Ambition der Exilados"
+
+
+ CNI:0 "Kaan Benévola"
+ CNS:0 "Schokiwunderland"
+ CNE:0 "Kiri"
+ CNA:0 "Serpentis Sanctum"
+ CNZ:0 "Balampuh"
+ PRR:0 "Piraten von Acheron"
+ WIK:0 "Klettholm"
+ ABL:0 "Hüter von Nakahi"
+ PRE:0 "Exilados"
+
+
+ glp_save_edit_events.EVTOPTF34.t:0 "Balancing für Daxter"
+ glp_save_edit_events.EVTOPTG34.t:0 "Balancing für Andmar"
+ glp_save_edit_events.EVTOPTH34.t:0 "Balancing für Lalu"
+ glp_save_edit_events.EVTOPTI34.t:0 "Balancing für Rehosko"
+ glp_save_edit_events.EVTOPTJ34.t:0 "Balancing für Sterntendo"
+ glp_save_edit_events.EVTOPTK34.t:0 "Balancing für Zar"
+ glp_save_edit_events.EVTOPTL34.t:0 "Balancing für Marzi"
+ glp_save_edit_events.EVTOPTM34.t:0 "Balancing für Schneehuhn"
+ glp_save_edit_events.EVTOPTN34.t:0 "Balancing für Carlo"
+ glp_save_edit_events.EVTOPTO34.t:0 "Balancing für Notry"
+
+ PHM_missions_events.5.t:0 "Balancing Event"
+ PHM_missions_events.6.t:0 "Balancing Event"
+ PHM_missions_events.7.t:0 "Balancing Event"
+ PHM_missions_events.8.t:0 "Balancing Event"
+ PHM_missions_events.9.t:0 "Balancing Event"
+ PHM_missions_events.10.t:0 "Balancing Event"
+ PHM_missions_events.11.t:0 "Balancing Event"
+ PHM_missions_events.12.t:0 "Balancing Event"
+ PHM_missions_events.13.t:0 "Balancing Event"
+ PHM_missions_events.14.t:0 "Balancing Event"
+
+ PHM_missions_events.5.t:0 "Russische Rebellion"
+ PHM_missions_events.5.d:0 "Die Expansion in den Osten stieß auf großen Unmut in Osteuropa. In der Bevölkerung macht sich Widerstand breit, die 'russische Einigkeit' entsteht. Der Adel sieht eine große Gefahr in weiteren großen Eroberungen. Sie überzeugen Kaiser Christian von dem 'Westfokus', der weitere Eroberungen in den Gebieten Polen, Ruthenien und Russland ausschließt". Die 'russische Einigkeit' wird durch den Beschluss aber noch nicht beruhigt sein. Wollen wir den russischen Gebieten ein wenig Autonomie gewähren, oder wollen wir Sie unterdrücken?
+
+ PHM_missions_events.6.t:0 "Unfähige Wirtschaftspolitiker"
+ PHM_missions_events.6.d:0 "Die anderen Großmächte scheinen England einen Freibrief gegeben zu haben. In England macht sich aufgrund der Vormachtstellung in Westeuropa Dekadenz und Faulheit breit. Auch die Kandidaten für den höchsten Wirtschaftsbeauftragten scheinen nicht ganz so fähig zu sein. Wen wollt ihr einsetzen?"
+
+ PHM_missions_events.7.t:0 "Fähiger Händler wechselt in die Politik"
+ PHM_missions_events.7.d:0 "Die Händler der Niederlande gelten seit Generationen als die Fähigsten der Welt. Wir konnten den Urenkel von Peter van Dijk für die Politik gewinnen. Wie wollen wir ihn einsetzen?"
+
+ PHM_missions_events.8.t:0 "Aufstand der Katholiken"
+ PHM_missions_events.8.d:0 "Die Katholiken im Land sind gar nicht erfreut über die religiöse Politik der Krone. Gerüchte über eine mögliche Annektierung der sunnitischen Algerier stoßen auf Unmut. Wir sollten von einer Annektierung vorerst absehen, ansonsten werden viele Katholiken in Neapel sich wieder dem Papst des Kirchenstaats widmen."
+
+ PHM_missions_events.9.t:0 "Radikale Maßnahmen sind notwendig"
+ PHM_missions_events.9.d:0 "Wir wurden in den letzten Jahrzehnten abgehängt. Die kastilische Krone diktiert unseren Handel und wir werden nur schwächer. Wir müssen radikale Maßnahmen treffen. Eine Option beinhaltet, dass wir eine Krisensitzung mit unseren Händlern und der Bauindustrie einberufen und sie zu mehr Einsatz, Fleiß und Verzicht zwingen. Mit der Hilfe von afrikanischen Sklaven sollen in kürzester Zeit alle Handelszentren maximal ausgebaut werden und die Baukosten sowie die Bauzeit aller Gebäude um die Hälfte reduziert werden. Die andere Option beinhaltet, dass wir unsere gut aufgebauten Beziehungen zu den Piraten von Acheron nutzen, um unsere Ländereien zu vereinen und künftig unter der Piratenflagge segeln und agieren. Der Zusammenschluss würde einen mächtige Republik formen mit der wir eine besondere Position auf der Welt einnehmen würden. Die aussenpolitischen Konsequenzen können wir nur leider schwer abschätzen. Die VdE sagten ja einst, dass sie Piraten akzeptieren. Ob Sie uns dann auch weiterhin akzeptieren würden? Vielleicht kann es dann aber auch egal sein! Wie entscheidet ihr euch werter König?"
+
+ PHM_missions_events.10.t:0 "Die Vertuschung des Verrats"
+ PHM_missions_events.10.d:0 "Wir haben unsere nakahischen Brüder des Schokiwunderlands verraten. Es gibt zwar schon Gerüchte darüber, aber wir können diesen Verrat vertuschen. Dafür müssen wir nur unsere Leute in der Verwaltung einsetzen. Diese sind nur leider nicht die besten Verwalter, unsere Entwicklung wird darunter leiden. Andernfalls wird der Verrat öffentlich und alle unsere Brüdernationen werden einen legitimen Kriegsgrund gegen uns haben. Wie sollen wir handeln mein Hohepriester?"
+
+ PHM_missions_events.11.t:0 "Wir müssen unsere Anstrengungen intensivieren!"
+ PHM_missions_events.11.d:0 "Mein Kanzler, wir werden von vielen Seiten bedroht! Wir müssen Maßnahmen ergreifen, um unser Land zu stärken! Wollt ihr lieber unser Know-How in der Kakaoverarbeitung nutzen oder an den Stolz unserer Bauernrepublik appellieren?"
+
+ PHM_missions_events.12.t:0 "Müde Siedler!"
+ PHM_missions_events.12.d:0 "Die Kiri besiedeln viele ferne Inseln. Bei der Bevölkerung macht sich der Wunsch nach Sesshaftigkeit breit. Durch ein wenig staatliche Untestützung könnten wir unsere Siedler weiter motivieren."
+
+ PHM_missions_events.13.t:0 "Wir brauchen fähige Leute in der Armee!"
+ PHM_missions_events.13.d:0 "Unsere Armee ist technologisch abgeschlagen. Um diesen Nachteil auszugleichen, müssen wir unsere fähigsten Männer aus unseren Kolonien rekrutieren."
+
+ PHM_missions_events.14.t:0 "Es steht viel Arbeit an!"
+ PHM_missions_events.14.d:0 "Mein junger Herzog, wir wissen, dass ihr unser Land wieder zu größer Stärke führen wird. Wollt ihr unser Land in Zusammenarbeit mit den Ständen aufbauen oder mit harter Hand regieren?"
+
+ PHM_missions_events.A5:0 "Mit Rebellen wird nicht verhandelt!"
+ PHM_missions_events.A5_2:0 "Gewähren ihnen ein wenig Selbstständigkeit!"
+
+ PHM_missions_events.A6:0 "Den faulen Harry Potter, der die eingeführten Marktregulierungen nicht kontrolliert"
+ PHM_missions_events.A6_2:0 "Den dekadenten Sherlock Holmes, der einfach die Münzpresse anwirft"
+
+ PHM_missions_events.A7:0 "Gebt ihm einen Posten in der Wirtschaft!"
+ PHM_missions_events.A7_2:0 "Gebt ihm einen Posten in der Verwaltung!"
+
+ PHM_missions_events.A8:0 "Wir lassen uns nicht zu, dass Fanatiker die Staatspolitik diktieren!"
+ PHM_missions_events.A8_2:0 "Nun gut, lassen wir Algerien und künftige Vasallen erstmal Vasallen sein!"
+
+ PHM_missions_events.A9:0 "Lasst uns die größte Piraten-Nation der Welt gründen!"
+ PHM_missions_events.A9_2:0 "Nein, lasst uns lieber unser Volk und unsere Sklaven ausbeuten um Profite zu erzielen!"
+
+ PHM_missions_events.A10:0 "Setzt unsere Leute ein!"
+ PHM_missions_events.A10_2:0 "Nun, ich denke der Preis der Vertuschung ist zu groß!"
+
+ PHM_missions_events.A11:0 "Wir heißen nicht um sonst Schokiwunderland!"
+ PHM_missions_events.A11_2:0 "Wir zeigen euch was stolze Bauern leisten können!"
+
+ PHM_missions_events.A12:0 "Sie sollen nicht so viel jammern!"
+ PHM_missions_events.A12_2:0 "Also gut, presst ihnen heimlich Goldtaler!"
+
+ PHM_missions_events.A13:0 "Zieht die besten Männer aus den Kolonien ab!"
+ PHM_missions_events.A13_2:0 "Nein, die Kolonien haben Vorrang!"
+
+ PHM_missions_events.A14:0 "Wir regieren mit harter Hand!"
+ PHM_missions_events.A14_2:0 "Nur mit loyalen Ständen können wir unsere Ziele und Missionen umsetzen!"
+
+ cna_balance2_flag:0 "Balance Option 2"
+
+ SCA_balance1_tt:0 "Kalmarer Union erhält "Westfokus", welcher Eroberungen in den Regionen Polen, Ruthenien und Russland verbietet!\nJede Provinz in der Region Russland erhällt +50 Unruhe für 30 Jahre"
+ SCA_balance2_tt:0 "Kalmarer Union erhält "Westfokus", welcher Eroberungen in den Regionen Polen, Ruthenien und Russland verbietet!\nJede Provinz in der Region Russland erhällt +30 minimale Autonomy für 30 Jahre"
+ SPA_balance2_tt:0 "Spanien kann für 20 Jahre keine Vasallen (PUs ausgenommen) annektieren.^^"
+ CNI_balance2_tt:0 "Alle anderen Nakahi-Nationen erhalten einen Beleidungs-Kriegsgrund für 25 Jahre. Bei Nutzung und Gewinn des Krieges erhalten die anderen Nationen 10 Einflusspunkte von der Kaan Benevola (insgesamt nur einmal durchführbar!)."
+ CNS_balance2_tt:0 "Jede Provinz unserer Primär Kultur erhällt +10% lokale Manstärke und +10% lokale Steuereinahmen für 30 Jahre"
+ CNA_balance_tt:0 "Wir erhalten -5% Armee Moral und -5% Disziplin bis wir unsere Militär Technologie auf 10 erhöhen"

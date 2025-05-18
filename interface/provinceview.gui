@@ -879,14 +879,14 @@ guiTypes = {
 				buttonFont = "vic_18"
 			}
 
-			#guiButtonType = {
-			#	name = "glp_spawn_broceliande_button"
-			#	scripted = yes
-			#	quadTextureSprite= "GFX_list_button_220"
-			#	buttonText = "glp_spawn_broceliande_loc"
-			#	position = { x = 45 y = 399 }
-			#	buttonFont = "vic_18"
-			#}
+			guiButtonType = {
+				name = "glp_spawn_broceliande_button"
+				scripted = yes
+				quadTextureSprite= "GFX_list_button_220"
+				buttonText = "glp_spawn_broceliande_loc"
+				position = { x = 45 y = 399 }
+				buttonFont = "vic_18"
+			}
 		}
 
 		####################################################

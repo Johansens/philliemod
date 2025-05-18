@@ -3412,6 +3412,48 @@ country_event = {
 
 # Spawn Broceliande
 
+country_event = {
+	id = glp_save_edit_events.33
+	title = "glp_save_edit_events.EVTNAME33"
+	desc = "glp_save_edit_events.EVTDESC33"
+	picture = HRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+	}
+
+	mean_time_to_happen = {
+	}
+	
+	immediate = {
+	}
+
+	option = {
+		name = "glp_save_edit_events.EVTOPTA33"
+		excommunicate = SPA
+	}
+
+	option = { 
+		name = "glp_save_edit_events.EVTOPTB33"
+		excommunicate = POR
+	}
+
+	option = { 
+		name = "glp_save_edit_events.EVTOPTC33"
+		excommunicate = NED
+
+	}
+	#option = {
+	#	name = "glp_save_edit_events.EVTOPTD33"
+	#	excommunicate = ENG
+	#}
+	#option = {
+	#	name = "glp_save_edit_events.EVTOPTD33"
+	#	excommunicate = SCA
+	#}
+}
+
 # Comet Sighted Event Change
 
 country_event = {
@@ -3471,11 +3513,11 @@ country_event = {
 				months = 300
 				target = CNZ
 			}
-			add_casus_belli = {
-				type = cb_humiliate_rotw
-				months = 300
-				target = KMC
-			}
+			#add_casus_belli = {
+			#	type = cb_humiliate_rotw
+			#	months = 300
+			#	target = KMC
+			#}
 		}
 		CNS = {
 			add_casus_belli = {
@@ -3510,11 +3552,11 @@ country_event = {
 				months = 300
 				target = CNZ
 			}
-			add_casus_belli = {
-				type = cb_humiliate_rotw
-				months = 300
-				target = KMC
-			}
+			#add_casus_belli = {
+			#	type = cb_humiliate_rotw
+			#	months = 300
+			#	target = KMC
+			#}
 		}
 		CNA = {
 			add_casus_belli = {
@@ -3522,18 +3564,84 @@ country_event = {
 				months = 300
 				target = CNZ
 			}
-			add_casus_belli = {
-				type = cb_humiliate_rotw
-				months = 300
-				target = KMC
-			}
+			#add_casus_belli = {
+			#	type = cb_humiliate_rotw
+			#	months = 300
+			#	target = KMC
+			#}
 		}
+		#CNZ = {
+		#	add_casus_belli = {
+		#		type = cb_humiliate_rotw
+		#		months = 300
+		#		target = KMC
+		#	}
+		#}
+	}
+	option = {
+		name = "glp_save_edit_events.EVTOPTE34"
+		CNS = {
+			country_event = { id = PHM_missions_events.4 }
+		}
+	}
+	option = {
+		name = "glp_save_edit_events.EVTOPTF34"
+		SCA = {
+			country_event = { id = PHM_missions_events.5 }
+		}
+	}
+	option = {
+		name = "glp_save_edit_events.EVTOPTG34"
+		ENG = {
+			country_event = { id = PHM_missions_events.6 }
+		}
+	}
+	option = {
+		name = "glp_save_edit_events.EVTOPTH34"
+		NED = {
+			country_event = { id = PHM_missions_events.7 }
+		}
+	}
+	option = {
+		name = "glp_save_edit_events.EVTOPTI34"
+		SPA = {
+			country_event = { id = PHM_missions_events.8}
+		}
+	}
+	option = {
+		name = "glp_save_edit_events.EVTOPTJ34"
+		POR = {
+			country_event = { id = PHM_missions_events.9 }
+		}
+	}
+	option = {
+		name = "glp_save_edit_events.EVTOPTK34"
+		CNI = {
+			country_event = { id = PHM_missions_events.10 }
+		}
+	}
+	option = {
+		name = "glp_save_edit_events.EVTOPTL34"
+		CNS = {
+			country_event = { id = PHM_missions_events.11 }
+		}
+	}
+	option = {
+		name = "glp_save_edit_events.EVTOPTM34"
+		CNE = {
+			country_event = { id = PHM_missions_events.12}
+		}
+	}
+	option = {
+		name = "glp_save_edit_events.EVTOPTN34"
+		CNA = {
+			country_event = { id = PHM_missions_events.13 }
+		}
+	}
+	option = {
+		name = "glp_save_edit_events.EVTOPTO34"
 		CNZ = {
-			add_casus_belli = {
-				type = cb_humiliate_rotw
-				months = 300
-				target = KMC
-			}
+			country_event = { id = PHM_missions_events.14 }
 		}
 	}
 }
