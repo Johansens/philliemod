@@ -207,30 +207,14 @@ country_event= {
         name = "PHM_missions_events.A5"
         custom_tooltip = SCA_balance1_tt
         hidden_effect = {
-            every_owned_province = {
-                limit = {
-                    region = russia_region
-                }
-                add_province_modifier = {
-                    name = sca_balance_modifier1
-                    duration = 10950
-                } 
-            }              
+                     
         }
     }
     option = {
         name = "PHM_missions_events.A5_2"
         custom_tooltip = SCA_balance2_tt
         hidden_effect = {
-            every_owned_province = {
-                limit = {
-                    region = russia_region
-                }
-                add_province_modifier = {
-                    name = sca_balance_modifier2
-                    duration = 10950
-                } 
-            }
+
         }
 
     }
@@ -254,12 +238,17 @@ country_event= {
 
     option = {
         name = "PHM_missions_events.A6"
-        add_mercantilism = -5
+        custom_tooltip = ENG_balance2_tt
+        hidden_effect = {
+            
+        }
     }
     option = {
         name = "PHM_missions_events.A6_2"
-        add_inflation = 8
-             
+        custom_tooltip = ENG_balance2_tt
+        hidden_effect = {
+            
+        }
     }
 }
 
@@ -281,15 +270,17 @@ country_event= {
 
     option = {
         name = "PHM_missions_events.A7"
-        add_mercantilism = 5   
+        custom_tooltip = HOL_balance2_tt
+        hidden_effect = {
+            
+        } 
     }
     option = {
         name = "PHM_missions_events.A7_2"
-        add_country_modifier = {
-            name = ned_balance_modifier
-            duration = 7300
-        } 
-        
+        custom_tooltip = HOL_balance2_tt
+        hidden_effect = {
+            
+        }
     }
 }
 
@@ -313,14 +304,15 @@ country_event= {
         name = "PHM_missions_events.A8"
         custom_tooltip = SPA_balance1_tt
         hidden_effect = {
-            NAP = {
-                set_country_flag = spa_balance1_flag
-            }
+
         }
     }
     option = {
         name = "PHM_missions_events.A8_2"
         custom_tooltip = SPA_balance2_tt
+        hidden_effect = {
+            
+        }
     }
 }
 
@@ -342,48 +334,16 @@ country_event= {
 
     option = {
         name = "PHM_missions_events.A9"
-        inherit = PRR
-        change_tag = PRE
-        on_change_tag_effect = yes
-        every_subject_country = {
-            limit = {
-                is_colonial_nation = yes
-            }
-            FROM = { inherit = PREV }
+        custom_tooltip = POR_balance1_tt
+        hidden_effect = {
+            
         }
-        3450 = {
-            move_capital_effect = yes
-        }
-        #every_owned_province = {
-        #    limit = {
-        #        NOT = {
-        #            continent = europe
-        #        }
-        #    }
-        #    change_religion = sunni
-        #}
-        if = {
-            limit = { has_custom_ideas = no }
-            country_event = { id = ideagroups.1 } #Swap Ideas
-        }  
     }
     option = {
         name = "PHM_missions_events.A9_2"
-        POR = {
-            every_owned_province = {
-                limit = {
-                    OR = {
-                        province_has_center_of_trade_of_level = 1
-                        province_has_center_of_trade_of_level = 2
-                    }
-
-                }
-                add_center_of_trade_level = 2
-            }  
-        }
-        add_country_modifier = {
-            name = por_balance_modifier
-            duration = 3650
+        custom_tooltip = POR_balance2_tt
+        hidden_effect = {
+            
         }    
     }
 }
@@ -406,42 +366,16 @@ country_event= {
 
     option = {
         name = "PHM_missions_events.A10"
-        add_country_modifier = {
-            name = zar_balance_modifier
-            duration = 10950
-        } 
+        custom_tooltip = CNI_balance1_tt
+        hidden_effect = {
+            
+        }
     }
     option = {
         name = "PHM_missions_events.A10_2"   
+        custom_tooltip = CNI_balance2_tt
         hidden_effect = {
-            CNS = {
-                add_casus_belli = {
-                    type = cb_insult
-                    months = 300
-                    target = CNI
-		    	}
-            }
-            CNE = {
-                add_casus_belli = {
-                    type = cb_insult
-                    months = 300
-                    target = CNI
-		    	}
-            }
-            CNA = {
-                add_casus_belli = {
-                    type = cb_insult
-                    months = 300
-                    target = CNI
-		    	}
-            }
-            CNZ = {
-                add_casus_belli = {
-                    type = cb_insult
-                    months = 300
-                    target = CNI
-		    	}
-            }
+            
         }
     }
 }
@@ -464,42 +398,17 @@ country_event= {
 
     option = {
         name = "PHM_missions_events.A11"
-        every_owned_province = {
-            limit = {
-                OR = {
-                    province_id = 3768
-                    province_id = 3872
-                    province_id = 3856
-                    province_id = 3812
-                    province_id = 3830
-                    #province_id = 3846
-                    #province_id = 3814
-                }
-            }
-            change_trade_goods = cocoa
-            if = {
-				limit = {
-					has_production_building_trigger = no
-				}
-				add_building = workshop
-			}
-        }  
+        custom_tooltip = CNS_balance1_tt
+        hidden_effect = {
+            
+        }
     }
     option = {
         name = "PHM_missions_events.A11_2"
-        every_owned_province = {
-            limit = {
-                culture = maori
-            }
-            add_province_modifier = {
-                name = marzi_balance_modifier1
-                duration = 10950
-            }
-        }
-        add_country_modifier = {
-            name = marzi_balance_modifier2
-            duration = 10950
-        }    
+        custom_tooltip = CNS_balance2_tt
+        hidden_effect = {
+            
+        }  
     }
 }
 
@@ -521,15 +430,17 @@ country_event= {
 
     option = {
         name = "PHM_missions_events.A12"
-        add_country_modifier = {
-            name = schneehuhn_balance_modifier
-            duration = 10950
+        custom_tooltip = CNE_balance1_tt
+        hidden_effect = {
+            
         }
     }
     option = {
         name = "PHM_missions_events.A12_2"
-        add_inflation = 10
-             
+        custom_tooltip = CNE_balance2_tt
+        hidden_effect = {
+            
+        }
     }
 }
 
@@ -551,23 +462,17 @@ country_event= {
 
     option = {
         name = "PHM_missions_events.A13"
-        add_country_modifier = {
-            name = carlo_balance_modifier1
-            duration = 10950
-        }  
+        custom_tooltip = CNA_balance1_tt
+        hidden_effect = {
+            
+        }
     }
     option = {
         name = "PHM_missions_events.A13_2"
         custom_tooltip = CNA_balance_tt
         hidden_effect = {
-            set_country_flag = cna_balance2_flag
+            
         }
-        #3800 = {
-        #    add_province_modifier = {
-        #        name = carlo_balance_modifier2
-        #        duration = 10950
-        #   } 
-        #}            
     }
 }
 
@@ -589,28 +494,15 @@ country_event= {
 
     option = {
         name = "PHM_missions_events.A14"
-        inherit = TOT
-        inherit = MIX
-        dip = 70
-        every_province = {
-            limit = {
-                OR = {
-                    province_id = 3721
-                    province_id = 4589
-                    province_id = 4573
-                    province_id = 4571
-                    province_id = 3985
-                }
-            }
-            change_religion = nakahi
-        } 
+        custom_tooltip = CNZ_balance1_tt
+        hidden_effect = {
+            
+        }
     }
     option = {
         name = "PHM_missions_events.A14_2"
-        add_country_modifier = {
-            name = notry_balance_modifier
-            duration = 10950
-        } 
-             
-    }
+        custom_tooltip = CNZ_balance2_tt
+        hidden_effect = {
+            
+        }
 }

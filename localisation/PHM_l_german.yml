@@ -377,9 +377,30 @@
 
  cna_balance2_flag:0 "Balance Option 2"
 
- SCA_balance1_tt:0 "Kalmarer Union erhält "Westfokus", welcher Eroberungen in den Regionen Polen, Ruthenien und Russland verbietet!\nJede Provinz in der Region Russland erhällt +50 Unruhe für 30 Jahre"
- SCA_balance2_tt:0 "Kalmarer Union erhält "Westfokus", welcher Eroberungen in den Regionen Polen, Ruthenien und Russland verbietet!\nJede Provinz in der Region Russland erhällt +30 minimale Autonomy für 30 Jahre"
- SPA_balance2_tt:0 "Spanien kann für 20 Jahre keine Vasallen (PUs ausgenommen) annektieren.^^"
- CNI_balance2_tt:0 "Alle anderen Nakahi-Nationen erhalten einen Beleidungs-Kriegsgrund für 25 Jahre. Bei Nutzung und Gewinn des Krieges erhalten die anderen Nationen 10 Einflusspunkte von der Kaan Benevola (insgesamt nur einmal durchführbar!)."
- CNS_balance2_tt:0 "Jede Provinz unserer Primär Kultur erhällt +10% lokale Manstärke und +10% lokale Steuereinahmen für 30 Jahre"
- CNA_balance_tt:0 "Wir erhalten -5% Armee Moral und -5% Disziplin bis wir unsere Militär Technologie auf 10 erhöhen"
+ SCA_balance1_tt:0 ""
+ SCA_balance2_tt:0 ""
+ ENG_balance1_tt:0 ""
+ ENG_balance2_tt:0 ""
+ HOL_balance1_tt:0 ""
+ HOL_balance2_tt:0 ""
+ SPA_balance1_tt:0 ""
+ SPA_balance2_tt:0 ""
+ POR_balance1_tt:0 ""
+ POR_balance2_tt:0 ""
+ CNI_balance1_tt:0 ""
+ CNI_balance2_tt:0 ""
+ CNS_balance1_tt:0 ""
+ CNS_balance2_tt:0 ""
+ CNE_balance1_tt:0 ""
+ CNE_balance2_tt:0 ""
+ CNA_balance1_tt:0 ""
+ CNA_balance2_tt:0 ""
+
+
+
+
+
+
+
+
+
