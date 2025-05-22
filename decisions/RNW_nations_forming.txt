@@ -462,6 +462,7 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			tag = VIL
+			always = no
 		}
 		allow = {
 			tag = VIL
@@ -666,6 +667,7 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			tag = TTT
+			always = no
 		}
 		allow = {
 			tag = TTT
@@ -758,6 +760,7 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			tag = VNL
+			always = no
 		}
 		allow = {
 			tag = VNL

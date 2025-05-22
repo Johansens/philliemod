@@ -167,7 +167,7 @@
  glp_save_edit_events.EVTOPTO16:0 "50 Legitimacy or Other"
  glp_save_edit_events.EVTOPTP16:0 "-1 Stability"
  glp_save_edit_events.EVTOPTQ16:0 "-25 Prestige"
- glp_save_edit_events.EVTOPTR16:0 "10 Authority"
+ glp_save_edit_events.EVTOPTR16:0 "10 Power Protection"
  glp_save_edit_events.EVTOPTS16:0 "100 Splendor"
  glp_save_edit_events.EVTNAME17:0 "Spawn Generals for [From.Owner.GetName]"
  glp_save_edit_events.EVTDESC17:0 "Decide what kind of generals to spawn for [From.Owner.GetName]."

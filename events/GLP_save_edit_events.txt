@@ -2031,7 +2031,10 @@ country_event = {
 		name = "glp_save_edit_events.EVTOPTR16"
 		FROM = {
 			owner = {
-				add_authority = 10
+				add_power_projection = {
+					type = mission_rewards_power_projection
+					amount = 10
+				}
 			}
 		}
 	}
@@ -3638,12 +3641,12 @@ country_event = {
 			country_event = { id = PHM_missions_events.13 }
 		}
 	}
-	option = {
-		name = "glp_save_edit_events.EVTOPTO34"
-		CNZ = {
-			country_event = { id = PHM_missions_events.14 }
-		}
-	}
+	#option = {
+	#	name = "glp_save_edit_events.EVTOPTO34"
+	#	CNZ = {
+	#		country_event = { id = PHM_missions_events.14 }
+	#	}
+	#}
 }
 
 # Spawn NPC Advisors
