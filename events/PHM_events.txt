@@ -505,4 +505,5 @@ country_event= {
         hidden_effect = {
             
         }
+    }
 }
