@@ -891,6 +891,8 @@ muslim = {
 					limit = {
 						NOT = { has_country_flag = can_always_invite_hanafi_school }
 						NOT = { has_country_flag = privilege_can_always_invite_hanafi_school }
+						NOT = { tag = SCA }
+						NOT = { tag = CNI }
 					}
 					reverse_has_opinion = { who = FROM value = 150 }
 					OR = {
@@ -934,7 +936,7 @@ muslim = {
 			picture = "GFX_icon_muslim_school_hanafi"
 
 			# religion_sub_modifier = no is possible, will hide icon in religious screen
-			adm_tech_cost_modifier = -0.05
+			land_morale = 0.1
 		}
 		hanbali_school = {
 			potential_invite_scholar = {
@@ -964,6 +966,8 @@ muslim = {
 					limit = {
 						NOT = { has_country_flag = can_always_invite_hanbali_school }
 						NOT = { has_country_flag = privilege_can_always_invite_hanbali_school }
+						NOT = { tag = SCA }
+						NOT = { tag = CNI }
 					}
 					reverse_has_opinion = { who = FROM value = 150 }
 					OR = {
@@ -1006,7 +1010,7 @@ muslim = {
 
 			picture = "GFX_icon_muslim_school_hanbali"
 
-			ae_impact = -0.1
+			global_trade_goods_size_modifier = 0.1
 		}
 		maliki_school = {
 			potential_invite_scholar = {
@@ -1036,6 +1040,8 @@ muslim = {
 					limit = {
 						NOT = { has_country_flag = can_always_invite_maliki_school }
 						NOT = { has_country_flag = privilege_can_always_invite_maliki_school }
+						NOT = { tag = SCA }
+						NOT = { tag = CNI }
 					}
 					reverse_has_opinion = { who = FROM value = 150 }
 					OR = {
@@ -1078,7 +1084,7 @@ muslim = {
 
 			picture = "GFX_icon_muslim_school_maliki"
 
-			development_cost = -0.1
+			country_diplomatic_power = 1
 		}
 		shafii_school = {
 			potential_invite_scholar = {
@@ -1108,6 +1114,8 @@ muslim = {
 					limit = {
 						NOT = { has_country_flag = can_always_invite_shafii_school }
 						NOT = { has_country_flag = privilege_can_always_invite_shafii_school }
+						NOT = { tag = SCA }
+						NOT = { tag = CNI }
 					}
 					reverse_has_opinion = { who = FROM value = 150 }
 					OR = {
@@ -1150,7 +1158,7 @@ muslim = {
 
 			picture = "GFX_icon_muslim_school_shafii"
 
-			merchants = 1
+			development_cost = -0.1
 		}
 		#Shias
 		ismaili_school = {
@@ -1181,6 +1189,8 @@ muslim = {
 					limit = {
 						NOT = { has_country_flag = can_always_invite_ismaili_school }
 						NOT = { has_country_flag = privilege_can_always_invite_ismaili_school }
+						NOT = { tag = SCA }
+						NOT = { tag = CNI }
 					}
 					reverse_has_opinion = { who = FROM value = 150 }
 					OR = {
@@ -1222,11 +1232,7 @@ muslim = {
 			invite_scholar_modifier_display = ismaili_scholar_modifier
 
 			picture = "GFX_icon_muslim_school_ismaili"
-
-			horde_unity = 1
-			legitimacy = 1
-			republican_tradition = 0.2
-			devotion = 1
+			same_culture_advisor_cost = -0.2
 		}
 		jafari_school = {
 			potential_invite_scholar = {
@@ -1235,6 +1241,7 @@ muslim = {
 					has_country_flag = can_always_invite_jafari_school
 					has_country_flag = privilege_can_always_invite_jafari_school
 				}
+				always = no
 			}
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
@@ -1307,6 +1314,7 @@ muslim = {
 					has_country_flag = can_always_invite_zaidi_school
 					has_country_flag = privilege_can_always_invite_zaidi_school
 				}
+				always = no
 			}
 
 			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
@@ -1431,8 +1439,8 @@ muslim = {
 			shiite
 		}
 		country = {
-			heir_chance = 1.0
-			global_trade_goods_size_modifier = 0.1
+			global_tax_modifier = 0.2
+			church_loyalty_modifier = 0.1
 		}
 		country_as_secondary = {
 			global_ship_cost = -0.1

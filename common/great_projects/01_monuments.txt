@@ -15332,8 +15332,13 @@ san_antonio_missions = {
 	type = monument
 
 	build_trigger = {
-		province_is_or_accepts_religion = {
-			religion = nakahi
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = nakahi
+			}
+			province_is_or_accepts_religion = {
+				religion = protestant_nakahi
+			}
 		}
 	}
 
@@ -15344,14 +15349,24 @@ san_antonio_missions = {
 	}
 
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion = {
-			religion = nakahi
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = nakahi
+			}
+			province_is_or_accepts_religion = {
+				religion = protestant_nakahi
+			}
 		}
 	}
 
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion = {
-			religion = nakahi
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = nakahi
+			}
+			province_is_or_accepts_religion = {
+				religion = protestant_nakahi
+			}
 		}
 	}
 

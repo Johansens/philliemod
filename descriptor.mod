@@ -1,8 +1,6 @@
-version="0.1"
+version="1.0"
 tags={
-	"Utilities"
-	"Map"
+	"Gameplay"
 }
-name="Philliefiffla Mp"
+name="PHMmodding"
 supported_version="v1.37.5.0"
-remote_file_id="3447636844"

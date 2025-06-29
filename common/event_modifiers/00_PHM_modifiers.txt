@@ -189,9 +189,22 @@ marzi_balance_modifier2 = {
 	land_morale = 0.1
 }
 
+marzi_balance_modifier3 = {
+	development_cost = -0.15
+}
+
 schneehuhn_balance_modifier = {
 	global_colonial_growth = -10
 	colonist_placement_chance = -0.05	
+}
+
+
+beefsteak_balance_modifier = {
+	global_trade_goods_size_modifier = 0.2
+}
+
+beefsteak_balance_modifier1 = {
+	development_cost = -0.15
 }
 
 carlo_balance_modifier1 = {

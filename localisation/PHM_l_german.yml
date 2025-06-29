@@ -300,20 +300,9 @@
  glp_save_edit_events.EVTOPTJ34:0 "Balancing für Sterntendo"
  glp_save_edit_events.EVTOPTK34:0 "Balancing für Zar"
  glp_save_edit_events.EVTOPTL34:0 "Balancing für Marzi"
- glp_save_edit_events.EVTOPTM34:0 "Balancing für Beafstake"
+ glp_save_edit_events.EVTOPTM34:0 "Balancing für Beefsteak"
  glp_save_edit_events.EVTOPTN34:0 "Balancing für Carlo"
  glp_save_edit_events.EVTOPTO34:0 "Balancing für Notry"
-
- PHM_missions_events.5.t:0 "Balancing Event"
- PHM_missions_events.6.t:0 "Balancing Event"
- PHM_missions_events.7.t:0 "Balancing Event"
- PHM_missions_events.8.t:0 "Balancing Event"
- PHM_missions_events.9.t:0 "Balancing Event"
- PHM_missions_events.10.t:0 "Balancing Event"
- PHM_missions_events.11.t:0 "Balancing Event"
- PHM_missions_events.12.t:0 "Balancing Event"
- PHM_missions_events.13.t:0 "Balancing Event"
- PHM_missions_events.14.t:0 "Balancing Event"
 
  PHM_missions_events.5.t:0 "Russische Rebellion"
  PHM_missions_events.5.d:0 "Die Expansion in den Osten stieß auf großen Unmut in Osteuropa. In der Bevölkerung macht sich Widerstand breit, die 'russische Einigkeit' entsteht. Der Adel sieht eine große Gefahr in weiteren großen Eroberungen. Sie überzeugen Kaiser Christian von dem 'Westfokus', der weitere Eroberungen in den Gebieten Polen, Ruthenien und Russland ausschließt". Die 'russische Einigkeit' wird durch den Beschluss aber noch nicht beruhigt sein. Wollen wir den russischen Gebieten ein wenig Autonomie gewähren, oder wollen wir Sie unterdrücken?
@@ -330,14 +319,14 @@
  PHM_missions_events.9.t:0 "Radikale Maßnahmen sind notwendig"
  PHM_missions_events.9.d:0 "Wir wurden in den letzten Jahrzehnten abgehängt. Die kastilische Krone diktiert unseren Handel und wir werden nur schwächer. Wir müssen radikale Maßnahmen treffen. Eine Option beinhaltet, dass wir eine Krisensitzung mit unseren Händlern und der Bauindustrie einberufen und sie zu mehr Einsatz, Fleiß und Verzicht zwingen. Mit der Hilfe von afrikanischen Sklaven sollen in kürzester Zeit alle Handelszentren maximal ausgebaut werden und die Baukosten sowie die Bauzeit aller Gebäude um die Hälfte reduziert werden. Die andere Option beinhaltet, dass wir unsere gut aufgebauten Beziehungen zu den Piraten von Acheron nutzen, um unsere Ländereien zu vereinen und künftig unter der Piratenflagge segeln und agieren. Der Zusammenschluss würde einen mächtige Republik formen mit der wir eine besondere Position auf der Welt einnehmen würden. Die aussenpolitischen Konsequenzen können wir nur leider schwer abschätzen. Die VdE sagten ja einst, dass sie Piraten akzeptieren. Ob Sie uns dann auch weiterhin akzeptieren würden? Vielleicht kann es dann aber auch egal sein! Wie entscheidet ihr euch werter König?"
 
- PHM_missions_events.10.t:0 "Die Vertuschung des Verrats"
- PHM_missions_events.10.d:0 "Wir haben unsere nakahischen Brüder des Schokiwunderlands verraten. Es gibt zwar schon Gerüchte darüber, aber wir können diesen Verrat vertuschen. Dafür müssen wir nur unsere Leute in der Verwaltung einsetzen. Diese sind nur leider nicht die besten Verwalter, unsere Entwicklung wird darunter leiden. Andernfalls wird der Verrat öffentlich und alle unsere Brüdernationen werden einen legitimen Kriegsgrund gegen uns haben. Wie sollen wir handeln mein Hohepriester?"
+ PHM_missions_events.10.t:0 "Überschüsse!
+ PHM_missions_events.10.d:0 "Unsere Wirtschaft brummt und das Land floriert. Die Unterstützung unserer Glaubensbrüder der Kalmarer Union war fruchtbar. Wo sollen wir die Überschüsse investieren?"
 
- PHM_missions_events.11.t:0 "Wir müssen unsere Anstrengungen intensivieren!"
- PHM_missions_events.11.d:0 "Mein Kanzler, wir werden von vielen Seiten bedroht! Wir müssen Maßnahmen ergreifen, um unser Land zu stärken! Wollt ihr lieber unser Know-How in der Kakaoverarbeitung nutzen oder an den Stolz unserer Bauernrepublik appellieren?"
+ PHM_missions_events.11.t:0 "Entwicklung zum wahren Schokiwunderland!"
+ PHM_missions_events.11.d:0 "Wir müssen unser Land fortschrittlicher entwickeln um mit dem Rest der Welt mithalten zu können. Entweder zwingen wir unsere Schokoindustrie alle verbleibenden Ressourcen sofort zu investieren oder wir stecken unsere Bemühungen in effizientere Investitionsprogramme."
 
- PHM_missions_events.12.t:0 "Müde Siedler!"
- PHM_missions_events.12.d:0 "Die Kiri besiedeln viele ferne Inseln. Bei der Bevölkerung macht sich der Wunsch nach Sesshaftigkeit breit. Durch ein wenig staatliche Untestützung könnten wir unsere Siedler weiter motivieren."
+ PHM_missions_events.12.t:0 "Große Herausforderungen stehen an!"
+ PHM_missions_events.12.d:0 "Der Konflikt um die uns allein zustehende heilige Insel droht zu eskalieren. Wir müssen umgehend Glaubenskrieger aus den heiligen Landen rekrutieren um für den Kampf bereit zu sein. Gleichzeitig müssen wir investieren und unsere Produktion erhöhen oder unsere Investitionsprogramme effizienter gestalten."
 
  PHM_missions_events.13.t:0 "Wir brauchen fähige Leute in der Armee!"
  PHM_missions_events.13.d:0 "Unsere Armee ist technologisch abgeschlagen. Um diesen Nachteil auszugleichen, müssen wir unsere fähigsten Männer aus unseren Kolonien rekrutieren."
@@ -360,14 +349,14 @@
  PHM_missions_events.A9:0 "Lasst uns die größte Piraten-Nation der Welt gründen!"
  PHM_missions_events.A9_2:0 "Nein, lasst uns lieber unser Volk und unsere Sklaven ausbeuten um Profite zu erzielen!"
 
- PHM_missions_events.A10:0 "Setzt unsere Leute ein!"
- PHM_missions_events.A10_2:0 "Nun, ich denke der Preis der Vertuschung ist zu groß!"
+ PHM_missions_events.A10:0 " Baut diese Schiffe, die Serpentis Sanctum hat"
+ PHM_missions_events.A10_2:0 "Investiert die Überschüsse in die Provinzen"
 
- PHM_missions_events.A11:0 "Wir heißen nicht um sonst Schokiwunderland!"
- PHM_missions_events.A11_2:0 "Wir zeigen euch was stolze Bauern leisten können!"
+ PHM_missions_events.A11:0 "Wir brauchen dauerhaft effizientere Lösungen!"
+ PHM_missions_events.A11_2:0 "Wir brauchen einen sofortigen Schub!"
 
- PHM_missions_events.A12:0 "Sie sollen nicht so viel jammern!"
- PHM_missions_events.A12_2:0 "Also gut, presst ihnen heimlich Goldtaler!"
+ PHM_missions_events.A12:0 "Investiert die Überschüsse sofort und ordnet eine Arbeitszeiterhöhung in den Betrieben an."
+ PHM_missions_events.A12_2:0 "Langfristig brauchen wir effizientere Investitionsprogramme!"
 
  PHM_missions_events.A13:0 "Zieht die besten Männer aus den Kolonien ab!"
  PHM_missions_events.A13_2:0 "Nein, die Kolonien haben Vorrang!"
@@ -387,12 +376,12 @@
  SPA_balance2_tt:0 ""
  POR_balance1_tt:0 ""
  POR_balance2_tt:0 ""
- CNI_balance1_tt:0 ""
- CNI_balance2_tt:0 ""
- CNS_balance1_tt:0 ""
- CNS_balance2_tt:0 ""
- CNE_balance1_tt:0 ""
- CNE_balance2_tt:0 ""
+ CNI_balance1_tt:0 "Wir erhalten §Y15 Großschiffe§!"
+ CNI_balance2_tt:0 "Wir erhalten §Y40§! zufällige Entwicklung in unseren Provinzen"
+ CNS_balance1_tt:0 "Wir erhalten §Y-15% Entwicklungskosten§!"
+ CNS_balance2_tt:0 "Wir erhalten §Y100§! zufällige Entwicklung in unseren Provinzen"
+ CNE_balance1_tt:0 "Wir erhalten §Y20% produzierte Güter§! sowie §Y70§! zufällige Entwicklung in unseren Provinzen. Außerdem erhalten wir §Y100 000 Manstärke§!"
+ CNE_balance2_tt:0 "Wir erhalten §Y-15% Entwicklungskosten§! sowie §Y100 000 Manstärke§!"
  CNA_balance1_tt:0 ""
  CNA_balance2_tt:0 ""
 

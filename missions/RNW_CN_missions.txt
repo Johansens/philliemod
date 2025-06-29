@@ -474,91 +474,91 @@ RNW_agenda_missions4 = { #Series name is displayed over the slot?
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			munster_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			connacht_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			ulster_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			wessex_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}			
 			wales_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			kingdom_of_the_isles_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			brittany_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			normandy_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			poitou_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			picardy_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			frisia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			subarctic_islands_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 
 			western_norway = {
@@ -566,49 +566,49 @@ RNW_agenda_missions4 = { #Series name is displayed over the slot?
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			northern_norway = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			beieras_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			galicia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			castille_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			leon_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			western_morocco_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_claim = ROOT }
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 
 		}

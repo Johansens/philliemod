@@ -301,7 +301,7 @@
  glp_save_edit_events.EVTOPTJ34:0 "Balancing für Sterntendo"
  glp_save_edit_events.EVTOPTK34:0 "Balancing für Zar"
  glp_save_edit_events.EVTOPTL34:0 "Balancing für Marzi"
- glp_save_edit_events.EVTOPTM34:0 "Balancing für Schneehuhn"
+ glp_save_edit_events.EVTOPTM34:0 "Balancing für Beefsteak"
  glp_save_edit_events.EVTOPTN34:0 "Balancing für Carlo"
  glp_save_edit_events.EVTOPTO34:0 "Balancing für Notry"
 
@@ -315,27 +315,6 @@
  PHM_missions_events.12.t:0 "Balancing Event"
  PHM_missions_events.13.t:0 "Balancing Event"
  PHM_missions_events.14.t:0 "Balancing Event"
-
- #PHM_missions_events.A5:0 "Option 1"
- #PHM_missions_events.A5_2:0 "Option 2"
- #PHM_missions_events.A6:0 "Option 1"
- #PHM_missions_events.A6_2:0 "Option 2"
- #PHM_missions_events.A7:0 "Option 1"
- #PHM_missions_events.A7_2:0 "Option 2"
- #PHM_missions_events.A8:0 "Option 1"
- #PHM_missions_events.A8_2:0 "Option 2"
- #PHM_missions_events.A9:0 "Option 1"
- #PHM_missions_events.A9_2:0 "Option 2"
- #PHM_missions_events.A10:0 "Option 1"
- #PHM_missions_events.A10_2:0 "Option 2"
- #PHM_missions_events.A11:0 "Option 1"
- #PHM_missions_events.A11_2:0 "Option 2"
- #PHM_missions_events.A12:0 "Option 1"
- #PHM_missions_events.A12_2:0 "Option 2"
- #PHM_missions_events.A13:0 "Option 1"
- #PHM_missions_events.A13_2:0 "Option 2"
- #PHM_missions_events.A14:0 "Option 1"
- #PHM_missions_events.A14_2:0 "Option 2"
 
  PHM_missions_events.5.t:0 "Russische Rebellion"
  PHM_missions_events.5.d:0 "Die Expansion in den Osten stieß auf großen Unmut in Osteuropa. In der Bevölkerung macht sich Widerstand breit, die 'russische Einigkeit' entsteht. Der Adel sieht eine große Gefahr in weiteren großen Eroberungen. Sie überzeugen Kaiser Christian von dem 'Westfokus', der weitere Eroberungen in den Gebieten Polen, Ruthenien und Russland ausschließt". Die 'russische Einigkeit' wird durch den Beschluss aber noch nicht beruhigt sein. Wollen wir den russischen Gebieten ein wenig Autonomie gewähren, oder wollen wir Sie unterdrücken?
@@ -396,3 +375,10 @@
 
  PHM_missions_events.A14:0 "Wir regieren mit harter Hand! Zwangkonvertiert alle Provinzen zum Nakahi-Glauben und annektiert unsere Untertanen!"
  PHM_missions_events.A14_2:0 "Nur mit loyalen Ständen können wir unsere Ziele und Missionen umsetzen!"
+
+ CNI_balance1_tt:0 "Wir erhalten §Y15 Großschiffe§!"
+ CNI_balance2_tt:0 "Wir erhalten §Y40§! zufällige Entwicklung in unseren Provinzen"
+ CNS_balance1_tt:0 "Wir erhalten §Y-15% Entwicklungskosten§!"
+ CNS_balance2_tt:0 "Wir erhalten §Y100§! zufällige Entwicklung in unseren Provinzen"
+ CNE_balance1_tt:0 "Wir erhalten §Y20% produzierte Güter§! sowie §Y70§! zufällige Entwicklung in unseren Provinzen. Außerdem erhalten wir §Y100 000 Manstärke§!"
+ CNE_balance2_tt:0 "Wir erhalten §Y-15% Entwicklungskosten§! sowie §Y100 000 Manstärke§!"

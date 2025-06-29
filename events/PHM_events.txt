@@ -39,7 +39,11 @@ country_event= {
     option = {
         name = "PHM_missions_events.C1"
         trigger = {
-            religion_group = christian
+            or = {
+                religion_group = christian
+                religion = ibadi
+            }
+
         }
         ai_chance = {
            factor =  1
@@ -368,14 +372,92 @@ country_event= {
         name = "PHM_missions_events.A10"
         custom_tooltip = CNI_balance1_tt
         hidden_effect = {
-            
+            random_owned_province = {
+                limit = { has_port = yes }
+                heavy_ship = CNI
+            }
+            random_owned_province = {
+                limit = { has_port = yes }
+                heavy_ship = CNI
+            }
+            random_owned_province = {
+                limit = { has_port = yes }
+                heavy_ship = CNI
+            }
+            random_owned_province = {
+                limit = { has_port = yes }
+                heavy_ship = CNI
+            }
+            random_owned_province = {
+                limit = { has_port = yes }
+                heavy_ship = CNI
+            }
+            random_owned_province = {
+                limit = { has_port = yes }
+                heavy_ship = CNI
+            }
+            random_owned_province = {
+                limit = { has_port = yes }
+                heavy_ship = CNI
+            }
+            random_owned_province = {
+                limit = { has_port = yes }
+                heavy_ship = CNI
+            }
+            random_owned_province = {
+                limit = { has_port = yes }
+                heavy_ship = CNI
+            }
+            random_owned_province = {
+                limit = { has_port = yes }
+                heavy_ship = CNI
+            }
+            random_owned_province = {
+                limit = { has_port = yes }
+                heavy_ship = CNI
+            }
+            random_owned_province = {
+                limit = { has_port = yes }
+                heavy_ship = CNI
+            }
+            random_owned_province = {
+                limit = { has_port = yes }
+                heavy_ship = CNI
+            }
+            random_owned_province = {
+                limit = { has_port = yes }
+                heavy_ship = CNI
+            }
         }
     }
     option = {
         name = "PHM_missions_events.A10_2"   
         custom_tooltip = CNI_balance2_tt
         hidden_effect = {
-            
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+             random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
         }
     }
 }
@@ -400,14 +482,76 @@ country_event= {
         name = "PHM_missions_events.A11"
         custom_tooltip = CNS_balance1_tt
         hidden_effect = {
-            
+            add_country_modifier = {
+                name = marzi_balance_modifier3
+                duration = -1
+            }                      
         }
     }
     option = {
         name = "PHM_missions_events.A11_2"
         custom_tooltip = CNS_balance2_tt
         hidden_effect = {
-            
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
         }  
     }
 }
@@ -432,14 +576,64 @@ country_event= {
         name = "PHM_missions_events.A12"
         custom_tooltip = CNE_balance1_tt
         hidden_effect = {
-            
+            add_country_modifier = {
+                name = beefsteak_balance_modifier
+                duration = -1
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            random_owned_province = {
+                add_random_development = 5
+            }
+            add_manpower = 100
         }
     }
     option = {
         name = "PHM_missions_events.A12_2"
         custom_tooltip = CNE_balance2_tt
         hidden_effect = {
-            
+            add_country_modifier = {
+                name = beefsteak_balance_modifier1
+                duration = -1
+            }
+            add_manpower = 100          
         }
     }
 }
