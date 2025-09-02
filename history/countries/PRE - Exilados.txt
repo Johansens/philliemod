@@ -1,6 +1,0 @@
-government = monarchy
-add_government_reform = portuguese_monarchy_reform
-primary_culture = portugese
-religion = sunni
-technology_group = western
-capital = 227 # Lisboa
