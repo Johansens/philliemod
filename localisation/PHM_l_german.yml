@@ -1,0 +1,9 @@
+﻿l_german:
+ phm_osman_events.1.t:0 "Die Eroberung von Konstantinopel"
+ phm_osman_events.1.d:0 "test"
+ phm_osman_events.1.a:0 "Verbreitet die Nachricht über die Eroberung von Konstantinopel"
+
+ phm_allgemeine_events.1.t:0 "test1111"
+ phm_allgemeine_events.1.d:0 "test222"
+ phm_allgemeine_events.1.a:0 "test333"
+ phm_allgemeine_events.1.b:0 "test444"

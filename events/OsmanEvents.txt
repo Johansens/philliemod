@@ -1,0 +1,34 @@
+namespace = phm_osman_events
+
+country_event = {
+	id = phm_osman_events.1
+	title = phm_osman_events.1.t
+	desc = phm_osman_events.1.d
+	picture = TRADEGOODS_eventPicture
+	
+	major = yes
+    fire_only_once = yes
+	trigger = {   
+		tag = TUR
+        owns = 151
+	}
+	
+	option = {
+		name = phm_osman_events.1.a
+		add_prestige = 10
+		hidden_effect = {
+		trigger_event = {
+			id = phm_allgemeine_events.1
+			target = POL
+		}
+#		trigger_event = {
+#			id = phm_general_event.1
+#			target = HUN
+#		}
+#		trigger_event = {
+#			id = phm_general_event.1
+#			target = BYZ
+#		}
+		}
+	}
+}
