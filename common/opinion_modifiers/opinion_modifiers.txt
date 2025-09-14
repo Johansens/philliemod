@@ -1,0 +1,5 @@
+# Jährlicher Abbau von 5 pro Jahr (nach 10 Jahren weg)
+phm_friendly_opinion_decay_50_5 = {
+    opinion = 50
+    yearly_decay = 5
+}

@@ -1,0 +1,48 @@
+namespace = phm_england_events
+
+country_event = {
+    id = phm_england_events.1
+    title = phm_england_events.1.t
+    desc = phm_england_events.1.d
+    picture = TRADEGOODS_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = ENG
+        has_global_flag = phm_konstantinopel_flag
+    }
+
+    mean_time_to_happen = {
+        days = 30
+    }
+
+    option = {
+        name = phm_england_events.1.a
+        TUR = {
+            add_opinion = {
+                who = ROOT
+                modifier = phm_friendly_opinion_decay_50_5
+            }
+        }
+        add_opinion = {
+            who = TUR
+            modifier = phm_friendly_opinion_decay_50_5
+        }
+
+    }
+
+    option = {
+        name = phm_england_events.1.b
+        add_prestige = 50
+        hidden_effect = {
+            set_country_flag = phm_anti_osman
+            TUR = {
+                country_event = {
+                    id = phm_osman_events.2
+                }
+            }
+        }
+    }
+
+}

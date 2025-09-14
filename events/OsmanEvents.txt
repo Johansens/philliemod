@@ -5,30 +5,33 @@ country_event = {
 	title = phm_osman_events.1.t
 	desc = phm_osman_events.1.d
 	picture = TRADEGOODS_eventPicture
-	
+
 	major = yes
-    fire_only_once = yes
-	trigger = {   
+	fire_only_once = yes
+	trigger = {
 		tag = TUR
-        owns = 151
+		owns = 151
 	}
-	
+
 	option = {
 		name = phm_osman_events.1.a
-		add_prestige = 10
+		add_manpower = 5
 		hidden_effect = {
-		trigger_event = {
-			id = phm_allgemeine_events.1
-			target = POL
+			set_global_flag = phm_konstantinopel_flag
 		}
-#		trigger_event = {
-#			id = phm_general_event.1
-#			target = HUN
-#		}
-#		trigger_event = {
-#			id = phm_general_event.1
-#			target = BYZ
-#		}
-		}
+	}
+}
+
+country_event = {
+	id = phm_osman_events.2
+	title = phm_osman_events.2.t
+	desc = phm_osman_events.2.d
+	picture = TRADEGOODS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = phm_osman_events.2.a
+		add_manpower = 5
 	}
 }
