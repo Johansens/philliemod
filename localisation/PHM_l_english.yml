@@ -31,10 +31,10 @@
  phm_holland_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
  phm_holland_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
 
- phm_kastillien_events.1.t:0 "Der Niedergang von Konstantinopel"
- phm_kastillien_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
- phm_kastillien_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
- phm_kastillien_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+ phm_aragon_events.1.t:0 "Der Niedergang von Konstantinopel"
+ phm_aragon_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
+ phm_aragon_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
+ phm_aragon_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
 
  phm_koeln_events.1.t:0 "Der Niedergang von Konstantinopel"
  phm_koeln_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
