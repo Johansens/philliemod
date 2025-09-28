@@ -1,0 +1,81 @@
+﻿l_german:
+ phm_osman_events.1.t:0 "Die Eroberung von Konstantinopel"
+ phm_osman_events.1.d:0 "Nach einem kurzen aber intensiven Krieg ist es uns gelungen Konstantinopel zu erobern."
+ phm_osman_events.1.a:0 "Verbreitet die Nachricht über unsere triumphale Eroberung"
+ phm_osman_events.2.t:0 "Der Zorn der anderen wird uns stärken"
+ phm_osman_events.2.d:0 "Eine Nation ist erzürnt über unseren Erfolg und möchte uns bestrafen. Unsere Bevölkerung ist von Mut und Stolz erfüllt anstatt von Angst. Der Dienst in der Armee wird immer beliebter."
+ phm_osman_events.2.a:0 "Neue Rekruten für unsere Armee"
+ phm_osman_events.3.t:0 "Gründung des Osmanischen Spionagezentrums"
+ phm_osman_events.3.d:0 "Unsere Berater berichten uns von neuen Erkenntnissen und Fähigkeiten im Bereich Spionage. Wir sollten dieses Wissen bündeln und ein Zentrum für Spionage errichten.\n\n Sichtbar zu herrschen ist Macht. Unsichtbar zu herrschen ist Kontrolle!"
+ phm_osman_events.3.a:0 "In Saruhan schmieden sie nicht nur Klingen - sondern Lügen, die stärker schneiden."
+ phm_osman_events.3.b:0 "Fern der Küsten, fern der Kronen - doch im Herzen des Reiches fließt das wahre Wissen."
+ 
+ phm_boehmen_events.1.t:0 "Der Niedergang von Konstantinopel"
+ phm_boehmen_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
+ phm_boehmen_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
+ phm_boehmen_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+
+ phm_ditmarschen_events.1.t:0 "Der Niedergang von Konstantinopel"
+ phm_ditmarschen_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
+ phm_ditmarschen_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
+ phm_ditmarschen_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+
+ phm_england_events.1.t:0 "Der Niedergang von Konstantinopel"
+ phm_england_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
+ phm_england_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
+ phm_england_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+
+ phm_frankreich_events.1.t:0 "Der Niedergang von Konstantinopel"
+ phm_frankreich_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
+ phm_frankreich_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
+ phm_frankreich_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+
+ phm_holland_events.1.t:0 "Der Niedergang von Konstantinopel"
+ phm_holland_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
+ phm_holland_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
+ phm_holland_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+
+ phm_aragon_events.1.t:0 "Der Niedergang von Konstantinopel"
+ phm_aragon_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
+ phm_aragon_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
+ phm_aragon_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+
+ phm_koeln_events.1.t:0 "Der Niedergang von Konstantinopel"
+ phm_koeln_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
+ phm_koeln_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
+ phm_koeln_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+
+ phm_mailand_events.1.t:0 "Der Niedergang von Konstantinopel"
+ phm_mailand_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
+ phm_mailand_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
+ phm_mailand_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+
+ phm_moskau_events.1.t:0 "Der Niedergang von Konstantinopel"
+ phm_moskau_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
+ phm_moskau_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
+ phm_moskau_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+
+ phm_norwegen_events.1.t:0 "Der Niedergang von Konstantinopel"
+ phm_norwegen_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
+ phm_norwegen_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
+ phm_norwegen_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+ phm_norwegen_events.2.t:0 "Die Suche nach den alten Grönland Wikingern"
+ phm_norwegen_events.2.d:0 "Nach der Entdeckung Grönlands haben wir sofort mit der Erkundung dieser kargen und kalten Landmasse begonnen. Im Moment zweifeln unsere Entdecker noch daran, dass wir hier etwas wertvolles oder sogar Menschen finden werden."
+ phm_norwegen_events.2.a:0 "Wir haben die Grönländer gefunden, aber sie sind nordisch."
+
+ phm_oesterreich_events.1.t:0 "Der Niedergang von Konstantinopel"
+ phm_oesterreich_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
+ phm_oesterreich_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
+ phm_oesterreich_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+
+ phm_polen_events.1.t:0 "Der Niedergang von Konstantinopel"
+ phm_polen_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
+ phm_polen_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
+ phm_polen_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+
+ phm_tunesien_events.1.t:0 "Der Niedergang von Konstantinopel"
+ phm_tunesien_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
+ phm_tunesien_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
+ phm_tunesien_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+
+ phm_friendly_opinion_decay_50_5:0 "Gute Beziehungen"
