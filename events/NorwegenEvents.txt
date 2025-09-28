@@ -4,7 +4,7 @@ country_event = {
     id = phm_norwegen_events.1
     title = phm_norwegen_events.1.t
     desc = phm_norwegen_events.1.d
-    picture = TRADEGOODS_eventPicture
+    picture = WOUNDED_SOLDIERS_eventPicture
 
     major = yes
     fire_only_once = yes
@@ -44,5 +44,59 @@ country_event = {
             }
         }
     }
+}
 
+country_event = {
+    id = phm_norwegen_events.2
+    title = phm_norwegen_events.2.t
+    desc = phm_norwegen_events.2.d
+    picture = FROZEN_VILLAGE_eventPicture
+
+    major = yes
+    fire_only_once = yes
+
+    trigger = {
+        tag = NOR
+        if = {
+            limit = {
+                OR = {
+                    1104 = { is_empty = yes }
+                    1105 = { is_empty = yes }
+                }
+            }
+            OR = {
+                1104 = {
+                    OR = {
+                        num_of_units_in_province = {
+                            who = ROOT
+                            type = infantry
+                            amount = 3
+                        }
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                }
+                1105 = {
+                    OR = {
+                        num_of_units_in_province = {
+                            who = ROOT
+                            type = infantry
+                            amount = 3
+                        }
+                        country_or_non_sovereign_subject_holds = ROOT
+                    }
+                }
+            }
+        }
+        else = {
+            owns_or_non_sovereign_subject_of = 1104
+            owns_or_non_sovereign_subject_of = 1105
+        }
+    }
+
+    option = {
+        name = phm_norwegen_events.2.a
+        country_event = {
+            id = flavor_nor.34
+        }
+    }
 }

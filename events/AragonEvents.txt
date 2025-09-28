@@ -1,15 +1,15 @@
-namespace = phm_polen_events
+namespace = phm_aragon_events
 
 country_event = {
-    id = phm_polen_events.1
-    title = phm_polen_events.1.t
-    desc = phm_polen_events.1.d
+    id = phm_aragon_events.1
+    title = phm_aragon_events.1.t
+    desc = phm_aragon_events.1.d
     picture = WOUNDED_SOLDIERS_eventPicture
 
     major = yes
     fire_only_once = yes
     trigger = {
-        tag = POL
+        tag = ARA
         has_global_flag = phm_konstantinopel_flag
     }
 
@@ -18,7 +18,7 @@ country_event = {
     }
 
     option = {
-        name = phm_polen_events.1.a
+        name = phm_aragon_events.1.a
         TUR = {
             add_opinion = {
                 who = ROOT
@@ -33,7 +33,7 @@ country_event = {
     }
 
     option = {
-        name = phm_polen_events.1.b
+        name = phm_aragon_events.1.b
         add_prestige = 50
         hidden_effect = {
             set_country_flag = phm_anti_osman
@@ -43,6 +43,6 @@ country_event = {
                 }
             }
         }
-
     }
+
 }
