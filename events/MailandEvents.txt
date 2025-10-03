@@ -46,3 +46,29 @@ country_event = {
     }
 
 }
+
+country_event = {
+    id = phm_mailand_events.2
+    title = phm_mailand_events.2.t
+    desc = phm_mailand_events.2.d
+    picture = WOUNDED_SOLDIERS_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = MLO
+        is_year = 1470
+    }
+
+    mean_time_to_happen = {
+        days = 30
+    }
+    
+    option = {
+        name = phm_mailand_events.2.a
+        add_adm_power = 300
+        add_mil_power = 300
+
+    }
+
+}

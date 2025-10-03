@@ -1,0 +1,15 @@
+phm_early_carnival = {
+    global_unrest = -5
+}
+
+phm_osman_spy_empire = {
+    spy_offence = 0.10
+}
+
+phm_schaf = {
+    trade_goods_size = 2.0 
+}
+
+phm_schaf_klein = {
+    trade_goods_size = 1.0 
+}

@@ -44,5 +44,43 @@ country_event = {
             }
         }
     }
+}
 
+country_event = {
+    id = phm_tunesien_events.2
+    title = phm_tunesien_events.2.t
+    desc = phm_tunesien_events.2.d
+    picture = FARMING_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = TUN
+        is_year = 1474
+    }
+
+    mean_time_to_happen = {
+        days = 30
+    }
+
+    option = {
+        name = phm_tunesien_events.2.a
+        2454 = {  
+            add_province_modifier = {
+            name = "phm_schaf"
+            duration = -1  # dauerhaft
+            }
+        }
+    }
+
+    option = {
+        name = phm_tunesien_events.2.b
+        hidden_effect = {
+            TUR = {
+                country_event = {
+                    id = phm_osman_events.5
+                }
+            }
+        }
+    }
 }

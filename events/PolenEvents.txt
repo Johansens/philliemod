@@ -46,3 +46,63 @@ country_event = {
 
     }
 }
+
+country_event = {
+    id = phm_polen_events.2
+    title = phm_polen_events.2.t
+    desc = phm_polen_events.2.d
+    picture = ORTHODOX_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = POL
+    }
+
+    mean_time_to_happen = {
+        days = 30
+    }
+
+    option = {
+        name = phm_polen_events.2.a
+        hidden_effect = {
+            set_country_flag = phm_polen_orthodox_problem
+        }
+    }
+}
+
+country_event = {
+    id = phm_polen_events.3
+    title = phm_polen_events.3.t
+    desc = phm_polen_events.3.d
+    picture = ORTHODOX_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = POL
+        has_country_flag = phm_polen_orthodox_problem
+        is_year = 1480
+        LIT = {
+            any_province = {
+                religion = orthodox
+            }
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = phm_polen_events.3.a
+            LIT = {
+                every_owned_province = {
+                limit = {
+                    religion = orthodox
+                }
+                add_core = MOS
+                }
+            }
+    }
+}
