@@ -46,3 +46,31 @@ country_event = {
     }
 
 }
+
+country_event = {
+    id = phm_koeln_events.2
+    title = phm_koeln_events.2.t
+    desc = phm_koeln_events.2.d
+    picture = CITY_DEVELOPMENT_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = KOL
+        has_global_flag = phm_koelner_bergleute
+        is_year = 1471
+    }
+
+    mean_time_to_happen = {
+        days = 180
+    }
+
+    option = {
+        name = phm_koeln_events.2.a
+        add_country_modifier = {
+            name = "phm_early_carnival"
+            duration = -1
+        }
+
+    }
+}

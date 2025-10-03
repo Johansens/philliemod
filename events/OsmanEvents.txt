@@ -1,18 +1,15 @@
 namespace = phm_osman_events
-
 country_event = {
 	id = phm_osman_events.1
 	title = phm_osman_events.1.t
 	desc = phm_osman_events.1.d
 	picture = FORT_eventPicture
-
 	major = yes
 	fire_only_once = yes
 	trigger = {
 		tag = TUR
 		owns = 151
 	}
-
 	option = {
 		name = phm_osman_events.1.a
 		add_manpower = 5
@@ -27,9 +24,7 @@ country_event = {
 	title = phm_osman_events.2.t
 	desc = phm_osman_events.2.d
 	picture = MILITARY_CAMP_eventPicture
-
 	is_triggered_only = yes
-
 	option = {
 		name = phm_osman_events.2.a
 		add_manpower = 5
@@ -41,37 +36,150 @@ country_event = {
 	title = phm_osman_events.3.t
 	desc = phm_osman_events.3.d
 	picture = SPY_eventPicture
-
 	major = yes
 	fire_only_once = yes
 	trigger = {
 		tag = TUR
 		has_idea_group = spy_ideas
 	}
-
 	mean_time_to_happen = {
 		days = 1
 	}
-
 	immediate = {
 		set_country_flag = phm_osman_spy_rank_1
 	}
-
 	option = {
 		name = phm_osman_events.3.a
-		2297 = { # Provinz-ID
+		2297 = {
+			# Provinz-ID
 			add_base_tax = 1
 			add_base_production = 1
 			add_base_manpower = 1
 		}
 	}
-
 	option = {
 		name = phm_osman_events.3.b
-		326 = { # Provinz-ID
+		326 = {
+			# Provinz-ID
 			add_base_tax = 1
 			add_base_production = 1
 			add_base_manpower = 1
+		}
+	}
+}
+
+country_event = {
+	id = phm_osman_events.4
+	title = phm_osman_events.4.t
+	desc = phm_osman_events.4.d
+	picture = SPY_eventPicture
+	major = yes
+	fire_only_once = yes
+	trigger = {
+		tag = TUR
+		has_country_flag = phm_osman_spy_rank_1
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = phm_osman_events.4.a
+		add_country_modifier = {
+			name = "phm_osman_spy_empire"
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = phm_osman_events.5
+	title = phm_osman_events.5.t
+	desc = phm_osman_events.5.d
+	picture = FARMING_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = phm_osman_events.5.a
+		4313 = {
+			add_province_modifier = {
+				name = "phm_schaf_klein"
+				duration = -1				# dauerhaft
+			}
+		}
+	}
+}
+
+country_event = {
+	id = phm_osman_events.6
+	title = phm_osman_events.6.t
+	desc = phm_osman_events.6.d
+	picture = KING_ASSASSINATION_eventPicture
+	trigger = {
+		tag = TUR
+		has_country_flag = phm_osman_spy_rank_1
+		any_known_country = {
+			has_spy_network_from = {
+				who = ROOT
+				value = 80
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = phm_osman_events.6.a
+		random_known_country = {
+			limit = {
+				has_spy_network_from = {
+					who = ROOT
+					value = 80
+				}
+			}
+			tooltip = {
+				kill_ruler = yes
+				add_casus_belli = {
+					target = ROOT
+					type = cb_insult
+					months = 36
+				}
+			}
+			hidden_effect = {
+				country_event = {
+					id = phm_osman_events.7
+					days = 7
+				}
+				add_spy_network_from = {
+					who = ROOT
+					value = -30
+				}
+			}
+		}
+	}
+	# 
+	option = {
+		name = phm_osman_events.6.b
+		add_dip_power = 20
+		add_spy_network_from = {
+			who = ROOT
+			value = -30
+		}
+	}
+}
+
+country_event = {
+	id = phm_osman_events.7
+	title = phm_osman_events.7.t
+	desc = phm_osman_events.7.d
+	picture = KING_ASSASSINATION_eventPicture
+	is_triggered_only = yes
+	# 
+	option = {
+		name = phm_osman_events.7.a
+		kill_ruler = yes
+		add_casus_belli = {
+			target = FROM
+			type = cb_insult
+			months = 36
 		}
 	}
 }
