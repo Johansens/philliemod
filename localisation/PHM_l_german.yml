@@ -58,9 +58,8 @@
  phm_koeln_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
  phm_koeln_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
  phm_koeln_events.2.t:0 "Narrensendung aus dem Kaiserreich"
- phm_koeln_events.2.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
- phm_koeln_events.2.a:0 "Als Zeichen des Dankes für die entsandten Bergbauarbeiter hat der Hof zu Wien eine... ungewöhnliche Gabe nach Köln entsandt: eine Schar kaiserlicher Hofnarren. In Österreich kaum mehr gebraucht, wurden sie samt buntem Tross, Schellenmützen und allerlei Gepäck auf den Weg ins Rheinland geschickt.Dort angekommen, entfalteten sie sogleich ihre Talente: Maskeraden, Possenspiele und Spottreden erfüllten die Straßen Kölns mit Gelächter. Die Bürger waren entzückt – so sehr, dass man beschloss, diese Darbietungen künftig jährlich zu feiern.Ein ungeplanter kultureller Export – und vielleicht der Beginn von etwas Größerem..."
- phm_koeln_events.2.b:0 "Was als Dank begann, wird zur Tradition!"
+ phm_koeln_events.2.d:0 "Als Zeichen des Dankes für die entsandten Bergbauarbeiter hat der Hof zu Wien eine... ungewöhnliche Gabe nach Köln entsandt, eine Schar kaiserlicher Hofnarren. In Österreich kaum mehr gebraucht, wurden sie samt buntem Tross, Schellenmützen und allerlei Gepäck auf den Weg ins Rheinland geschickt.Dort angekommen, entfalteten sie sogleich ihre Talente: Maskeraden, Possenspiele und Spottreden erfüllten die Straßen Kölns mit Gelächter. Die Bürger waren entzückt – so sehr, dass man beschloss, diese Darbietungen künftig jährlich zu feiern.Ein ungeplanter kultureller Export – und vielleicht der Beginn von etwas Größerem..."
+ phm_koeln_events.2.a:0 "Was als Dank begann, wird zur Tradition!"
 
  phm_mailand_events.1.t:0 "Der Niedergang von Konstantinopel"
  phm_mailand_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
