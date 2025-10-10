@@ -84,3 +84,53 @@ country_event = {
         }
     }
 }
+
+country_event = { #Kleiner Support
+    id = phm_tunesien_events.3
+    title = phm_tunesien_events.3.t
+    desc = phm_tunesien_events.3.d
+    picture = FARMING_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = phm_tunesien_events.3.a
+        add_adm_power = 200
+		add_dip_power = 200
+        add_mil_power = 200
+        
+    }
+}
+
+country_event = { #Mittlerer Support
+    id = phm_tunesien_events.4
+    title = phm_tunesien_events.4.t
+    desc = phm_tunesien_events.4.d
+    picture = FARMING_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = phm_tunesien_events.4.a
+        add_adm_power = 800
+		add_dip_power = 800
+        add_mil_power = 400
+    }
+}
+
+country_event = { #Großer Support
+    id = phm_tunesien_events.5
+    title = phm_tunesien_events.5.t
+    desc = phm_tunesien_events.5.d
+    picture = FARMING_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = phm_tunesien_events.5.a
+        add_adm_power = 1200
+		add_dip_power = 1200
+        add_mil_power = 400
+        
+    }
+}

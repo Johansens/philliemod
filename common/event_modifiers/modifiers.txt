@@ -13,3 +13,7 @@ phm_schaf = {
 phm_schaf_klein = {
     trade_goods_size = 1.0 
 }
+
+phm_revolte = {
+    global_unrest = 5
+}

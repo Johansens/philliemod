@@ -45,3 +45,37 @@ country_event = {
     }
 
 }
+
+country_event = {
+    id = phm_moskau_events.2
+    title = phm_moskau_events.2.t
+    desc = phm_moskau_events.2.d
+    picture = WOUNDED_SOLDIERS_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = MOS
+        is_at_war = no
+    }
+    mean_time_to_happen = {
+        days = 30
+    }
+
+    option = {
+        name = phm_moskau_events.2.a
+        add_stability = 6
+        add_prestige = 200
+        define_heir = {
+			claim = 100
+			name = "Alexei"
+			dynasty = "Romanov"
+			culture = Muscovite
+			adm = 6
+			dip = 6
+			mil = 6
+			age = 24
+		}
+
+    }
+}
