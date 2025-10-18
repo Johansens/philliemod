@@ -46,3 +46,25 @@ country_event = {
     }
 
 }
+
+country_event = {
+    id = phm_ditmarschen_events.2
+    title = phm_ditmarschen_events.2.t
+    desc = phm_ditmarschen_events.2.d
+    picture = BATTLE_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = DTT
+        is_year = 1531
+    }
+
+    option = {
+        name = phm_ditmarschen_events.2.a
+        add_country_modifier = {
+            name = "phm_manpower"
+            duration = -1
+        }
+    }
+}

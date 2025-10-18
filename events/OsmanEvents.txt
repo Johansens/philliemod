@@ -312,7 +312,7 @@ country_event = {
 	# 
 	option = { #Kleine Hilfe
 		name = phm_osman_events.10.a
-		320 = {
+		149 = {
 			add_base_tax = -1
 			add_base_production = -1
 			add_base_manpower = -1
@@ -336,7 +336,7 @@ country_event = {
 
 	option = { #Mittlere Hilfe
 		name = phm_osman_events.10.b
-		320 = {
+		149 = {
 			add_base_tax = -4
 			add_base_production = -4
 			add_base_manpower = -4
@@ -360,7 +360,7 @@ country_event = {
 
 	option = { #Große Hilfe
 		name = phm_osman_events.10.c
-		320 = {
+		149 = {
 			add_base_tax = -7
 			add_base_production = -4
 			add_base_manpower = -11
@@ -381,4 +381,46 @@ country_event = {
 			}
 		}
 	}
+}
+
+country_event = {
+	id = phm_osman_events.11
+	title = phm_osman_events.11.t
+	desc = phm_osman_events.11.d
+	picture = FARMING_eventPicture
+	major = yes
+	is_triggered_only = yes
+
+	option = { 
+		name = phm_osman_events.11.a
+		156 = {
+			cede_province = TUR
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+		1951 = {
+			cede_province = TUR
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+		4128 = {
+			cede_province = TUR
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+		158 = {
+			cede_province = TUR
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+		4127 = {
+			cede_province = TUR
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+		157 = {
+			cede_province = TUR
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+		1952 = {
+			cede_province = TUR
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+	}
+
 }
