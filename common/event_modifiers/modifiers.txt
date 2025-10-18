@@ -17,3 +17,15 @@ phm_schaf_klein = {
 phm_revolte = {
     global_unrest = 5
 }
+
+phm_nord_diszi = {
+    discipline = 0.10
+}
+
+phm_manpower = {
+    global_manpower_modifier = 0.50
+}
+
+phm_winged_husar = {
+    cavalry_power = 0.15
+}

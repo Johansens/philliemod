@@ -46,3 +46,48 @@ country_event = {
     }
 
 }
+
+country_event = {
+    id = phm_boehmen_events.2
+    title = phm_boehmen_events.2.t
+    desc = phm_boehmen_events.2.d
+    picture = WOUNDED_SOLDIERS_eventPicture
+
+    major = yes
+    is_triggered_only = yes
+
+    option = {
+        name = phm_boehmen_events.2.a
+        135 = {
+			cede_province = BOH
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        4240 = {
+			cede_province = BOH
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        1864 = {
+			cede_province = BOH
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        4126 = {
+			cede_province = BOH
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        1953 = {
+			cede_province = BOH
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        155 = {
+			cede_province = BOH
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        1954 = {
+			cede_province = BOH
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        TUR = { country_event = { id = phm_osman_events.11 } }
+
+    }
+
+}

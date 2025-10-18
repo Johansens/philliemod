@@ -100,3 +100,26 @@ country_event = {
         }
     }
 }
+
+country_event = {
+    id = phm_norwegen_events.3
+    title = phm_norwegen_events.3.t
+    desc = phm_norwegen_events.3.d
+    picture = COMET_SIGHTED_eventPicture
+
+    major = yes
+    fire_only_once = yes
+
+    trigger = {
+        tag = SCA
+        is_year = 1531
+    }
+
+    option = {
+        name = phm_norwegen_events.3.a
+        add_country_modifier = {
+            name = "phm_nord_diszi"
+            duration = -1
+        }
+    }
+}

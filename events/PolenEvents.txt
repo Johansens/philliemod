@@ -106,3 +106,25 @@ country_event = {
             }
     }
 }
+
+country_event = {
+    id = phm_polen_events.4
+    title = phm_polen_events.4.t
+    desc = phm_polen_events.4.d
+    picture = TOURNAMENT_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = PLC
+        is_year = 1531
+    }
+
+    option = {
+        name = phm_polen_events.4.a
+        add_country_modifier = {
+            name = "phm_winged_husar"
+            duration = -1
+        }
+    }
+}

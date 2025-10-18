@@ -117,3 +117,123 @@ country_event = {
         name = phm_oesterreich_events.3.a
     }
 }
+
+country_event = {
+    id = phm_oesterreich_events.4
+    title = phm_oesterreich_events.4.t
+    desc = phm_oesterreich_events.4.d
+    picture = CITY_DEVELOPMENT_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = HAB
+        is_year = 1536
+        NOT = { is_at_war = yes }
+    }
+
+    option = {
+        name = phm_oesterreich_events.4.a
+        add_imperial_influence = 100
+    }
+}
+
+country_event = {
+    id = phm_oesterreich_events.5
+    title = phm_oesterreich_events.4.t
+    desc = phm_oesterreich_events.4.d
+    picture = CITY_DEVELOPMENT_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = HAB
+        is_year = 1538
+        NOT = { is_at_war = yes }
+    }
+
+    option = {
+        name = phm_oesterreich_events.4.a
+        add_imperial_influence = 100
+    }
+}
+
+country_event = {
+    id = phm_oesterreich_events.6
+    title = phm_oesterreich_events.6.t
+    desc = phm_oesterreich_events.6.d
+    picture = CITY_DEVELOPMENT_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = HAB
+        is_year = 1530
+        NOT = { is_at_war = yes }
+    }
+
+    option = {
+        name = phm_oesterreich_events.6.a
+        HAB = { country_event = { id = phm_oesterreich_events.7 } }
+    }
+
+    option = {
+        name = phm_oesterreich_events.6.b
+        add_prestige = 1
+    }
+}
+
+country_event = {
+    id = phm_oesterreich_events.7
+    title = phm_oesterreich_events.7.t
+    desc = phm_oesterreich_events.7.d
+    picture = CITY_DEVELOPMENT_eventPicture
+
+    major = yes
+    is_triggered_only = yes
+
+    option = {
+        name = phm_oesterreich_events.7.a
+        4752 = {
+			cede_province = HAB
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        1826 = {
+			cede_province = HAB
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        131 = {
+			cede_province = HAB
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        1828 = {
+			cede_province = HAB
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        140 = {
+			cede_province = HAB
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        152 = {
+			cede_province = HAB
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        4756 = {
+			cede_province = HAB
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        1767 = {
+			cede_province = HAB
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        4173 = {
+			cede_province = HAB
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        4239 = {
+			cede_province = HAB
+			hidden_effect = { add_local_autonomy = -50 }
+		}
+        BOH = { country_event = { id = phm_boehmen_events.2 } }
+    }
+}
