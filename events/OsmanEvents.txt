@@ -424,3 +424,32 @@ country_event = {
 	}
 
 }
+
+country_event = {
+	id = phm_osman_events.12
+	title = phm_osman_events.12.t
+	desc = phm_osman_events.12.d
+	picture = BATTLE_eventPicture
+	major = yes
+	fire_only_once = yes
+	trigger = {
+		tag = TUR
+		is_year = 1555
+		is_at_war = yes
+		OR {
+			war_with = FRA
+			war_with = PLC
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	# 
+	option = { 
+		name = phm_osman_events.12.a
+		add_country_modifier = {
+            name = "phm_dschihad"
+            duration = -1
+        }
+	}
+}

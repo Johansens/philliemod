@@ -46,3 +46,31 @@ country_event = {
     }
 
 }
+
+country_event = {
+    id = phm_frankreich_events.2
+    title = phm_frankreich_events.2.t
+    desc = phm_frankreich_events.2.d
+    picture = WESTERNISATION_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = FRA
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    immediate = {
+        override_country_name = phm_fra_karolinger
+		change_country_color = { 
+			color =  { 154 6 253 }
+		}
+    }
+
+    option = {
+        name = phm_frankreich_events.2.a
+    }
+}

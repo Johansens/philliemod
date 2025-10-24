@@ -29,3 +29,14 @@ phm_manpower = {
 phm_winged_husar = {
     cavalry_power = 0.15
 }
+
+phm_hab_veteran = {
+    leader_land_shock = 4
+    leader_land_fire = 4
+}
+
+phm_dschihad = {
+    manpower_recovery_speed = 1.00
+    land_forcelimit_modifier = 1.00
+    reinforce_cost_modifier = -0.80
+}

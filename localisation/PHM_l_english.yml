@@ -39,6 +39,9 @@
  phm_osman_events.11.t:0 "Der Wiener Kongress"
  phm_osman_events.11.d:0 "Das Osmanische Reich stimmt dem Vertrag vom Wiener Kongress zu."
  phm_osman_events.11.a:0 "Unterschreiben."
+ phm_osman_events.12.t:0 "Der Letzte Große Dschihad"
+ phm_osman_events.12.d:0 "Die Mächte Europas haben sich gegen uns erhoben – Könige, Kaiser und Päpste vereint unter einem Banner des Kreuzes.\nIn dieser dunklen Stunde ruft der Sultan die Gläubigen zum Dschihad auf! Aus Arabien, Anatolien, Nordafrika und Persien strömen Männer herbei, um im Namen Allahs zu kämpfen. Moscheen füllen sich mit Gebeten, und die Felder leeren sich, während das Reich seine letzten Kräfte sammelt.\nWie auch immer dieser Krieg enden mag – dies ist der letzte große Tanz in Europa. Und die Welt wird sich an das Rauschen der Halbmonde erinnern."
+ phm_osman_events.12.a:0 "Allah ist groß! Für den Glauben und das Reich!"
   
  phm_boehmen_events.1.t:0 "Der Niedergang von Konstantinopel"
  phm_boehmen_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
@@ -65,6 +68,9 @@
  phm_frankreich_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
  phm_frankreich_events.1.a:0 "Byzanz war schwach. Wir begrüßen den Erolg der Osmanen."
  phm_frankreich_events.1.b:0 "Wir verurteilen diese Tat! Das Osmanische Reich muss bestraft werden."
+ phm_frankreich_events.2.t:0 "Das Erbe Karls des Großen"
+ phm_frankreich_events.2.d:0 "Unter der weisen Herrschaft des [Root.Monarch.GetTitle] [Root.Monarch.GetName] hat das französische Reich seine Macht über die Reiche des Westens gefestigt. Als Kaiser des Heiligen Römischen Reiches und Hüter der christlichen Ordnung hat [Root.GetName] die alten Grenzen des Karolingerreiches nahezu vollständig wiederhergestellt. Die Erinnerung an Karl den Großen, den Vater Europas, lebt erneut auf.\n\nUm diesem historischen Triumph gerecht zu werden, nimmt das Reich einen neuen Namen an – einen, der sein Erbe und seine Bestimmung widerspiegelt: das Karolingerreich."
+ phm_frankreich_events.2.a:0 "Lang lebe das Karolingerreich!"
 
  phm_holland_events.1.t:0 "Der Niedergang von Konstantinopel"
  phm_holland_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
@@ -99,6 +105,11 @@
  phm_moskau_events.2.t:0 "Ein neuer Zar: Alexei Romanov"
  phm_moskau_events.2.d:0 "Nach Jahren der Wirren, in denen der russische Thron leer blieb oder von schwachen Händen geführt wurde, hat das Volk endlich einen neuen Hoffnungsträger. Die Zeit der Thronfolgekrisen, Intrigen und Adelsverschwörungen scheint vorbei zu sein. Alexei Romanov, ein junger Mann mit ruhigem Gemüt und starker Herkunft, wird zum Zaren aller Russen gekrönt. Die Bevölkerung, erschöpft vom endlosen Chaos der sogenannten "Zeit der Wirren", blickt mit vorsichtigem Optimismus auf diesen Neubeginn. Die alten Adelsfamilien sind jedoch nicht gänzlich befriedet – einige flüstern hinter vorgehaltener Hand, dass der neue Zar nur eine Marionette ist. Doch für den Moment schweigen die Waffen, und Russland hat endlich wieder einen Herrscher. Wird Alexei Frieden und Ordnung bringen – oder ist er nur das Vorspiel für neue Machtkämpfe?"
  phm_moskau_events.2.a:0 "Alexei Romanov soll unser Reich einen!"
+ phm_moskau_events.3.t:0 "Die Spannungen mit der Polnisch-Litauischen Union eskalieren"
+ phm_moskau_events.3.d:0 "Seit Jahren brodelt die Rivalität zwischen Moskau und der Union von Polen und Litauen. Grenzkonflikte, Spionage und das alte Erbe der Rus haben die Beziehungen bis aufs Äußerste strapaziert. Nun scheint der Moment gekommen zu sein – das Zepter des Schicksals ruft uns zum Handeln. Wird Russland die Erniedrigung seiner westlichen Rivalen suchen oder die alten russischen Lande zurückfordern? Oder werden wir uns der Schmach beugen und Frieden suchen, koste es auch Ansehen?"
+ phm_moskau_events.3.a:0 "Wir werden sie erniedrigen!"
+ phm_moskau_events.3.b:0 "Wir holen uns, was uns zusteht."
+ phm_moskau_events.3.c:0 "Dies ist nicht die Zeit für Krieg."
 
  phm_norwegen_events.1.t:0 "Der Niedergang von Konstantinopel"
  phm_norwegen_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
@@ -132,6 +143,9 @@
  phm_oesterreich_events.7.t:0 "Der Wiener Kongress"
  phm_oesterreich_events.7.d:0 "Österreich stimmt dem Vertrag vom Wiener Kongress zu."
  phm_oesterreich_events.7.a:0 "Unterschreiben."
+ phm_oesterreich_events.8.t:0 "Aus Blut und Asche"
+ phm_oesterreich_events.8.d:0 "Der Krieg gegen Böhmen und die Osmanen hat das Land an den Rand des Zusammenbruchs geführt. Ganze Regimenter wurden ausgelöscht, Dörfer entvölkert, die Schatzkammern sind leer. Doch unter den Überlebenden finden sich Männer, die Dinge gesehen und gelernt haben, die kein Lehrmeister lehren kann. Sie sind gezeichnet, aber klüger, härter und entschlossener als zuvor. Aus dieser Niederlage mag neues Wissen und eine stärkere Armee erwachsen – wenn Österreich die Kraft hat, sich zu erheben."
+ phm_oesterreich_events.8.a:0 "Aus Schmerz erwächst Stärke."
 
  phm_polen_events.1.t:0 "Der Niedergang von Konstantinopel"
  phm_polen_events.1.d:0 "Die Nachricht über die Eroberung von Konstantinopel verbreitet sich in ganz Europa. Damit scheint die Macht des Osmanischen Reiches wieder gefestigt. Aber wie werden wir uns ihnen gegenüber verhalten?"
@@ -174,3 +188,7 @@
  phm_nord_diszi:0 "Eifer der Wikinger"
  phm_manpower:0 "Allgemeine Wehrpflicht"
  phm_winged_husar:0 "Erbe der Flügelhusaren"
+ phm_hab_veteran:0 "Kriegsveterane"
+ phm_dschihad:0 "Dschihad"
+
+ phm_fra_karolinger:0 "Karolinger Reich"
