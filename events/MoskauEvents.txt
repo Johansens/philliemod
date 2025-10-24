@@ -79,3 +79,48 @@ country_event = {
 
     }
 }
+
+country_event = {
+    id = phm_moskau_events.3
+    title = phm_moskau_events.3.t
+    desc = phm_moskau_events.3.d
+    picture = LAND_MILITARY_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = RUS
+        is_year = 1560
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = phm_moskau_events.3.a
+        add_prestige = 200
+        RUS = {
+			declare_war_with_cb = {
+				who = PLC
+				casus_belli = cb_humiliate_rotw
+			}
+		}
+    }
+
+    option = {
+        name = phm_moskau_events.3.b
+        add_prestige = 100
+		RUS = {
+            declare_war_with_cb = {
+			    who = PLC
+			    casus_belli = cb_core
+                war_goal_province = 298
+		    }
+        }
+    }
+
+    option = {
+        name = phm_moskau_events.3.c
+        add_prestige = -100
+    }
+}

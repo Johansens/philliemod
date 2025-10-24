@@ -237,3 +237,25 @@ country_event = {
         BOH = { country_event = { id = phm_boehmen_events.2 } }
     }
 }
+
+country_event = {
+    id = phm_oesterreich_events.8
+    title = phm_oesterreich_events.8.t
+    desc = phm_oesterreich_events.8.d
+    picture = MILITARY_CAMP_eventPicture
+
+    major = yes
+    fire_only_once = yes
+    trigger = {
+        tag = HAB
+        is_year = 1558
+    }
+
+    option = {
+        name = phm_oesterreich_events.8.a
+        add_country_modifier = {
+            name = "phm_hab_veteran"
+            duration = -1
+        }
+    }
+}
